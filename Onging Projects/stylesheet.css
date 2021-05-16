@@ -141,8 +141,140 @@ h1{
 #redThree {
     margin-right: 71px;
 }
+.methodology {
+    width: 89%;
+    height: 64%;
+    background-color: white;
+    margin-left: 86px;
+    box-shadow: 0px 2px 10px rgb(0 0 0);
+    margin-top: 55px;
+}
+h2 {
+    margin-left: 153px;
+    /* margin-bottom: 18px; */
+    padding-top: 22px;
+}
+.para1 {
+    position: absolute;
+    margin-top: -9px;
+    margin-left: 0px;
+    padding: 24px 176px 89px 149px;
+}
+.footer {
+    width: 106%;
+    height: 65%;
+    background-color: black;
+    margin-top: 63px;
+}
+#loationPng {
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    padding-left: 31px;
+    margin-left: -77px;
+    margin-top: -3px;
+}
+#oneData {
+    color: white;
+    text-align: center;
+    padding-left: 76px;
+    padding-left: 231px;
+    padding-top: 80px;
+}
+
+#callPng {
+    height: 4%;
+    /* padding-left: 13px; */
+    margin-left: -48px;
+    position: absolute;
+    padding-top: 3px;
+    margin-top: 1px;
+}
+#twoData {
+    color: white;
+    padding-left: 231px;
+    margin-top: 18px;
+    padding-top: 20px;
+    margin-left: 27px;
+}
+#emailPng {
+    position: absolute;
+    margin-left: -52px;
+    height: 5%;
+    margin-top: -3px;
+}
+#threeData {
+    color: white;
+    padding-left: 231px;
+    padding-top: 21px;
+}
+#follow {
+    color: white;
+    margin-left: 186px;
+    margin-top: 51px;
+}
+
+#fbPng {
+    margin-left: 183px;
+    margin-top: 9px;
+}
+#twitterPng {
+    margin-left: 0px;
+    margin-top: 16px;
+}
+#youtubePng {
+    margin-left: 1px;
+    padding-top: 18px;
+}
+#instaPng {
+    margin-left: 1px;
+    margin-top: 18px;
+}
+#menu {
+    color: white;
+    margin-left: 708px;
+    margin-top: -278px;
+    font-weight: bold;
+    position: absolute;
+}
+.coltwo {
+    position: absolute;
+    margin-top: -228px;
+    margin-left: 679px;
+    /* padding: 0px; */
+}
+
+.linkOne{
+    text-decoration: none;
+    color: white;
+
+}
+
+#home{
+    position: absolute;
+    margin-top: 0px;
+}
 
 
+#whoWeAre {
+    position: absolute;
+    margin-top: 44px;
+}
+#faq {
+    position: absolute;
+    margin-top: 93px;
+}
+#ongoingProject {
+    position: absolute;
+    margin-top: 135px;
+}
 
 
-
+#completedProject {
+    position: absolute;
+    margin-top: 186px;
+}
+#involvedwithUs {
+    position: absolute;
+    margin-top: 233px;
+}
