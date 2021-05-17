@@ -1,0 +1,121 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 32px;
+    position: relative;
+    width: 164px;
+    height: 0;
+    padding-bottom: 40%;
+    background-color: white;
+    /* border: solid 10px black; */
+    box-shadow: 0px 2px 10px rgb(0 0 0);
+    border-radius: 1%;
+}
+.rdioBtn{
+
+}
+
+.slideImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: -12px;
+    border-radius: 1%;
+}
+#smileImg {
+    position: absolute;
+    width: 100%;
+    /* height: 44%; */
+    /* margin-left: 58px; */
+    margin-top: 174px;
+}
+
+
+#donateBtn {
+    position: absolute;
+    margin-top: 555px;
+    margin-left: 206px;
+}
+
+
+#i1,#i2,#i3{
+    display: none;
+}
+
+
+.pre,.next{
+    width: 49%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+   /* background:rgba(88,88,88,.4);*/
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 1%;
+}
+
+.pre{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+.circles {
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    margin-left: 207px;
+    /* margin-top: 70px; */
+    position: absolute;
+    /* margin-top: 97px; */
+    /* padding-top: 279px; */
+}
+#footer {
+    width: 100%;
+    height: 5%;
+    background-color: gainsboro;
+    position: absolute;
+    margin-top: 659px;
+    margin-left: -12px;
+    border-radius: 1%;
+}
+#lockPng {
+    margin-left: 184px;
+    /* margin-top: 1px; */
+    /* font-size: 13px; */
+}
+#secure {
+    margin-top: -20px;
+    margin-left: 213px;
+    color: dimgray;
+}
+
+.dots{
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0,0,0,.6);
+}
+.slideImg{
+    z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three{
+    z-index: 9;
+}
