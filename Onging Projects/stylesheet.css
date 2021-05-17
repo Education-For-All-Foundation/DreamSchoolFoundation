@@ -278,3 +278,49 @@ h2 {
     position: absolute;
     margin-top: 233px;
 }
+
+#sriLankaPng {
+    position: absolute;
+    margin-left: 1066px;
+    margin-top: -290px;
+}
+#charityPng {
+    position: absolute;
+    margin-left: 1126px;
+    margin-top: -298px;
+}
+#educationPng {
+    position: absolute;
+    margin-left: 1185px;
+    margin-top: -291px;
+}
+.colThree {
+    color: white;
+    position: absolute;
+    padding-left: 312px;
+    padding-right: 180px;
+    margin-top: -234px;
+    margin-left: 728px;
+}
+#privacy {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 190px;
+}
+#terms {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 296px;
+}
+#copyright {
+    font-size: 102%;
+    position: absolute;
+    margin-left: 1039px;
+    margin-top: 62px;
+    color: dimgray;
+}
+
