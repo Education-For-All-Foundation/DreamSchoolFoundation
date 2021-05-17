@@ -207,8 +207,17 @@ h2 {
     color: white;
     padding-left: 231px;
     padding-top: 21px;
+    text-decoration: none;
 }
-#follow {
+#mail{
+    color: white;
+    text-decoration: none;
+}
+#mail:hover{
+    color: blue;
+}
+
+#follow  {
     color: white;
     margin-left: 186px;
     margin-top: 51px;
