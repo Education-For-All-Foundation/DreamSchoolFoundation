@@ -7,6 +7,41 @@
 
     <link rel="stylesheet" type="text/css" href="newDonateStylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+    <script>
+
+        function fillText() {
+          document.getElementById("text1").value=1000;
+        }
+
+        function fillText2() {
+            document.getElementById("text1").value=2000;
+        }
+
+        function fillText3() {
+            document.getElementById("text1").value=3000;
+        }
+
+        function fillText4() {
+            document.getElementById("text1").value=5000;
+        }
+
+        function fillText5() {
+            document.getElementById("text1").value=10000;
+        }
+
+        function pointText()
+        {
+
+            document.getElementById("text1").value=' ';
+
+        }
+
+
+    </script>
+
+
 </head>
 <body>
 <div class="container" style="width: 532px; height: 96%;margin-top: 14px;">
@@ -16,7 +51,7 @@
     <input type="radio" class="rdioBtn" name="images" id="i3">
 
 
-
+    <!--Slide 1-->
 <div class="slideImg" id="one">
     <div><h1 style= "margin-top: 37px;margin-left: 56px;font-size: 23px; font-family: 'Poppins', sans-serif;color: lightslategray;position: absolute;">Library project of Hali-Ela Central College</h1>
         <hr style="position: absolute;height: 3px; width: 53%;margin-left: 127px;margin-top: 81px;">
@@ -30,18 +65,60 @@
 </div>
 
 
+    <!--Slide 2-->
     <div class="slideImg" id="two">
-    <div style="background-color: #00A8E8;">
 
-        <div class></div>
+
+        <div class="header">
+            <h4 id="amount">Choose Amount</h4>
+        </div>
+
+       <p id="para">How much would you like to donate? As a donator to this project For Change, we make sure your donation goes directly to supporting our library creation project of Hali Ela central college.</p>
+
+        <div id="element">
+       <input type="text" name="amount" id="text1" style="text-align: center">
+        <select id="combo1">
+            <option value="Rs" selected="selected">Rs</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="CAD">CAD</option>
+            <option value="MXN">MXN</option>
+        </select>
+        </div>
+
+
+                <input class="btn1" id="rowOne" type="button" value="Rs.1000" onclick="fillText();">
+               <input class="btn1" id="rowTwo" type="button" value="Rs.2000" onclick="fillText2(); ">
+                <input class="btn1" id="rowThree" type="button" value="Rs.3000" onclick="fillText3();">
+
+
+        <input class="btn2" id="colOne" type="button" value="Rs.5000" onclick="fillText4();">
+        <input class="btn2" id="colTwo" type="button" value="Rs.10,000" onclick="fillText5();">
+        <input class="btn2" id="colThree" type="button" value="Custom Amount" onclick="pointText();">
+
+        <div id="donation"><input type="checkbox">&nbsp;&nbsp;Make this donation monthly</div>
+        <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
+        <input id="continue" type="button"value="Continue"><img src="../images/icons8-forward-26.png" style="position: absolute;margin-top: 568px;margin-left: 315px;width: 3%">
+
+
 
         <label for="i1" class="pre"></label>
         <label for="i3" class="next"></label>
     </div>
-    </div>
+
+
+
+
+
+    <!-- Slide 3-->
 
     <div class="slideImg" id="three">
-    <div style="background-color: magenta">
+    <div>
+
+        <div class="header">
+            <h4 id="info">Add Your Information</h4>
+        </div>
 
         <label for="i2" class="pre"></label>
         <label for="i1" class="next"></label>
