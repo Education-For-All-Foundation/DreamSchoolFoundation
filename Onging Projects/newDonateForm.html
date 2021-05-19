@@ -37,6 +37,12 @@
             document.getElementById("text1").value=' ';
 
         }
+        
+        function show() {
+            document.getElementById('slideBar').classList.toggle('active');
+        }
+
+
 
 
     </script>
@@ -49,24 +55,25 @@
     <input type="radio" class="rdioBtn" name="images" id="i1" checked>
     <input type="radio" class="rdioBtn" name="images" id="i2">
     <input type="radio" class="rdioBtn" name="images" id="i3">
+    <input type="radio" class="rdioBtn" name="images" id="i4">
 
 
     <!--Slide 1-->
 <div class="slideImg" id="one">
     <div><h1 style= "margin-top: 37px;margin-left: 56px;font-size: 23px; font-family: 'Poppins', sans-serif;color: lightslategray;position: absolute;">Library project of Hali-Ela Central College</h1>
         <hr style="position: absolute;height: 3px; width: 53%;margin-left: 127px;margin-top: 81px;">
-        <h2 style="    position: absolute;margin-top: 116px;margin-left: 99px; font-size: 23px;font-family: none;color: gray;">Let's help them for fulfill their dreams.</h2><img id="smileImg" src="../images/smile.jpg" >
+        <h2 style=" position: absolute;margin-top: 116px;margin-left: 99px; font-size: 23px;font-family: none;color: gray;">Let's help them for fulfill their dreams.</h2><img id="smileImg" src="../images/smile.jpg" >
 
     <button type="button" id="donateBtn" class="btn btn-danger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
 
-    <label for="i3" class="pre"></label>
-    <label for="i2" class="next"></label>
+    <label for="i4" class="pre"></label>
+    <label for="i2" id="forward4" class="next"></label>
 </div>
 </div>
 
 
     <!--Slide 2-->
-    <div class="slideImg" id="two">
+    <div class="slideImg" id="three">
 
 
         <div class="header">
@@ -76,7 +83,7 @@
        <p id="para">How much would you like to donate? As a donator to this project For Change, we make sure your donation goes directly to supporting our library creation project of Hali Ela central college.</p>
 
         <div id="element">
-       <input type="text" name="amount" id="text1" style="text-align: center">
+       <input type="text" name="amount" id="text1" placeholder="Amount" style="text-align: center">
         <select id="combo1">
             <option value="Rs" selected="selected">Rs</option>
             <option value="USD">USD</option>
@@ -103,8 +110,10 @@
 
 
 
-        <label for="i1" class="pre"></label>
-        <label for="i3" class="next"></label>
+
+
+        <label for="i2" class="pre"></label>
+        <label for="i4" id="forward3"  class="next"></label>
     </div>
 
 
@@ -113,23 +122,101 @@
 
     <!-- Slide 3-->
 
-    <div class="slideImg" id="three">
+    <div class="slideImg" id="two">
     <div>
 
         <div class="header">
             <h4 id="info">Add Your Information</h4>
         </div>
 
-        <label for="i2" class="pre"></label>
-        <label for="i1" class="next"></label>
-    </div>
-    </div>
+        <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
+        <h2 id="para2">Who's donating today?</h2>
+        <h3 id="para3">We’ll secure your all information</h3>
+
+        <label id="labelname"> Name</label><input type="text" name="fName" id="fName" placeholder="Enter your name...">
+        <label id="labelemail"> Email</label><input type="email" id="email" placeholder="Enter your email...">
+        <label id="labelphone"> Phone Number</label><input type="phone" id="phoneNmb" placeholder="Enter your phone number...">
+        <label id="labeladdrss"> Address</label><textarea id="address" placeholder="Enter your address..."></textarea>
+        <label id="labeldisc"> Donation Discription<br> (Optional) </label><textarea id="disc" placeholder="Type your discription here(Optional)..."></textarea>
+
+        <input id="continue2" type="button"value="Continue"><img src="../images/icons8-forward-26.png" style="position: absolute;margin-top: 545px;margin-left: 310px;width: 3%;">
+
+
+        <label for="i1" class="pre"></label>
+        <label for="i3" id="forward2" class="next"></label>
+
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--SLide 4-->
+
+
+    <div class="slideImg" id="four">
+
+        <div class="header">
+            <h4 id="info2">Add your donation details</h4>
+        </div>
+
+        <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
+
+
+
+        <div id="cardBar">
+            <input type="radio" id="radioBtn">  <h3 class="bar1" style="font-size: 109%;margin-top: 5px; margin-left: 3px;position: absolute;font-weight: 500;">Donate with Credit/Debit card</h3>
+                    </div>
+        <label id="labelcardNmb">Card Number</label><input class="cardNumber" id="cardNmb" type="text" name="cardNumber" placeholder="Enter card number...">
+        <label id="labelcardcvc">Card CVC</label><input class="cardNumber" id="cardcvc" type="text" name="cardNumber" placeholder="Enter CVC...">
+        <label id="labelcardownername">Card holder's name</label><input class="cardNumber" id="cardOwner" type="text" name="cardNumber" placeholder="Enter cardholder's name...">
+        <label id="labelcarddate">Card expire date</label><input class="cardNumber" id="carddate" type="text" name="cardNumber" placeholder="MM/YY">
+
+
+        <div id="bankTrnansfer">
+            <input type="radio" id="radioBtn2">
+            <h3 class="bar1" style="font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;">Online Bank Transfer</h3>
+        </div>
+
+        <label id="labelAccName">Account holder's name</label><input type="text" id="accName" placeholder="Enter account holder's name...">
+        <label id="labelAccNmb">Account number</label><input id="accNmb" type="text" placeholder="Enter account number...">
+        <label id="labelBankName">Bank name</label><input id="accBankName" type="text" placeholder="Enter bank name...">
+        <label id="labelBranch">Branch</label><input id="accBranch" type="text" placeholder="Enter brach...">
+
+
+        <div id="paypalbar">
+          <a href="https://www.paypal.com/us/signin" target="_blank" style="text-decoration: none; color: black;"> <input type="radio" id="radioBtn3">
+            <h3 class="bar1" style="font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;">Donate in Paypal</h3>
+          </a></div>
+
+        <button style="position: absolute;margin-top: 537px;margin-left: 185px; width: 30%;height: 7%;border-radius: 9%;background-color: crimson;" id="btnDoante">Donate</button>
+
+
+
+
+
+
+        <label for="i3"  class="pre"></label>
+            <label for="i1" id="forward" class="next"></label>
+        </div>
+
+
+
 
 
     <div class="circles" style="position: absolute;margin-bottom: -29px;margin-left: -17px;">
         <label class="dots" id="dot1" for="i1"></label>
         <label class="dots" id="dot2" for="i2"></label>
         <label class="dots" id="dot3" for="i3"></label>
+        <label class="dots" id="dot4" for="i4"></label>
     </div>
 
 
