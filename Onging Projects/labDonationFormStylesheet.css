@@ -34,7 +34,7 @@ html,body{
     width: 100%;
     /* height: 44%; */
     /* margin-left: 58px; */
-    margin-top: 174px;
+    margin-top: 194px
 }
 .header{
     width: 100%;
@@ -129,7 +129,7 @@ html,body{
     width: 94%;
     background: border-box;
     margin-top: 466px;
-    // padding: 27px;
+// padding: 27px;
     padding-left: 147px;
     padding-top: 9px;
     margin-left: 19px;
@@ -169,7 +169,7 @@ html,body{
 
 #donateBtn {
     position: absolute;
-    margin-top: 555px;
+    margin-top: 567px;
     margin-left: 206px;
 }
 
