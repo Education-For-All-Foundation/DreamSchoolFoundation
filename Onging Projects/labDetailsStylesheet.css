@@ -1,168 +1,76 @@
 html,body{
     width: 100%;
     height: 100%;
-    padding: 0;
-    margin: 0px;
-
-
+    margin: 0;
 
 }
 
-slider {
-    display: block;
-    width: 95%;
-    height: 155%;
-    background-color: white;
-    overflow: hidden;
+
+#container1{
     position: absolute;
-    margin-top: 98px;
-    margin-left: 76px;
-
-}
-
-slider > *{
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 50%;
-    background-color: white;
-    animation: slide 10s infinite;
-    overflow: hidden;
-}
-slide:nth-child(1){
-    left: 0%;
-    animation-delay: 4s;
-    background-size: cover;
-    background-position: center;
-}
-slide:nth-child(2){
-    left: 0%;
-    animation-delay: 7s;
-    background-size: cover;
-    background-position: center;
-}
-slide:nth-child(3){
-    left: 0%;
-    animation-delay: 10s;
-    background-size: cover;
-    background-position: center;
-}
-slide:nth-child(4){
-    left: 0%;
-    animation-delay: 12s;
-    background-size: cover;
-    background-position: center;
-}
-
-@keyframes slide {
-    0%{left: 0px;}
-    10%{left: 0px;}
-    20%{left: 1600px;}
-    30%{left: 1600px;}
-    40%{left: 2600px;}
-    50%{left: 2600px;}
-    60%{left: 1600px;}
-    70%{left: 1600px;}
-    80%{left: 0px;}
-    90%{left: 0px;}
-    100%{left: 0px;}
-
-}
-.block {
-    width: 414px;
-    height: 471px;
-    background-color: rebeccapurple;
-    position: absolute;
-    margin-top: 779px;
-    margin-left: 88px;
-    background-image: url(../images/library.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.color-overlay{
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-    opacity: .3;
-    position: absolute;
-}
-
-h1{
-    font-size: 2.5rem;
-    padding-left: 37px;
-    padding-top: -3px;
-    padding-bottom: 200px;
-    z-index: 50;
-    color: white;
-}
-.box-shadow{
-   box-shadow:0px 2px 10px rgba(0,0,0,5);
-
-}
-
-.card{
-    margin-top: 732px;
-}
-.card-title{
-    text-align: center;
-    color: blue;
-    font-weight: bold;
-}
-
-.holder{
-    font-family: 'Poppins', sans-serif ;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-}
-#blueOne {
-    margin-left: 60px;
-    margin-top: 24px;
-}
-#blueTwo {
-    margin-left: 45px;
-    margin-top: 24px;
-}
-
-#blueThree {
-    margin-left: 46px;
-}
-
-#redOne {
-    margin-right: 58px;
-    margin-top: 23px;
-}
-#redTwo {
-    margin-right: 77px;
-    margin-top: 24px;
-}
-#redThree {
-    margin-right: 71px;
-}
-.methodology {
-    width: 89%;
-    height: 64%;
-    background-color: white;
-    margin-left: 86px;
+    margin-left: 40px;
+    margin-top: 2px;
+    background-color: inherit;
+    width: 51%;
+    height: 96%;
     box-shadow: 0px 2px 10px rgb(0 0 0);
-    margin-top: 55px;
+    border-radius: 1%;
 }
-h2 {
-    margin-left: 153px;
-    /* margin-bottom: 18px; */
-    padding-top: 22px;
-}
-.para1 {
+
+#desc{
     position: absolute;
-    margin-top: -9px;
-    margin-left: 0px;
-    padding: 24px 176px 89px 149px;
+    margin-left: 277px;
+    margin-top: 36px;
+    font-size: 207%;
+    color: aliceblue;
 }
+#img1{
+    position: absolute;
+    width: 27%;
+    height: 67%;
+    margin-left: 15px;
+    margin-top: 61px;
+}
+
+#img2{
+    position: absolute;
+    width: 32%;
+    height: 75%;
+    margin-left: 448px;
+    margin-top: 58px;
+}
+
+#img3{
+    position: absolute;
+    width: 32%;
+    height: 72%;
+    margin-left: 953px;
+    margin-top: 65px;
+}
+#headerbar{
+    width: 185%;
+    height: 16%;
+    background-color: darkmagenta;
+    position: absolute;
+    margin-top: -168px;
+    margin-left: -1px;
+    box-shadow: 0px 2px 10px rgb(0 0 0);
+    border-radius: 1%;
+}
+
+#imageDiv{
+    position: absolute;
+    background-color: slategray;
+    width: 96%;
+    height: 66%;
+    box-shadow: 0px 2px 10px rgb(0 0 0);
+    border-radius: 1%;
+    margin-top: 760px;
+    margin-left: 30px;
+}
+
+
+
 
 #loationPng {
     position: absolute;
