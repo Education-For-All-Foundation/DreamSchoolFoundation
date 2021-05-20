@@ -103,3 +103,71 @@ header .navigation li a{
 header .navigation li a:hover{
     color: #ff0157;
 }
+
+/*work for smiles*/
+
+.intro-area{
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+    min-height: 100vh;
+    
+}
+
+.intro-area h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 2em;
+    color: #181818;
+} 
+
+.sub-heading{
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.sub-heading:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left:-3%;
+    width: 6%;
+    height: 1px;
+    background-color:deepskyblue;
+    z-index: 1;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease; 
+    transition: 0.3s ease;
+    
+}
+
+.sub-heading:hover:before{
+    width: 24%;
+    margin-left: -12px;
+}
+
+.sub-heading:after{
+    content: "";
+    position:absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12%;
+    width: 24%;
+    height: 1px;
+    background-color: #e1e1e1 ;
+}
+
+.sub-heading p{
+    color: #333;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+}
+
+/*work for smiles*/
