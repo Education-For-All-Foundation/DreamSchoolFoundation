@@ -34,8 +34,8 @@
                     <h2>work for smiles</h2>
                     <div class="sub-heading">
                         <p>
-                         The privation of school children in poor families in Sri Lanka has hampered
-                         their education. Join us to improve their education and put a smile on their 
+                         The privation of school children in poor families in Sri Lanka<br> has hampered
+                         their education. Join us to improve their education and <br>put a smile on their 
                          face.
                         </p>
                     </div>
@@ -43,6 +43,13 @@
             </div>
         </div>
     </section>    
+
+    <script type="text/javascript"> 
+        window.addEventListener('scroll',function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
 
 </body>
 </html>
