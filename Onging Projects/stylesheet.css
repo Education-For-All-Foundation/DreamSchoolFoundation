@@ -53,6 +53,38 @@ slide:nth-child(4){
     background-size: cover;
     background-position: center;
 }
+.image{
+    height: 600px;
+    width: 1400px;
+}
+#blackfooter{
+    width: 100%;
+    height: 65%;
+    background-color: black;
+    margin-top: 48px;
+}
+#card1{
+
+    width: 25rem;
+    height: 28rem;
+
+
+}
+#card2{
+    width: 25rem;
+    height: 28rem;
+
+}
+#card3{
+    width: 25rem;
+    height: 28rem;
+
+
+}
+
+#row1{
+    margin-top: 155px;
+}
 
 @keyframes slide {
     0%{left: 0px;}

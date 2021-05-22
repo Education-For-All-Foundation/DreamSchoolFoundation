@@ -1,0 +1,194 @@
+@media (max-width: 1024px)and (min-width: 769px){
+
+    slider {
+        display: block;
+        width: 115%;
+        height: 181%;
+        background-color: white;
+        overflow: hidden;
+        position: absolute;
+        margin-top: 226px;
+        margin-left: 120px;
+    }
+    .image {
+        height: 550px;
+        width: 1120px;
+    }
+    .methodology {
+        width: 108%;
+        height: 118%;
+        background-color: white;
+        margin-left: 107px;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        margin-top: 55px;
+    }
+    h2 {
+        margin-left: 153px;
+        /* margin-bottom: 18px; */
+        padding-top: 45px;
+    }
+
+
+    #card1 {
+        width: 25rem;
+        height: 32rem;
+        margin-left: 40px;
+    }
+    #card2 {
+        width: 25rem;
+        height: 32rem;
+        margin-left: 122px;
+    }
+    #card3 {
+        width: 25rem;
+        height: 32rem;
+        margin-left: 205px;
+    }
+
+    .card-text {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 121%;
+    }
+
+    .para1 {
+        position: absolute;
+        margin-top: 21px;
+        margin-left: 217px;
+        padding: 0px;
+        font-size: 125%;
+    }
+
+    #twoData {
+        color: white;
+        padding-left: 231px;
+        margin-top: 18px;
+        padding-top: 20px;
+        margin-left: 27px;
+        font-size: 118%;
+    }
+    #oneData {
+        color: white;
+        text-align: center;
+        padding-left: 76px;
+        padding-left: 231px;
+        padding-top: 80px;
+        font-size: 119%;
+    }
+
+    #threeData {
+        color: white;
+        padding-left: 231px;
+        padding-top: 21px;
+        text-decoration: none;
+    }
+
+    #privacy {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        margin-top: 162px;
+        margin-left: 190px;
+        font-size: 116%;
+    }
+
+    #terms {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        margin-top: 163px;
+        margin-left: 318px;
+        font-size: 116%;
+    }
+
+    #blackfooter {
+        width: 130%;
+        height: 91%;
+        background-color: black;
+        margin-top: 48px;
+    }
+
+    #lastPara {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -336px;
+        padding-right: 234px;
+    }
+
+
+    .colThree {
+        color: white;
+        /* position: absolute; */
+        /* padding-left: 312px; */
+        /* padding-right: 180px; */
+        /* margin-top: -234px; */
+        margin-left: 728px;
+    }
+
+
+
+
+    .coltwo {
+        position: absolute;
+        margin-top: -206px;
+        margin-left: 1090px;
+        /* padding: 0px; */
+    }
+    #menu {
+        color: white;
+        margin-left: 1119px;
+        margin-top: -278px;
+        font-weight: bold;
+        position: absolute;
+    }
+    .colThree {
+        color: white;
+        /* position: absolute; */
+        /* padding-left: 312px; */
+        /* padding-right: 180px; */
+        /* margin-top: -234px; */
+        margin-left: 728px;
+    }
+
+
+
+    #sriLankaPng {
+        position: absolute;
+        margin-left: 708px;
+        margin-top: -290px;
+    }
+    #charityPng {
+        position: absolute;
+        margin-left: 776px;
+        margin-top: -296px;
+    }
+    #educationPng {
+        position: absolute;
+        margin-left: 843px;
+        margin-top: -291px;
+    }
+    #copyright {
+        font-size: 102%;
+        position: absolute;
+        margin-left: 716px;
+        margin-top: 168px;
+        color: dimgray;
+    }
+    #loationPng {
+        position: absolute;
+        width: 6%;
+        height: 5%;
+        padding-left: 31px;
+        margin-left: -80px;
+        margin-top: -3px;
+    }
+
+
+
+
+
+
+
+
+
+}
