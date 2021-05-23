@@ -1,0 +1,314 @@
+@media all and (max-width: 600px) {
+
+    slider {
+        display: block;
+        width: 307%;
+        height: 217%;
+        background-color: white;
+        overflow: hidden;
+        position: absolute;
+        margin-top: 553px;
+        margin-left: 76px;
+    }
+
+    .image {
+        height: 666px;
+        width: 1148px;
+    }
+
+    #card1 {
+        /* width: 93rem; */
+        height: 69rem;
+        width: 48rem;
+        margin-left: 900px;
+        margin-top: 785px;
+    }
+
+    #row1 {
+        margin-top: 539px;
+    }
+
+    #card1 {
+        /* width: 93rem; */
+        height: 71rem;
+        width: 48rem;
+        margin-left: 900px;
+        margin-top: 785px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 65%;
+    }
+
+    .card-title {
+        text-align: center;
+        color: blue;
+        font-weight: bold;
+        font-size: 320%;
+    }
+
+    .card-text {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 313%;
+    }
+
+    #blueOne {
+        margin-left: 60px;
+        margin-top: 16px;
+        width: 38%;
+        height: 14%;
+        font-size: 238%;
+    }
+
+    #redOne {
+        margin-right: 58px;
+        margin-top: 15px;
+        width: 36%;
+        height: 14%;
+        font-size: 274%;
+    }
+
+    #card2 {
+        width: 48rem;
+        height: 71rem;
+        margin-left: 895px;
+        margin-top: 62px;
+    }
+
+    #redTwo {
+        margin-right: 77px;
+        margin-top: 45px;
+        width: 32%;
+        height: 13%;
+        font-size: 269%;
+    }
+
+    #blueTwo {
+        margin-left: 45px;
+        margin-top: 42px;
+        width: 47%;
+        height: 13%;
+        font-size: 251%;
+    }
+
+    #card3 {
+        margin-left: 0;
+        width: 48rem;
+        margin-left: 885px;
+        margin-top: 39px;
+        height: 70rem;
+    }
+
+    #blueThree {
+        margin-left: 46px;
+        width: 43%;
+        height: 13%;
+        font-size: 259%;
+    }
+
+    #redThree {
+        margin-right: 71px;
+        width: 39%;
+        height: 13%;
+        font-size: 303%;
+    }
+
+    .methodology {
+        width: 265%;
+        height: 327%;
+        background-color: white;
+        margin-left: 178px;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        margin-top: 55px;
+    }
+    .para1 {
+        position: inherit;
+        margin-top: 11px;
+        margin-left: -70px;
+        font-size: 237%;
+        /* padding-left: 184px; */
+        /* padding-bottom: 1384px; */
+        /* padding-right: 160px; */
+        /* padding-top: 42px; */
+    }
+
+    #paraFont {
+        font-size: 299%;
+        /* margin-top: 103px; */
+    }
+
+    #oneData {
+        color: white;
+        text-align: center;
+        padding-left: 76px;
+        /* padding-left: 231px; */
+        /* padding-top: 249px; */
+        position: absolute;
+        font-size: 228%;
+        margin-top: 80px;
+        margin-left: -14px;
+    }
+
+    #loationPng {
+        position: absolute;
+        width: 19%;
+        height: 29%;
+        /* padding-left: 31px; */
+        margin-left: -107px;
+        margin-top: 33px;
+    }
+
+    #twoData {
+        color: white;
+        /* padding-left: 231px; */
+        margin-top: 347px;
+        /* padding-top: 20px; */
+        margin-left: -132px;
+        position: absolute;
+        font-size: 231%;
+    }
+
+    #callPng {
+        height: 37%;
+        /* padding-left: 13px; */
+        margin-left: -61px;
+        position: absolute;
+        padding-top: 3px;
+        margin-top: 13px;
+    }
+
+    #threeData {
+        color: white;
+        /* padding-left: 231px; */
+        /* padding-top: 21px; */
+        text-decoration: none;
+        position: absolute;
+        font-size: 212%;
+        margin-top: 466px;
+        margin-left: -134px;
+    }
+
+    #emailPng {
+        position: absolute;
+        margin-left: -66px;
+        height: 122%;
+        margin-top: -9px;
+        width: 9%;
+    }
+
+    .followings {
+        margin-top: 609px;
+        position: absolute;
+    }
+
+    #follow {
+        color: white;
+        margin-left: 186px;
+        margin-top: 571px;
+        position: absolute;
+        font-size: 220%;
+    }
+
+    #instaPng {
+        position: absolute;
+    }
+
+    #blackfooter {
+        width: 354%;
+        height: 151%;
+        background-color: black;
+        margin-top: 77px;
+    }
+
+    #terms {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        margin-top: 899px;
+        margin-left: 246px;
+        font-size: 137%;
+    }
+    #privacy {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        margin-top: 894px;
+        margin-left: 47px;
+        font-size: 174%;
+    }
+
+
+    .colThree {
+        color: white;
+        /* position: inherit; */
+        /* padding-left: 312px; */
+        /* padding-right: 180px; */
+        /* margin-top: 114px; */
+        /* margin-left: 845px; */
+        /* font-size: 205%; */
+    }
+    #menu {
+        color: white;
+        margin-left: 499px;
+        margin-top: 67px;
+        font-weight: bold;
+        position: absolute;
+        font-size: 166%;
+    }
+    .coltwo {
+        position: absolute;
+        margin-top: 107px;
+        margin-left: 459px;
+        /* padding: 0px; */
+        font-size: 214%;
+    }
+#lastPara{
+
+        position: absolute;
+        margin-top: 337px;
+        font-size: 197%;
+        margin-left: -196px;
+
+}
+
+    #educationPng {
+        position: absolute;
+        margin-left: 1040px;
+        margin-top: 40px;
+    }
+
+    #charityPng {
+        position: absolute;
+        margin-left: 972px;
+        margin-top: 35px;
+    }
+    #sriLankaPng {
+        position: absolute;
+        margin-left: 907px;
+        margin-top: 42px;
+    }
+    #copyright {
+        font-size: 147%;
+        position: absolute;
+        margin-left: 513px;
+        margin-top: 812px;
+        color: dimgray;
+        /* padding-right: 201px; */
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

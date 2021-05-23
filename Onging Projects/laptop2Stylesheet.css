@@ -1,4 +1,4 @@
-@media (max-width: 1024px)and (min-width: 769px){
+@media all and (max-width: 1024px)and (min-width: 769px){
 
     slider {
         display: block;
