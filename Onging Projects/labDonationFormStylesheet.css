@@ -21,6 +21,58 @@ html,body{
 .rdioBtn{
 
 }
+#h3tLast{
+    font-size: 109%;
+    margin-top: 5px;
+    margin-left: 3px;
+    position: absolute;
+    font-weight: 500;
+}
+#h3Transfer{
+    font-size: 109%;
+    margin-top: 6px;
+    margin-left: 8px;
+    position: absolute;
+    font-weight: 500;
+}
+#h3pal{
+    font-size: 109%;
+    margin-top: 6px;
+    margin-left: 8px;
+    position: absolute;
+    font-weight: 500;
+}
+#oneh1{
+    margin-top: 37px;
+    margin-left: 89px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: lightslategray;
+    position: absolute;
+}
+#onehr{
+    position: absolute;
+    height: 3px;
+    width: 53%;
+    margin-left: 127px;
+    margin-top: 122px;
+}
+
+#oneh2{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 99px;
+    font-size: 23px;
+    font-family: none;
+    color: gray;
+}
+
+#backImgOne{
+   position: absolute;
+    margin-top: 545px;
+    margin-left: 310px;
+    width: 3%;
+}
 
 .slideImg {
     position: absolute;
@@ -52,6 +104,32 @@ html,body{
     margin-top: 5px;
     color: black;
 
+}
+#backImgTwo{
+    position: absolute;
+    margin-top: 568px;
+    margin-left: 315px;
+    width: 3%;
+
+}
+#forward3 {
+    width: 33%;
+    height: 9%;
+    /* margin-left: 72px; */
+    margin-top: 468px;
+    /* padding-left: 33px; */
+    position: absolute;
+    margin-right: 166px;
+    background-color: revert;
+}
+#btnDoante{
+    position: absolute;
+    margin-top: 537px;
+    margin-left: 185px;
+    width: 30%;
+    height: 7%;
+    border-radius: 9%;
+    background-color: crimson;
 }
 
 #para{
@@ -540,13 +618,16 @@ html,body{
 }
 
 .circles {
+    position: absolute;
+    margin-bottom: -34px;
+    margin-left: -17px;
     width: 100%;
     height: 11px;
     bottom: 12%;
     position: absolute;
     text-align: center;
     z-index: 99;
-    margin-left: 207px;
+    margin-left: -14px;
     /* margin-top: 70px; */
     position: absolute;
     /* margin-top: 97px; */

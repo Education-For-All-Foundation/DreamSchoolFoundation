@@ -1,10 +1,20 @@
-html,body{
+/*html,body{
     width: 100%;
     height: 100%;
     margin: 0;
     overflow: hidden;
 
+}*/
+body {
+    width: 95%;
+    height: 100%;
+    margin: 0;
+    overflow: visible;
+    padding-left: 418px;
+    /* padding-right: 61px; */
+    margin-left: -325px;
 }
+
 
 .container {
     margin: 0 auto;
@@ -17,6 +27,11 @@ html,body{
     /* border: solid 10px black; */
     box-shadow: 0px 2px 10px rgb(0 0 0);
     border-radius: 1%;
+}
+.container {
+    width: 532px;
+    height: 98%;
+    margin-top: 7px;
 }
 .rdioBtn{
 
@@ -70,6 +85,7 @@ html,body{
     border-color: darkgreen;
     align-items: center;
     justify-content: center;
+     text-align: center;
 
 }
 
@@ -330,6 +346,36 @@ html,body{
     margin-left: 47px;
 
 }
+
+.container{
+   width: 532px;
+    height: 96%;
+    margin-top: 14px;
+}
+#oneh1{
+    margin-top: 37px;
+    margin-left: 56px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: lightslategray;
+    position: absolute;
+}
+#hrOne{
+
+   position: absolute;
+    height: 3px;
+    width: 53%;
+    margin-left: 127px;
+    margin-top: 81px;
+}
+
+#h2One{
+   position: absolute;
+    margin-top: 116px;
+    margin-left: 99px;
+    font-size: 23px;
+    font-family: none;color: gray;"
+}
 #continue2{
     position: absolute;
     margin-top: 526px;
@@ -340,6 +386,34 @@ html,body{
     padding-right: 27px;
     background-color: dimgray;
 }
+
+#imgForward1{
+    position: absolute;
+    margin-top: 568px;
+    margin-left: 315px;
+    width: 3%
+}
+#imgForward2{
+    position: absolute;
+    margin-top: 545px;
+    margin-left: 310px;
+    width: 3%;
+}
+#h3CardBar{
+    font-size: 109%;
+    margin-top: 5px;
+    margin-left: 3px;
+    position: absolute;
+    font-weight: 500;
+}
+#h3BankBar{
+    font-size: 109%;
+    margin-top: 6px;
+    margin-left: 8px;
+    position: absolute;
+    font-weight: 500;
+}
+
 #info2{
     font-size: 113%;
     margin-left: 176px;
@@ -383,6 +457,22 @@ html,body{
     box-shadow: 0px 2px 10px darkgrey;
     padding-left: 143px;
     padding-top: 6px;
+}
+#h3Paypal{
+    font-size: 109%;
+    margin-top: 6px;
+    margin-left: 8px;
+    position: absolute;
+    font-weight: 500;
+}
+#btnDoante{
+    position: absolute;
+    margin-top: 537px;
+    margin-left: 185px;
+    width: 30%;
+    height: 7%;
+    border-radius: 9%;
+    background-color: crimson;
 }
 
 #bankTrnansfer{
@@ -571,6 +661,26 @@ html,body{
     margin-top: -20px;
     margin-left: 213px;
     color: dimgray;
+}
+.circles{
+   position: absolute;
+    margin-bottom: -29px;
+    margin-left: -17px;
+}
+#backImg{
+  position: absolute;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+#backImg2{
+       position: absolute;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+#backImg3{
+     position: absolute;
+    margin-left: 5px;
+    margin-top: 7px;
 }
 
 .dots{

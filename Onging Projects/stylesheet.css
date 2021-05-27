@@ -67,9 +67,21 @@ slide:nth-child(4){
 
     width: 25rem;
     height: 28rem;
+    //animation: animate2 2s ease-in-out 0s infinite;
 
 
 }
+
+/*@keyframes animate2 {
+    from{
+        margin-left: 20px;
+        margin-top: 599px;
+    }
+    to{
+        margin-right: 30px;
+    }
+
+}*/
 #card2{
     width: 25rem;
     height: 28rem;
@@ -137,6 +149,10 @@ h1{
 
 .card{
     margin-top: 732px;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .card-title{
     text-align: center;
@@ -155,27 +171,87 @@ h1{
 #blueOne {
     margin-left: 60px;
     margin-top: 24px;
+    animation: animate4 2s ease-in-out 0s infinite;
 }
+/*@keyframes animate4 {
+    from{
+        margin-left: 18px;
+    }
+    to{
+        margin-right: -1px;
+    }
+}*/
 #blueTwo {
     margin-left: 45px;
     margin-top: 24px;
+    animation: animate5 2s ease-in-out 0s infinite;
 }
+/*@keyframes animate5 {
+    from{
+        margin-left: 18px;
+    }
+    to{
+        margin-right: -1px;
+    }
+}*/
+
 
 #blueThree {
     margin-left: 46px;
+    animation: animate6 2s ease-in-out 0s infinite;
 }
+/*@keyframes animate6 {
+    from{
+        margin-left: 18px;
+    }
+    to{
+        margin-right: -1px;
+    }
+}*/
 
 #redOne {
     margin-right: 58px;
     margin-top: 23px;
+    animation: animate1 2s ease-in-out 0s infinite;
+}
+
+@keyframes animate1 {
+        from{
+            margin-left: 18px;
+        }
+    to{
+        margin-right: -1px;
+    }
 }
 #redTwo {
     margin-right: 77px;
     margin-top: 24px;
+    animation: animate2 2s ease-in-out 0s infinite;
 }
+@keyframes animate2 {
+    from{
+        margin-left: 18px;
+    }
+    to{
+        margin-right: -1px;
+    }
+}
+
+
 #redThree {
     margin-right: 71px;
+    animation: animate3 2s ease-in-out 0s infinite;
 }
+@keyframes animate3 {
+    from{
+        margin-left: 18px;
+    }
+    to{
+        margin-right: -1px;
+    }
+}
+
+
 .methodology {
     width: 89%;
     height: 64%;
@@ -183,7 +259,14 @@ h1{
     margin-left: 86px;
     box-shadow: 0px 2px 10px rgb(0 0 0);
     margin-top: 55px;
+    transition: 1s;
+
 }
+.methodology:hover{
+    transform: scale(1.1);
+}
+
+
 h2 {
     margin-left: 153px;
     /* margin-bottom: 18px; */
