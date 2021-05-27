@@ -2,6 +2,7 @@ html,body{
     width: 100%;
     height: 100%;
     margin: 0;
+    overflow: hidden;
 
 }
 
@@ -19,6 +20,70 @@ html,body{
 }
 .rdioBtn{
 
+}
+#oneh1{
+ margin-top: 37px;
+    margin-left: 55px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: lightslategray;
+    position: absolute;
+}
+#onehr {
+    position: absolute;
+    height: 3px;
+    width: 53%;
+    margin-left: 136px;
+    margin-top: 126px;
+}
+
+#oneh2 {
+    position: absolute;
+    margin-top: 147px;
+    margin-left: 99px;
+    font-size: 23px;
+    font-family: none;
+    color: gray;
+}
+
+#backImgTwo{
+    position: absolute;
+    margin-top: 568px;
+    margin-left: 315px;
+    width: 3%;
+}
+#backImgOne{
+    position: absolute;
+    margin-top: 545px;
+    margin-left: 310px;
+    width: 3% ;
+ }
+#h3tLast{
+    font-size: 109%;margin-top: 5px; margin-left: 3px;position: absolute;font-weight: 500;
+}
+#h3Transfer{
+  font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;
+}
+
+#h3pal{
+    font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;
+}
+
+#btnDoante{
+    position: absolute;margin-top: 537px;margin-left: 185px; width: 30%;height: 7%;border-radius: 9%;background-color: crimson;
+}
+.circles {
+    width: 100%;
+    height: 11px;
+    bottom: 6%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    margin-left: -8px;
+    /* margin-top: 70px; */
+    position: absolute;
+    margin-top: 93px;
+    /* padding-top: 279px; */
 }
 
 .slideImg {
@@ -129,7 +194,7 @@ html,body{
     width: 94%;
     background: border-box;
     margin-top: 466px;
-// padding: 27px;
+    padding: 27px;
     padding-left: 147px;
     padding-top: 9px;
     margin-left: 19px;
@@ -539,19 +604,6 @@ html,body{
     margin-top: 3px;
 }
 
-.circles {
-    width: 100%;
-    height: 11px;
-    bottom: 12%;
-    position: absolute;
-    text-align: center;
-    z-index: 99;
-    margin-left: 207px;
-    /* margin-top: 70px; */
-    position: absolute;
-    /* margin-top: 97px; */
-    /* padding-top: 279px; */
-}
 #footer {
     width: 100%;
     height: 5%;

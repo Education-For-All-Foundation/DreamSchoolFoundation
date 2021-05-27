@@ -2,18 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Donate Form</title>
+    <title>Library Project Donation Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="newDonateStylesheet.css">
 
-    <link rel="stylesheet" >
-   <!--<link rel="stylesheet" media="(min-width:1025px) and (max-width:1440px)" href="libratyStylesheet1.css">
-    <link rel="stylesheet" media="(max-width:600px)" href="libraryStylesheet2.css">
-     <link rel="stylesheet" media="(max-width:320px)" href="libraryStylesheet3.css">
-     <link rel="stylesheet" media="(min-width:321px)and (max-width:400px)" href="libraryStylesheet4.css">
-     <link rel="stylesheet" media="(min-width:435px)and (max-width:768px)" href="libraryStylesheet5.css">
-     <link rel="stylesheet" media="(min-width:769px)and (max-width:1024px)" href="libraryStylesheet6.css">
-     <link rel="stylesheet" media="(min-width:2560px)and (max-width:3000px)" href="libraryStylesheet7.css">-->
+    <link rel="stylesheet" type="text/css" href="newDonateStylesheet.css">
+    <link rel="stylesheet"  media="(max-width:1440px)"  href="libratyStylesheet1.css">
+    <link rel="stylesheet"  media="(max-width:450px)"  href="libraryStylesheet3.css">
+    <link rel="stylesheet"  media=" (max-width:400px)"  href="libraryStylesheet4.css">
+    <link rel="stylesheet"  media=" (max-width:330px)"  href="libraryStylesheet5.css">
+    <link rel="stylesheet"  media=" (min-width:2560px) and (max-width:3000px)"  href="libraryStylesheet6.css">
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -21,7 +19,7 @@
     <script>
 
         function fillText() {
-          document.getElementById("text1").value=1000;
+            document.getElementById("text1").value=1000;
         }
 
         function fillText2() {
@@ -46,7 +44,7 @@
             document.getElementById("text1").value=' ';
 
         }
-        
+
         function show() {
             document.getElementById('slideBar').classList.toggle('active');
         }
@@ -59,7 +57,7 @@
 
 </head>
 <body>
-<div class="container">
+<div class="container" style="width: 532px; height: 96%;margin-top: 14px;">
 
     <input type="radio" class="rdioBtn" name="images" id="i1" checked>
     <input type="radio" class="rdioBtn" name="images" id="i2">
@@ -68,17 +66,17 @@
 
 
     <!--Slide 1-->
-<div class="slideImg" id="one">
-    <div><h1 id="oneh1">Library project of Hali-Ela Central College</h1>
-        <hr id="hrOne">
-        <h2 id="h2One">Let's help them for fulfill their dreams.</h2><img id="smileImg" src="../images/smile.jpg" >
+    <div class="slideImg" id="one">
+        <div><h1 id="oneh1">Library project of Hali Ela Central College in Badulla District</h1>
+            <hr id="onehr">
+            <h2 id="oneh2">Let's help them for fulfill their dreams.</h2><img id="smileImg" src="../images/smile.jpg" >
 
-    <button type="button" id="donateBtn" class="btn btn-danger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+            <button type="button" id="donateBtn" class="btn btn-danger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
 
-    <!--<label for="i4" class="pre"></label>-->
-    <label for="i2" id="forward4" class="next"></label>
-</div>
-</div>
+            <label for="i4" class="pre"></label>
+            <label for="i2" id="forward4" class="next"></label>
+        </div>
+    </div>
 
 
     <!--Slide 2-->
@@ -89,24 +87,24 @@
             <h4 id="amount">Choose Amount</h4>
         </div>
 
-       <p id="para">How much would you like to donate? As a donator to this project For Change, we make sure your donation goes directly to supporting our library creation project of Hali Ela central college.</p>
+        <p id="para">How much would you like to donate? As a donator to this project For Change, we make sure your donation goes directly to supporting our library creation project of Hali Ela central college.</p>
 
         <div id="element">
-       <input type="text" name="amount" id="text1" placeholder="Amount" style="text-align: center">
-        <select id="combo1">
-            <option value="Rs" selected="selected">Rs</option>
-            <option value="USD">USD</option>
-            <option value="EUR">EUR</option>
-            <option value="GBP">GBP</option>
-            <option value="CAD">CAD</option>
-            <option value="MXN">MXN</option>
-        </select>
+            <input type="text" name="amount" id="text1" placeholder="Amount" style="text-align: center">
+            <select id="combo1">
+                <option value="Rs" selected="selected">Rs</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="CAD">CAD</option>
+                <option value="MXN">MXN</option>
+            </select>
         </div>
 
 
-                <input class="btn1" id="rowOne" type="button" value="Rs.1000" onclick="fillText();">
-               <input class="btn1" id="rowTwo" type="button" value="Rs.2000" onclick="fillText2(); ">
-                <input class="btn1" id="rowThree" type="button" value="Rs.3000" onclick="fillText3();">
+        <input class="btn1" id="rowOne" type="button" value="Rs.1000" onclick="fillText();">
+        <input class="btn1" id="rowTwo" type="button" value="Rs.2000" onclick="fillText2(); ">
+        <input class="btn1" id="rowThree" type="button" value="Rs.3000" onclick="fillText3();">
 
 
         <input class="btn2" id="colOne" type="button" value="Rs.5000" onclick="fillText4();">
@@ -114,8 +112,8 @@
         <input class="btn2" id="colThree" type="button" value="Custom Amount" onclick="pointText();">
 
         <div id="donation"><input type="checkbox">&nbsp;&nbsp;Make this donation monthly</div>
-        <img id="backImg3" src="../images/icons8-back-24.png">
-        <input id="continue" type="button"value="Continue"><img id="imgForward1" src="../images/icons8-forward-26.png">
+        <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
+        <input id="continue" type="button"value="Continue"><img src="../images/icons8-forward-26.png" id="backImgTwo">
 
 
 
@@ -132,31 +130,31 @@
     <!-- Slide 3-->
 
     <div class="slideImg" id="two">
-    <div>
+        <div>
 
-        <div class="header">
-            <h4 id="info">Add Your Information</h4>
+            <div class="header">
+                <h4 id="info">Add Your Information</h4>
+            </div>
+
+            <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
+            <h2 id="para2">Who's donating today?</h2>
+            <h3 id="para3">We’ll secure your all information</h3>
+
+            <label id="labelname"> Name</label><input type="text" name="fName" id="fName" placeholder="Enter your name...">
+            <label id="labelemail"> Email</label><input type="email" id="email" placeholder="Enter your email...">
+            <label id="labelphone"> Phone Number</label><input type="phone" id="phoneNmb" placeholder="Enter your phone number...">
+            <label id="labeladdrss"> Address</label><textarea id="address" placeholder="Enter your address..."></textarea>
+            <label id="labeldisc"> Donation Discription<br> (Optional) </label><textarea id="disc" placeholder="Type your discription here(Optional)..."></textarea>
+
+            <input id="continue2" type="button"value="Continue"><img src="../images/icons8-forward-26.png" id="backImgOne">
+
+
+            <label for="i1" class="pre"></label>
+            <label for="i3" id="forward2" class="next"></label>
+
+
         </div>
-
-        <img id="backImg" src="../images/icons8-back-24.png">
-        <h2 id="para2">Who's donating today?</h2>
-        <h3 id="para3">We’ll secure your all information</h3>
-
-        <label id="labelname"> Name</label><input type="text" name="fName" id="fName" placeholder="Enter your name...">
-        <label id="labelemail"> Email</label><input type="email" id="email" placeholder="Enter your email...">
-        <label id="labelphone"> Phone Number</label><input type="phone" id="phoneNmb" placeholder="Enter your phone number...">
-        <label id="labeladdrss"> Address</label><textarea id="address" placeholder="Enter your address..."></textarea>
-        <label id="labeldisc"> Donation Discription<br> (Optional) </label><textarea id="disc" placeholder="Type your discription here(Optional)..."></textarea>
-
-        <input id="continue2" type="button"value="Continue"><img id="imgForward2" src="../images/icons8-forward-26.png">
-
-
-        <label for="i1" class="pre"></label>
-        <label for="i3" id="forward2" class="next"></label>
-
-
-        </div>
-        </div>
+    </div>
 
 
 
@@ -177,13 +175,13 @@
             <h4 id="info2">Add your donation details</h4>
         </div>
 
-        <img id="backImg2" src="../images/icons8-back-24.png">
+        <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
 
 
 
         <div id="cardBar">
-            <input type="radio" id="radioBtn">  <h3 id="h3CardBar" class="bar1">Donate with Credit/Debit card</h3>
-                    </div>
+            <input type="radio" id="radioBtn">  <h3 class="bar1" id="h3tLast">Donate with Credit/Debit card</h3>
+        </div>
         <label id="labelcardNmb">Card Number</label><input class="cardNumber" id="cardNmb" type="text" name="cardNumber" placeholder="Enter card number...">
         <label id="labelcardcvc">Card CVC</label><input class="cardNumber" id="cardcvc" type="text" name="cardNumber" placeholder="Enter CVC...">
         <label id="labelcardownername">Card holder's name</label><input class="cardNumber" id="cardOwner" type="text" name="cardNumber" placeholder="Enter cardholder's name...">
@@ -192,19 +190,19 @@
 
         <div id="bankTrnansfer">
             <input type="radio" id="radioBtn2">
-            <h3 id="h3BankBar" class="bar1">Online Bank Transfer</h3>
+            <h3 class="bar1" id="h3Transfer">Online Bank Transfer</h3>
         </div>
 
         <label id="labelAccName">Account holder's name</label><input type="text" id="accName" placeholder="Enter account holder's name...">
         <label id="labelAccNmb">Account number</label><input id="accNmb" type="text" placeholder="Enter account number...">
         <label id="labelBankName">Bank name</label><input id="accBankName" type="text" placeholder="Enter bank name...">
-        <label id="labelBranch">Branch</label><input id="accBranch" type="text" placeholder="Enter branch...">
+        <label id="labelBranch">Branch</label><input id="accBranch" type="text" placeholder="Enter brach...">
 
 
         <div id="paypalbar">
-          <a href="https://www.paypal.com/us/signin" target="_blank" style="text-decoration: none; color: black;"> <input type="radio" id="radioBtn3">
-            <h3 id="h3Paypal" class="bar1">Donate in Paypal</h3>
-          </a></div>
+            <a href="https://www.paypal.com/us/signin" target="_blank" style="text-decoration: none; color: black;"> <input type="radio" id="radioBtn3">
+                <h3 class="bar1" id="h3pal">Donate in Paypal</h3>
+            </a></div>
 
         <button id="btnDoante">Donate</button>
 
@@ -214,8 +212,8 @@
 
 
         <label for="i3"  class="pre"></label>
-            <label for="i1" id="forward" class="next"></label>
-        </div>
+        <label for="i1" id="forward" class="next"></label>
+    </div>
 
 
 
@@ -239,12 +237,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-
-
-
-
-
-
 
 </body>
 </html>

@@ -1,14 +1,12 @@
 @media all and (max-width: 330px) {
 
     #oneh1 {
-        margin-top: 41px;
-        margin-left: 27px;
-        font-size: 16px;
+        margin-top: 42px;
+        margin-left: 28px;
+        font-size: 17px;
         font-family: 'Poppins', sans-serif;
         color: lightslategray;
         position: absolute;
-        padding-left: 26px;
-        padding-right: 234px;
     }
     #oneh2 {
         position: absolute;
@@ -21,10 +19,11 @@
     #onehr {
         position: absolute;
         height: 3px;
-        width: 37%;
-        margin-left: 63px;
-        margin-top: 97px;
+        width: 40%;
+        margin-left: 66px;
+        margin-top: 94px;
     }
+
     #donateBtn {
         position: absolute;
         margin-top: 464px;
@@ -528,6 +527,12 @@
         margin-right: 280px;
         background-color: revert;
     }
+
+
+
+
+
+
 
 
 

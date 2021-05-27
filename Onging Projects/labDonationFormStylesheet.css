@@ -21,57 +21,69 @@ html,body{
 .rdioBtn{
 
 }
-#h3tLast{
-    font-size: 109%;
-    margin-top: 5px;
-    margin-left: 3px;
-    position: absolute;
-    font-weight: 500;
-}
-#h3Transfer{
-    font-size: 109%;
-    margin-top: 6px;
-    margin-left: 8px;
-    position: absolute;
-    font-weight: 500;
-}
-#h3pal{
-    font-size: 109%;
-    margin-top: 6px;
-    margin-left: 8px;
-    position: absolute;
-    font-weight: 500;
-}
-#oneh1{
+#oneh1 {
     margin-top: 37px;
-    margin-left: 89px;
+    margin-left: 100px;
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
     color: lightslategray;
     position: absolute;
 }
-#onehr{
+#onehr {
     position: absolute;
     height: 3px;
     width: 53%;
-    margin-left: 127px;
-    margin-top: 122px;
+    margin-left: 136px;
+    margin-top: 126px;
 }
 
-#oneh2{
+#oneh2 {
     position: absolute;
-    margin-top: 140px;
+    margin-top: 147px;
     margin-left: 99px;
     font-size: 23px;
     font-family: none;
     color: gray;
 }
 
+#backImgTwo{
+    position: absolute;
+    margin-top: 568px;
+    margin-left: 315px;
+    width: 3%;
+}
 #backImgOne{
-   position: absolute;
+    position: absolute;
     margin-top: 545px;
     margin-left: 310px;
-    width: 3%;
+    width: 3% ;
+}
+#h3tLast{
+    font-size: 109%;margin-top: 5px; margin-left: 3px;position: absolute;font-weight: 500;
+}
+#h3Transfer{
+    font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;
+}
+
+#h3pal{
+    font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;
+}
+
+#btnDoante{
+    position: absolute;margin-top: 537px;margin-left: 185px; width: 30%;height: 7%;border-radius: 9%;background-color: crimson;
+}
+.circles {
+    width: 100%;
+    height: 11px;
+    bottom: 6%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    margin-left: -8px;
+    /* margin-top: 70px; */
+    position: absolute;
+    margin-top: 93px;
+    /* padding-top: 279px; */
 }
 
 .slideImg {
@@ -80,6 +92,7 @@ html,body{
     height: 100%;
     margin-left: -12px;
     border-radius: 1%;
+    overflow: hidden;
 }
 #smileImg {
     position: absolute;
@@ -104,32 +117,6 @@ html,body{
     margin-top: 5px;
     color: black;
 
-}
-#backImgTwo{
-    position: absolute;
-    margin-top: 568px;
-    margin-left: 315px;
-    width: 3%;
-
-}
-#forward3 {
-    width: 33%;
-    height: 9%;
-    /* margin-left: 72px; */
-    margin-top: 468px;
-    /* padding-left: 33px; */
-    position: absolute;
-    margin-right: 166px;
-    background-color: revert;
-}
-#btnDoante{
-    position: absolute;
-    margin-top: 537px;
-    margin-left: 185px;
-    width: 30%;
-    height: 7%;
-    border-radius: 9%;
-    background-color: crimson;
 }
 
 #para{
@@ -207,7 +194,7 @@ html,body{
     width: 94%;
     background: border-box;
     margin-top: 466px;
-// padding: 27px;
+    padding: 27px;
     padding-left: 147px;
     padding-top: 9px;
     margin-left: 19px;
@@ -247,7 +234,7 @@ html,body{
 
 #donateBtn {
     position: absolute;
-    margin-top: 567px;
+    margin-top: 555px;
     margin-left: 206px;
 }
 
@@ -617,22 +604,6 @@ html,body{
     margin-top: 3px;
 }
 
-.circles {
-    position: absolute;
-    margin-bottom: -34px;
-    margin-left: -17px;
-    width: 100%;
-    height: 11px;
-    bottom: 12%;
-    position: absolute;
-    text-align: center;
-    z-index: 99;
-    margin-left: -14px;
-    /* margin-top: 70px; */
-    position: absolute;
-    /* margin-top: 97px; */
-    /* padding-top: 279px; */
-}
 #footer {
     width: 100%;
     height: 5%;

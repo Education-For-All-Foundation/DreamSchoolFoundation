@@ -536,6 +536,26 @@
         background-color: revert;
     }
 
+    #lockPng {
+        margin-left: 136px;
+        margin-top: 1px;
+        /* font-size: 13px; */
+        width: 38px;
+        height: 48px;
+        padding-top: 8px;
+    }
+
+    #secure {
+        margin-top: -35px;
+        margin-left: 181px;
+        color: dimgray;
+        font-size: 26px;
+    }
+
+
+
+
+
 
 
 
