@@ -558,10 +558,10 @@ html,body{
     height: 5%;
     background-color: gainsboro;
     position: absolute;
-    margin-top: 643px;
+    margin-top: 659px;
     margin-left: -12px;
     border-radius: 1%;
-    opacity: 80.1%
+    opacity: 80.1%;
 }
 #lockPng {
     margin-left: 184px;
@@ -573,6 +573,47 @@ html,body{
     margin-left: 213px;
     color: dimgray;
 }
+
+#oneHead{
+    margin-top: 37px;
+    margin-left: 56px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: lightslategray;
+    position: absolute;
+}
+#oneHr{
+    position: absolute;
+    height: 3px;
+    width: 53%;
+    margin-left: 127px;
+    margin-top: 81px;
+}
+#oneHead2{
+     position: absolute;
+    margin-top: 116px;
+    margin-left: 99px;
+    font-size: 23px;
+    font-family: none;
+    color: gray;
+}
+
+#forwardImg{
+   position: absolute;margin-top: 568px;margin-left: 315px;width: 3%;
+}
+
+#forwardImg2{
+    position: absolute;
+    margin-top: 545px;
+    margin-left: 310px;
+    width: 3%;
+}
+
+#lastBtnDoante{
+    position: absolute;margin-top: 537px;margin-left: 185px; width: 30%;height: 7%;border-radius: 9%;background-color: crimson;
+}
+
+
 
 .dots{
     top: -5px;

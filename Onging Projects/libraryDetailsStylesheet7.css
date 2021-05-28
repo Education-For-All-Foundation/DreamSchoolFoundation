@@ -1,0 +1,85 @@
+@media all and (max-width: 400px) {
+    #headerbar {
+        width: 249%;
+        height: 16%;
+        background-color: darkmagenta;
+        position: absolute;
+        margin-top: -125px;
+        margin-left: -1px;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-left: 24px;
+    }
+
+    #desc {
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 36px;
+        font-size: 216%;
+        color: aliceblue;
+    }
+
+    #container1 {
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 650px;
+        background-color: inherit;
+        width: 237%;
+        height: 156%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-left: 55px;
+        /* font-size: 112px; */
+    }
+
+    #img2 {
+        position: absolute;
+        width: 41%;
+        height: 52%;
+        margin-left: 261px;
+        margin-top: 361px;
+    }
+    #imageDiv {
+        position: absolute;
+        background-color: slategray;
+        width: 241%;
+        height: 125%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-top: 1660px;
+        margin-left: 27px;
+    }
+    .colThree {
+        color: white;
+        position: absolute;
+        padding-left: 105px;
+        padding-right: 0px;
+        margin-top: -234px;
+        margin-left: 498px;
+        font-size: 14px;
+    }
+
+    #menu {
+        color: white;
+        margin-left: 798px;
+        margin-top: -278px;
+        font-weight: bold;
+        position: absolute;
+    }
+    .coltwo {
+        position: absolute;
+        margin-top: -228px;
+        margin-left: 769px;
+        /* padding: 0px; */
+    }
+    #copyright {
+        font-size: 100%;
+        position: absolute;
+        margin-left: 814px;
+        margin-top: 62px;
+        color: dimgray;
+    }
+
+
+
+}
