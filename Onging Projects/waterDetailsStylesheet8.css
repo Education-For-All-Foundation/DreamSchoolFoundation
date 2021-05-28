@@ -1,0 +1,143 @@
+@media all and (max-width: 330px) {
+    #headerbar {
+        width: 316%;
+        height: 16%;
+        background-color: darkmagenta;
+        position: absolute;
+        margin-top: -168px;
+        margin-left: 22px;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+    }
+
+
+    #desc {
+        position: absolute;
+        margin-left: 51px;
+        margin-top: 36px;
+        font-size: 182%;
+        color: aliceblue;
+    }
+    #formContent {
+        width: 572px;
+        height: 96%;
+        margin-top: 184px;
+        margin-right: -479px;
+    }
+
+    #container1 {
+        position: absolute;
+        margin-left: 109px;
+        margin-top: 665px;
+        background-color: inherit;
+        width: 267%;
+        height: 120%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+    }
+
+    #paraContent {
+        margin-top: 32px;
+        margin-bottom: 1rem;
+        /* padding: 109px; */
+        padding-left: 102px;
+        padding-right: 81px;
+        font-size: 167%;
+    }
+
+    #img3 {
+        position: absolute;
+        width: 29%;
+        height: 73%;
+        margin-left: 682px;
+        margin-top: 65px;
+    }
+    #img2 {
+        position: absolute;
+        width: 32%;
+        height: 75%;
+        margin-left: 341px;
+        margin-top: 58px;
+    }
+
+    #imageDiv {
+        position: absolute;
+        background-color: slategray;
+        width: 310%;
+        height: 66%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-top: 1476px;
+        margin-left: 30px;
+    }
+
+    #blackFooter2 {
+        width: 330%;
+        height: 84%;
+        background-color: black;
+        margin-top: 1355px;
+    }
+    #lastParagraph {
+        color: white;
+        /* position: absolute; */
+        /* padding-left: 312px; */
+        /* padding-right: 180px; */
+        margin-top: -259px;
+        margin-left: 252px;
+        margin-right: -736px;
+    }
+    #educationPng {
+        position: absolute;
+        margin-left: 719px;
+        margin-top: -311px;
+    }
+
+    #charityPng {
+        position: absolute;
+        margin-left: 646px;
+        margin-top: -315px;
+    }
+    #sriLankaPng {
+        position: absolute;
+        margin-left: 566px;
+        margin-top: -306px;
+    }
+    .coltwo {
+        position: absolute;
+        margin-top: -228px;
+        margin-left: 872px;
+        /* padding: 0px; */
+    }
+    #menu {
+        color: white;
+        margin-left: 896px;
+        margin-top: -278px;
+        font-weight: bold;
+        position: absolute;
+    }
+    #copyright {
+        font-size: 102%;
+        position: absolute;
+        margin-left: 556px;
+        margin-top: 52px;
+        color: dimgray;
+        margin-right: -536px;
+    }
+
+    #terms {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        margin-top: 58px;
+        margin-left: 296px;
+        margin-right: -77px;
+    }
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,238 @@
+@media all and (max-width: 1440px){
+    #headOneh1 {
+        margin-top: 16px;
+        margin-left: 55px;
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+        color: lightslategray;
+        position: absolute;
+    }
+
+    #hrOne {
+        position: absolute;
+        height: 3px;
+        width: 53%;
+        margin-left: 127px;
+        margin-top: 93px;
+    }
+
+    #headTwoh2 {
+        position: absolute;
+        margin-top: 110px;
+        margin-left: 99px;
+        font-size: 23px;
+        font-family: none;
+        color: gray;
+    }
+
+
+    #smileImg {
+        position: absolute;
+        width: 100%;
+        height: 53%;
+        /* margin-left: 58px; */
+        margin-top: 142px;
+    }
+
+    #footer {
+        width: 100%;
+        height: 5%;
+        background-color: gainsboro;
+        position: absolute;
+        margin-top: 578px;
+        margin-left: -12px;
+        border-radius: 1%;
+        opacity: 80.1%;
+    }
+
+    .circles {
+        width: 100%;
+        height: 11px;
+        bottom: 12%;
+        position: absolute;
+        text-align: center;
+        z-index: 99;
+        margin-left: 207px;
+        /* margin-top: 70px; */
+        position: absolute;
+        /* margin-top: 97px; */
+        /* padding-top: 279px; */
+    }
+
+
+
+    #forward4 {
+        width: 33%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 480px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 208px;
+        background-color: revert;
+    }
+
+
+    #donateBtn {
+        position: absolute;
+        margin-top: 489px;
+        margin-left: 219px;
+    }
+
+    #continue2 {
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 204px;
+        width: 26%;
+        height: 7%;
+        border-radius: 8%;
+        padding-right: 27px;
+        background-color: dimgray;
+    }
+
+    #frontImg2 {
+        position: absolute;
+        margin-top: 515px;
+        margin-left: 310px;
+        width: 3%;
+    }
+
+    #forward2 {
+        width: 33%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 493px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 181px;
+        background-color: revert;
+    }
+
+    .btn2 {
+        position: absolute;
+        margin-top: 335px;
+        margin-left: 27px;
+        height: 12%;
+        width: 29%;
+        border-radius: 9%;
+        border-color: aliceblue;
+        background-color: darkmagenta;
+        color: honeydew;
+    }
+
+
+    #donation {
+        position: absolute;
+        height: 6%;
+        width: 94%;
+        background: border-box;
+        margin-top: 426px;
+        padding: 27px;
+        padding-left: 147px;
+        padding-top: 9px;
+        margin-left: 19px;
+        border-radius: 3%;
+        box-shadow: 0px 1px 3px #9e9e9e;
+        background-color: ghostwhite;
+    }
+
+    #continue {
+        position: absolute;
+        margin-top: 488px;
+        margin-left: 201px;
+        width: 28%;
+        height: 7%;
+        background-color: dimgray;
+        border-radius: 8%;
+    }
+    #frontImg {
+        position: absolute;
+        margin-top: 504px;
+        margin-left: 323px;
+        width: 3%;
+    }
+
+    #forward3 {
+        width: 33%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 480px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 190px;
+        background-color: revert;
+    }
+    #paypalbar {
+        position: absolute;
+        background-color: ghostwhite;
+        width: 93%;
+        height: 6%;
+        margin-top: 453px;
+        margin-left: 24px;
+        box-shadow: 0px 2px 10px darkgrey;
+        padding-left: 143px;
+        padding-top: 6px;
+    }
+
+    #btnDoantelast {
+        position: absolute;
+        margin-top: 501px;
+        margin-left: 185px;
+        width: 30%;
+        height: 7%;
+        border-radius: 9%;
+        background-color: crimson;
+    }
+    #forward {
+        width: 33%;
+        height: 7%;
+        /* margin-left: 72px; */
+        margin-top: 501px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 207px;
+        background-color: revert;
+    }
+
+    #paraContent {
+        margin-top: 78px;
+        margin-bottom: 1rem;
+        /* padding: 109px; */
+        padding-left: 102px;
+        padding-right: 81px;
+        font-size: 115%;
+    }
+
+
+    #img3 {
+        position: absolute;
+        width: 27%;
+        height: 73%;
+        margin-left: 979px;
+        margin-top: 65px;
+    }
+
+
+    #blackFooter2 {
+        width: 100%;
+        height: 78%;
+        background-color: black;
+        margin-top: 595px;
+    }
+    #copyright {
+        font-size: 102%;
+        position: absolute;
+        margin-left: 710px;
+        margin-top: 67px;
+        color: dimgray;
+    }
+
+
+
+
+
+
+
+
+
+}

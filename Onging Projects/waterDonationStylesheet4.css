@@ -1,0 +1,136 @@
+@media all and (max-width: 1024px){
+
+    #headerbar {
+        width: 124%;
+        height: 16%;
+        background-color: darkmagenta;
+        position: absolute;
+        margin-top: -168px;
+        margin-left: 22px;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+    }
+
+    #desc {
+        position: absolute;
+        margin-left: 114px;
+        margin-top: 36px;
+        font-size: 207%;
+        color: aliceblue;
+    }
+
+
+    #formContent{
+        width: 572px;
+        height: 96%;
+        margin-top: 184px;
+        margin-right: -197px;
+    }
+
+    #paraContent {
+        margin-top: 54px;
+        margin-bottom: 1rem;
+        /* padding: 109px; */
+        padding-left: 102px;
+        padding-right: 81px;
+        font-size: 101%;
+    }
+
+    #img2 {
+        position: absolute;
+        width: 32%;
+        height: 75%;
+        margin-left: 461px;
+        margin-top: 58px;
+    }
+    #img3 {
+        position: absolute;
+        width: 27%;
+        height: 73%;
+        margin-left: 921px;
+        margin-top: 65px;
+    }
+
+    #imageDiv {
+        position: absolute;
+        background-color: slategray;
+        width: 125%;
+        height: 66%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-top: 760px;
+        margin-left: 30px;
+    }
+    #blackFooter2 {
+        width: 149%;
+        height: 78%;
+        background-color: black;
+        margin-top: 595px;
+    }
+    #lastParagraph {
+        color: white;
+        /* position: absolute; */
+        /* padding-left: 312px; */
+        /* padding-right: 180px; */
+        margin-top: -234px;
+        margin-left: 635px;
+        margin-right: -500px;
+    }
+    #educationPng {
+        position: absolute;
+        margin-left: 1082px;
+        margin-top: -291px;
+    }
+
+    #charityPng {
+        position: absolute;
+        margin-left: 1018px;
+        margin-top: -298px;
+    }
+    #sriLankaPng {
+        position: absolute;
+        margin-left: 946px;
+        margin-top: -290px;
+    }
+    #menu {
+        color: white;
+        margin-left: 646px;
+        margin-top: -278px;
+        font-weight: bold;
+        position: absolute;
+    }
+    .coltwo {
+        position: absolute;
+        margin-top: -228px;
+        margin-left: 621px;
+        /* padding: 0px; */
+    }
+    #loationPng {
+        position: absolute;
+        width: 5%;
+        height: 4%;
+        padding-left: 31px;
+        margin-left: -77px;
+        margin-top: -3px;
+    }
+
+    #copyright {
+        font-size: 102%;
+        position: absolute;
+        margin-left: 919px;
+        margin-top: 67px;
+        color: dimgray;
+        margin-right: -244px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

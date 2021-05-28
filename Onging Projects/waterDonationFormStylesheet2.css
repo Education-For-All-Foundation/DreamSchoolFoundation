@@ -557,10 +557,10 @@ html,body{
     height: 5%;
     background-color: gainsboro;
     position: absolute;
-    margin-top: 645px;
+    margin-top: 660px;
     margin-left: -12px;
     border-radius: 1%;
-    opacity: 80.1%
+    opacity: 80.1%;
 }
 #lockPng {
     margin-left: 184px;
