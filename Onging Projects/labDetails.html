@@ -5,6 +5,13 @@
     <title>Computer Lab project Details</title>
     <link rel="stylesheet" type="text/css" href="labDetailsStylesheet.css">
     <link rel="stylesheet" type="text/css" href="labFormDetailsStylesheet2.css">
+    <link rel="stylesheet" media="(max-width:1440px)" href="labDetailsStylesheet3.css">
+    <link rel="stylesheet" media="(max-width:1024px)" href="labDetailsStylesheet4.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="labDetailsStylesheet5.css">
+    <link rel="stylesheet" media="(max-width:450px)" href="labDetailsStylesheet6.css">
+    <link rel="stylesheet" media="(max-width:400px)" href="labDonationDetails7.css">
+    <link rel="stylesheet" media="(max-width:330px)" href="labDonationStylesheet8.css">
+    <link rel="stylesheet" media="(min-width:2560px) and (max-width:3000px)" href="labDetailsStylesheet9.css">
 
     <title>Computer Lab Donate Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,12 +70,7 @@
 
 
 
-    <p id="para1" style="margin-top: 70px;
-    margin-bottom: 1rem;
-    /* padding: 109px; */
-    padding-left: 102px;
-    padding-right: 81px;
-    font-size: 121%;">
+    <p id="para1" >
         Medagama Navodya School is one of the main school in the Monaragala District. Approximately 180 students study here.<br>
 
         However, the school's educational environment had insufficient equipment and outdated systems to carry out the mission to train students. They don't have a computer lab and some of the children haven't even seen a computer yet.<br>
@@ -95,10 +97,7 @@
 
 
 
-<div class="container"style=" width: 566px;
-    height: 96%;
-    margin-top: 189px;
-    margin-right: 74px;">
+<div class="container" id="oneContainer">
 
     <input type="radio" class="rdioBtn" name="images" id="i1" checked>
     <input type="radio" class="rdioBtn" name="images" id="i2">
@@ -108,9 +107,9 @@
 
     <!--Slide 1-->
     <div class="slideImg" id="one">
-        <div><h1 style= "margin-top: 37px;margin-left: 89px;font-size: 28px;font-family: 'Poppins', sans-serif;color: lightslategray;position: absolute;">&nbsp;&nbsp;&nbsp;&nbsp;Computer lab project <br>of Medagama Navodya School</h1>
-            <hr style="    position: absolute;height: 3px;width: 53%;margin-left: 127px;margin-top: 122px;">
-            <h2 style=" position: absolute;margin-top: 140px;margin-left: 99px;font-size: 23px;font-family: none;color: gray;">Let's help them for fulfill their dreams.</h2><img id="smileImg" src="../images/computerLab2.jpg" >
+        <div><h1 id="headOne">&nbsp;&nbsp;&nbsp;&nbsp;Computer lab project <br>of Medagama Navodya School</h1>
+            <hr id="hrOne">
+            <h2 id="headTwoOne">Let's help them for fulfill their dreams.</h2><img id="smileImg" src="../images/computerLab2.jpg" >
 
             <button type="button" id="donateBtn" class="btn btn-danger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
 
@@ -154,7 +153,7 @@
 
         <div id="donation"><input type="checkbox">&nbsp;&nbsp;Make this donation monthly</div>
         <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
-        <input id="continue" type="button"value="Continue"><img src="../images/icons8-forward-26.png" style="position: absolute;margin-top: 568px;margin-left: 315px;width: 3%">
+        <input id="continue" type="button"value="Continue"><img src="../images/icons8-forward-26.png" id="forwardImgone">
 
 
 
@@ -187,7 +186,7 @@
             <label id="labeladdrss"> Address</label><textarea id="address" placeholder="Enter your address..."></textarea>
             <label id="labeldisc"> Donation Discription<br> (Optional) </label><textarea id="disc" placeholder="Type your discription here(Optional)..."></textarea>
 
-            <input id="continue2" type="button"value="Continue"><img src="../images/icons8-forward-26.png" style="position: absolute;margin-top: 545px;margin-left: 310px;width: 3%;">
+            <input id="continue2" type="button"value="Continue"><img src="../images/icons8-forward-26.png" id="forwardImgTwo">
 
 
             <label for="i1" class="pre"></label>
@@ -245,7 +244,7 @@
                 <h3 class="bar1" style="font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;">Donate in Paypal</h3>
             </a></div>
 
-        <button style="position: absolute;margin-top: 537px;margin-left: 185px; width: 30%;height: 7%;border-radius: 9%;background-color: crimson;" id="btnDoante">Donate</button>
+        <button id="btnDoante">Donate</button>
 
 
 
@@ -260,7 +259,7 @@
 
 
 
-    <div class="circles" style="position: absolute;margin-bottom: -29px;margin-left: -17px;">
+    <div class="circles" >
         <label class="dots" id="dot1" for="i1"></label>
         <label class="dots" id="dot2" for="i2"></label>
         <label class="dots" id="dot3" for="i3"></label>
@@ -278,10 +277,7 @@
 
 
 
-<div class="footer" style=" width: 100%;
-    height: 65%;
-    background-color: black;
-    margin-top: 595px;">
+<div id="blackFooterTwo">
     <table>
         <tr>
             <td  id="oneData"><img id="loationPng" src="../images/icons8-location-24.png">No 30,Ward Place,Colombo 07,Sri Lanka</td>
@@ -333,9 +329,9 @@
     <img id="educationPng" src="../images/icons8-education-48.png">
 </span>
 
-    <div class="colThree">
-        <p>Dream School Foundation is a Registered NGO With the Sri Lanken Charities and Not For Profits Commission also a Public Benevolent Institution (PBI) dedicated to assisting the needy, vulnerable and underprivileged in Sri Lanka And Overseas whether it be due to disaster or endemic poverty. Dream School Foundation is endorsed as a Deductible Gift Recipient (DGR) with the Sri Lanken Tax Office.</p>
-    </div>
+
+        <p id="lastPara">Dream School Foundation is a Registered NGO With the Sri Lanken Charities and Not For Profits Commission also a Public Benevolent Institution (PBI) dedicated to assisting the needy, vulnerable and underprivileged in Sri Lanka And Overseas whether it be due to disaster or endemic poverty. Dream School Foundation is endorsed as a Deductible Gift Recipient (DGR) with the Sri Lanken Tax Office.</p>
+
 
     <a id="privacy"  href="#">Privacy Policy | </a>
     <a id="terms" href="#">Terms Of Use</a>
