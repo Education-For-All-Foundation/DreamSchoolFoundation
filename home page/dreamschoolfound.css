@@ -12,37 +12,68 @@ p{
     font-weight: 300;
     color: #111;
 }
+/*style of banner*/
 
-.banner{
+.slider{
     position: relative;
     width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+.slider .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../home\ page/image/banner.jpg);
-    background-size: cover;
+    transition: 0.5s;
+    transition-delay: 0s;
+    z-index: 1;
+    clip-path: circle(0px at center);
+   
 }
 
-.banner .content{
-    max-width: 900px;
+.slider input[type="radio"]:checked + .imgBx{
+    z-index: 10;
+    clip-path: circle(1000px at center);
+    transition-delay: 0.75s;
+}
+.slider .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.slider .imgBx .content {
+    position: relative;
     text-align: center;
+    max-width: 800px;
 }
 
-.banner .content h2{
-    font-size: 5em;
+.slider .imgBx .content h2{
+    font-size: 6em;
+    line-height: 1em;
     color: white;
     text-transform: uppercase;
-    font-weight: 600;
 }
-.banner .content p{
-    font-size: 1em;
+.slider .imgBx .content p{
+    font-size: 1.1em;
     color: white;
 }
 
-/* styles of button*/
-
-.btn{
+.slider .imgBx .content a{
     font-size: 1em;
     color: white;
     background: deepskyblue;
@@ -54,10 +85,20 @@ p{
     letter-spacing: 2px;
     transition: 0.5s ;
 }
-.btn:hover{
+.slider .imgBx .content a:hover{
     letter-spacing: 6px;
     background-color: dodgerblue;
 }
+.slider input[type="radio"]{
+    position: relative;
+    z-index: 1000;
+    margin: 5px;
+    margin-bottom: 40px;
+    outline: none;
+    cursor: pointer;
+}
+
+
 /* header and navigation bar style*/
 
 header{
