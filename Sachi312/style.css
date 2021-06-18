@@ -9,4 +9,13 @@
     font-family: sans-serif;
     background: rgba(187, 187, 245);
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(141, 103, 103, 0.26);
 }
