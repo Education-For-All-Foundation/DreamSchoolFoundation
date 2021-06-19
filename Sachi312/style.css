@@ -83,3 +83,21 @@ button {
     color: #fff;
     cursor: pointer;
 }
+
+.submit-btn {
+    position: relative;
+}
+
+.submit-btn::after {
+    content: '\27a4';
+    color: #333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
