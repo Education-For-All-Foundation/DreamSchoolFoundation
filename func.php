@@ -18,13 +18,17 @@ function getcomments($conn){
 			echo "<div class='username'>".$row['uid']."</div>";
 			echo "<div class='msg'>".$row['date']."<br>";
 			echo nl2br($row['message'])."<br>";
-			echo "</div></p><form class='edit-form' method='POST' action='editcomment.php'>
-							<input type='hidden' name='cid' value='".$row['cid']."'>
-							<input type='hidden' name='uid' value='".$row['uid']."'>
-							<input type='hidden' name='date' value='".$row['date']."'>
-							<input type='hidden' name='message' value='".$row['message']."'>
-							<button>EDIT</button></form>
-			</div></div></div>";
+			echo "</div></p>
+			<form class='delete-form' method='POST' action='".deletecomments()."'>
+					<input type='hidden' name='cid' value='".$row['cid']."'>
+					<button>DELETE</button></form>
+			<form class='edit-form' method='POST' action='editcomment.php'>
+					<input type='hidden' name='cid' value='".$row['cid']."'>
+					<input type='hidden' name='uid' value='".$row['uid']."'>
+					<input type='hidden' name='date' value='".$row['date']."'>
+					<input type='hidden' name='message' value='".$row['message']."'>
+					<button>EDIT</button></form>
+				</div></div></div>";
 	}
 
 }
@@ -40,6 +44,11 @@ function editcomments($conn){
 		$result = $conn->query($sql);
 		header("Location: Comments.php");
 	}
+}
+
+
+function deletecomments(){
+	
 }
 
 ?>

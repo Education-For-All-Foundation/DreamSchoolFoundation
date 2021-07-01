@@ -89,3 +89,22 @@ textarea{
 .edit-form button:hover{
 	opacity: 1;
 }
+
+.delete-form{
+	bottom: 0px;
+	right: 40px;
+	position: absolute;
+}
+
+.delete-form button{
+	background-color: transparent;
+	border: none;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.delete-form button:hover{
+	opacity: 1;
+}
