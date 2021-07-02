@@ -19,9 +19,9 @@ function getcomments($conn){
 			echo "<div class='msg'>".$row['date']."<br>";
 			echo nl2br($row['message'])."<br>";
 			echo "</div></p>
-			<form class='delete-form' method='POST' action='".deletecomments()."'>
+			<form class='delete-form' method='POST' action='".deletecomments($conn)."'>
 					<input type='hidden' name='cid' value='".$row['cid']."'>
-					<button>DELETE</button></form>
+					<button type='submit' name='DeleteComment'>DELETE</button></form>
 			<form class='edit-form' method='POST' action='editcomment.php'>
 					<input type='hidden' name='cid' value='".$row['cid']."'>
 					<input type='hidden' name='uid' value='".$row['uid']."'>
@@ -47,8 +47,14 @@ function editcomments($conn){
 }
 
 
-function deletecomments(){
-	
+function deletecomments($conn){
+	if (isset($_POST['DeleteComment'])) {
+		$cid = $_POST['cid'];
+
+		$sql = "DELETE FROM comments WHERE cid='".$cid."'";
+		$result = $conn->query($sql);
+		header("Location: Comments.php");
+	}
 }
 
 ?>
