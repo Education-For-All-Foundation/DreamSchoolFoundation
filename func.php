@@ -57,4 +57,35 @@ function deletecomments($conn){
 	}
 }
 
+function getlogin($conn){
+	if (isset($_POST['login'])) {
+		$uid = $_POST['uid'];
+		$pwd = $_POST['pwd'];
+
+		$sql = "SELECT * FROM userD WHERE uid='$uid' AND pwd='$pwd'";
+		$result = $conn->query($sql);
+
+		if (mysqli_num_rows($result) > 0){
+			if ($row = $result->fetch_assoc()) {
+				$_SESSION['id']=$row['id'];
+				header('Location:Comments.php?LoginSuccess');
+				exit();
+			}
+
+		} else{
+				header('Location:Comments.php?LoginFailed');
+				exit();
+		}
+	}
+
+	function logout(){
+			if (isset($_POST['logout'])) {
+					session_start();
+					session_destroy();
+					header('Location:Comments.php');
+					exit();
+			}
+		}
+}
+
 ?>

@@ -10,6 +10,10 @@ body{
 	font-family: montserrat;
 	font-weight: 400;
 }
+
+
+/*Navigation Section*/
+
 nav{
 	background: #0082e6;
 	height: 100px;
@@ -103,6 +107,7 @@ a.active,a:hover{
 }
 
 
+/*Comment Section*/
 
  .container{
 	margin: 20px;
@@ -126,7 +131,6 @@ textarea{
 
 #post{
 	width: 70px;
-	
 	height: 40px;
 	background-color: #282828;
 	border: none;
@@ -141,6 +145,24 @@ textarea{
 }
 
 #post:hover{
+	background-color: #0082e6;
+}
+
+.log{
+	width: 70px;
+	height: 25px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+	margin-top: 15px;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.log:hover{
 	background-color: #0082e6;
 }
 

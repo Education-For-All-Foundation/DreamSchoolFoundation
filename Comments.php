@@ -2,6 +2,7 @@
 	date_default_timezone_set('Asia/Colombo');
 	include 'func.php';
 	include 'dbCon.php';
+	session_start();
 ?>
 
 <!DOCTYPE html>
@@ -32,6 +33,25 @@
 			
 		</ul>
 	</nav>
+
+
+	<?php 
+		echo "<form method='POST' action='".getlogin($conn)."'>
+				<input placeholder='Username' type='text' name='uid'>
+				<input placeholder='Password' type='password' name='pwd'>
+				<button class='log' type='submit' name='login'>Login</button>
+			</form>";
+
+		echo "<form method='POST' action='".logout()."'>
+				<button class='log' type='submit' name='logout'>Logout</button>
+			</form>";
+
+			if (isset($_SESSION['id'])) {
+				echo "You are logged in!";
+			}else{
+				echo "You are not logged in!";
+			}
+	?>
 
 <?php
 echo "<div class='container'><div class='row'><form method='POST' action='".setcomments($conn)."'>
