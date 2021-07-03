@@ -37,7 +37,7 @@
 echo "<div class='container'><div class='row'><form method='POST' action='".setcomments($conn)."'>
 	<input type='hidden' name='uid' value='anonymous'>
 	<input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
-	<textarea name='message' required></textarea><br>
+	<textarea name='message' placeholder='Type your feedback here' required></textarea><br>
 	<button id='post' type='submit' name='commentSubmit'>Post</button>
 </form></div></div>";
 
