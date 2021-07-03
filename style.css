@@ -148,23 +148,7 @@ textarea{
 	background-color: #0082e6;
 }
 
-.log{
-	width: 70px;
-	height: 25px;
-	background-color: #282828;
-	border: none;
-	color: #fff;
-	font-family: arial;
-	font-weight: 400;
-	cursor: pointer;
-	margin-top: 15px;
-	padding: 5px;
-	border-radius: 4px;
-}
 
-.log:hover{
-	background-color: #0082e6;
-}
 
 .commentbox{
 	width: 100%;
@@ -176,6 +160,14 @@ textarea{
 }
 
 .commentbox p{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bolder;
+	columns: #282828;
+	line-height: 15px;
+}
+
+p{
 	font-family: arial;
 	font-size: 14px;
 	font-weight: bolder;
@@ -238,3 +230,48 @@ textarea{
 .delete-form button:hover{
 	opacity: 1;
 }
+
+
+/*user login*/
+
+.userNP{
+	margin-right: 5px;
+	border-radius: 4px;
+	border: 2px solid grey;
+	padding: 5px;
+}
+
+.log{
+	width: 70px;
+	height: 25px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+	margin-top: 0;
+	padding: 5px;
+	border-radius: 4px;
+	margin-right: 5px;
+}
+
+.log:hover{
+	background-color: #0082e6;
+}
+
+ .containerlog{
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0;
+}
+
+.rowlog{
+	margin-top:2px;
+	display: flex;
+	justify-content: space-between ;
+	margin-bottom: 0;
+
+}
+

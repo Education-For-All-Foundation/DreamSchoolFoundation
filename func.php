@@ -14,21 +14,35 @@ function getcomments($conn){
 	$sql = "SELECT * FROM comments ORDER BY date desc";
 	$result = $conn->query($sql);
 	while ($row = $result->fetch_assoc()) {
-		echo "<div class='container'><div class='row'><div class='commentbox'><p>";
-			echo "<div class='username'>".$row['uid']."</div>";
+		$id=$row['uid'];
+		$sql2 = "SELECT * FROM userD WHERE id='$id'";
+		$result2 = $conn->query($sql2);
+		if ($row2 = $result2->fetch_assoc()) {
+			echo "<div class='container'><div class='row'><div class='commentbox'><p>";
+			echo "<div class='username'>".$row2['uid']."</div>";
 			echo "<div class='msg'>".$row['date']."<br>";
 			echo nl2br($row['message'])."<br>";
-			echo "</div></p>
-			<form class='delete-form' method='POST' action='".deletecomments($conn)."'>
-					<input type='hidden' name='cid' value='".$row['cid']."'>
-					<button type='submit' name='DeleteComment'>DELETE</button></form>
-			<form class='edit-form' method='POST' action='editcomment.php'>
-					<input type='hidden' name='cid' value='".$row['cid']."'>
-					<input type='hidden' name='uid' value='".$row['uid']."'>
-					<input type='hidden' name='date' value='".$row['date']."'>
-					<input type='hidden' name='message' value='".$row['message']."'>
-					<button>EDIT</button></form>
-				</div></div></div>";
+			echo "</div></p>";
+
+			if (isset($_SESSION['id'])) {
+				if ($_SESSION['id'] == $row2['id']) {
+					echo "<form class='delete-form' method='POST' action='".deletecomments($conn)."'>
+						<input type='hidden' name='cid' value='".$row['cid']."'>
+						<button type='submit' name='DeleteComment'>DELETE</button>
+						</form>
+
+					<form class='edit-form' method='POST' action='editcomment.php'>
+						<input type='hidden' name='cid' value='".$row['cid']."'>
+						<input type='hidden' name='uid' value='".$row['uid']."'>
+						<input type='hidden' name='date' value='".$row['date']."'>
+						<input type='hidden' name='message' value='".$row['message']."'>
+					<button>EDIT</button></form>";
+				}
+			}
+
+			echo "</div></div></div>";
+		}
+			
 	}
 
 }

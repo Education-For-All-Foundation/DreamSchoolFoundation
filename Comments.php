@@ -36,32 +36,31 @@
 
 
 	<?php 
-		echo "<form method='POST' action='".getlogin($conn)."'>
-				<input placeholder='Username' type='text' name='uid'>
-				<input placeholder='Password' type='password' name='pwd'>
+		echo "<div class='containerlog'><div class='rowlog'>
+				<form method='POST' action='".getlogin($conn)."'>
+				<input placeholder='Username' type='text' name='uid' class='userNP'>
+				<input placeholder='Password' type='password' name='pwd' class='userNP'><br></div></div><div class='containerlog'><div class='rowlog'>
 				<button class='log' type='submit' name='login'>Login</button>
 			</form>";
 
 		echo "<form method='POST' action='".logout()."'>
 				<button class='log' type='submit' name='logout'>Logout</button>
-			</form>";
+			</form></div></div>";
 
 			if (isset($_SESSION['id'])) {
-				echo "You are logged in!";
+					echo "<div class='container'><div class='row'><form method='POST' action='".setcomments($conn)."'>
+					<input type='hidden' name='uid' value='".$_SESSION['id']."'>
+					<input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+					<textarea name='message' placeholder='Type your feedback here' required></textarea><br>
+					<button id='post' type='submit' name='commentSubmit'>Post</button>
+					</form></div></div>";
 			}else{
-				echo "You are not logged in!";
+				echo "<br><br><p align='center'>You need to be logged in to comment!</p>";
+				echo "<br><br>";
 			}
-	?>
+	getcomments($conn);
 
-<?php
-echo "<div class='container'><div class='row'><form method='POST' action='".setcomments($conn)."'>
-	<input type='hidden' name='uid' value='anonymous'>
-	<input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
-	<textarea name='message' placeholder='Type your feedback here' required></textarea><br>
-	<button id='post' type='submit' name='commentSubmit'>Post</button>
-</form></div></div>";
 
-getcomments($conn);
 ?>
 </body>
 </html>
