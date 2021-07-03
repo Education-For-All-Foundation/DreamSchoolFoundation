@@ -8,6 +8,7 @@
 }
 body{
 	font-family: montserrat;
+	font-weight: 400;
 }
 nav{
 	background: #0082e6;
@@ -124,7 +125,7 @@ textarea{
 }
 
 #post{
-	width: 120px;
+	width: 70px;
 	
 	height: 40px;
 	background-color: #282828;
