@@ -9,9 +9,28 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">DesignX</label>
+		<ul>
+			<li><a  href="#">Home</a></li>
+			<li><a href="#">On going projects</a></li>
+			<li><a href="#">Who are we?</a></li>
+			<li><a href="ourworks.html">Our works</a></li>
+			<li><a href="#">Join with us</a></li>
+			
+		</ul>
+	</nav>
+
+
 	<?php 
 		$cid = $_POST['cid'];
 		$uid = $_POST['uid'];
