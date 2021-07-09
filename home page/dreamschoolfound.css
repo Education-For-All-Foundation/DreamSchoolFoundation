@@ -144,14 +144,22 @@ header .navigation li a{
 header .navigation li a:hover{
     color: #ff0157;
 }
-
+section{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
 /*work for smiles*/
 
 .intro-area{
     position: relative;
-    padding: 100px 0px;
+    padding: 100px 10px;
     text-align: center;
     min-height: 100vh;
+    margin: center;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -324,3 +332,20 @@ header .navigation li a:hover{
 }
 
 /*icon design*/
+
+
+@media(max-width:991px)
+{
+    header{
+        padding:20px ;
+    }
+
+    header .logo{
+        max-width: 60px;
+    }
+
+    header .navigation {
+       
+        display: none;
+    }
+}
