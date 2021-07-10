@@ -281,7 +281,7 @@ section{
 /*testimonials*/
 
 
-@media (max-width: 991px){
+@media (max-width:991px){
     header,
     header.sticky{
         padding: 10px 20px;
@@ -290,11 +290,99 @@ section{
     header .navigation{
         display: none;
     }
+    header .navigation.active{
+        width: 100%;
+        height: calc(100% - 68px);
+        position: fixed;
+        top: 108px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background:deepskyblue ;
+    }
+
+    header .navigation li{
+        margin-left: 0;
+    }
+    header .navigation li a{
+        text-decoration: none;
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+
+
     .menuToggle{
         position: relative;
         width: 40px;
         height: 40px;
         background: url(image/menu.png);
         background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
     }
+
+    .menuToggle.active{
+        background: url(image/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    section{
+        padding: 20px;
+    }
+
+    .banner .content h2{
+        font-size: 3em;
+        color:white;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row .co150 {
+        position: relative;
+        width: 100%;
+    }
+
+    .row .co150 .imgBx{
+       
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .menu .content{
+        margin-top: 20px;
+    }
+
+    .menu .content .box{
+        margin: 10px;
+    }
+    .menu .content .box .imgBx{
+        height: 260px;
+    }
+    .titleText {
+        font-size: 1.8em;
+        font-weight: 400;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    p{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .testimonials .content .box{
+        margin: 10px;
+        padding: 20px;
+    }
+
 }
