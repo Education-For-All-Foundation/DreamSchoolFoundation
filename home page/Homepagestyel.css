@@ -213,6 +213,7 @@ section{
 
 .testimonials {
     background:url(image/raise.jpg);
+    background-size: cover;
 }
 
 
