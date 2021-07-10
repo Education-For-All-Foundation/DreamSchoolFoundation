@@ -281,7 +281,7 @@ section{
 /*testimonials*/
 
 
-@media (max-width:991px){
+@media (max-width: 991px){
     header,
     header.sticky{
         padding: 10px 20px;
@@ -290,14 +290,11 @@ section{
     header .navigation{
         display: none;
     }
-   
-    
     .menuToggle{
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(image\menu.png);
+        background: url(image/menu.png);
         background-size: 30px;
     }
-    
 }
