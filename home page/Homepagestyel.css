@@ -290,27 +290,14 @@ section{
     header .navigation{
         display: none;
     }
-    header .navigation.active{
-        width: 100%;
-        height: calc(100% - 68px);
-        position: fixed;
-        top: 108px;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background:deepskyblue ;
+   
+    
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(image\menu.png);
+        background-size: 30px;
     }
-
-    header .navigation li{
-        margin-left: 0;
-    }
-    header .navigation li a{
-        text-decoration: none;
-        font-size: 1.6em;
-        font-weight: 300;
-    }
-
-
+    
 }
