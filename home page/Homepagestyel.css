@@ -43,3 +43,23 @@ p{
 
 }
 /*banner style*/
+
+/*login button*/
+.btn{
+    font-size: 1em;
+    color: white;
+    background: deepskyblue;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s ;
+}
+.btn:hover{
+    letter-spacing: 6px;
+    background-color: dodgerblue;
+}
+
+/*login button*/
