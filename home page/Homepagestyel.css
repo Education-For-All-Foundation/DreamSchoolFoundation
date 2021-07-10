@@ -386,3 +386,11 @@ section{
     }
 
 }
+
+@media (max-width:480px){
+
+    .banner .content h2{
+        font-size: 2.2em;
+        color: white;
+    }
+}
