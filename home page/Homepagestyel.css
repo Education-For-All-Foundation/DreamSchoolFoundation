@@ -16,3 +16,30 @@ p{
     font-weight: 300;
     color: #111;
 }
+  /* banner style*/
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(banner.jpg);
+    background-size: cover;
+}  
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+
+.banner .content h2{
+    font-size: 5em;
+    color:white;
+    text-transform: uppercase;
+}
+.banner .content p{
+    font-size: 1.1em;
+    color: white;
+
+}
+/*banner style*/
