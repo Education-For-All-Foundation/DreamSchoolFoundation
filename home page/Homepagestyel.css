@@ -279,3 +279,38 @@ section{
 
 
 /*testimonials*/
+
+
+@media (max-width:991px){
+    header,
+    header.sticky{
+        padding: 10px 20px;
+    }
+
+    header .navigation{
+        display: none;
+    }
+    header .navigation.active{
+        width: 100%;
+        height: calc(100% - 68px);
+        position: fixed;
+        top: 108px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background:deepskyblue ;
+    }
+
+    header .navigation li{
+        margin-left: 0;
+    }
+    header .navigation li a{
+        text-decoration: none;
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+
+
+}
