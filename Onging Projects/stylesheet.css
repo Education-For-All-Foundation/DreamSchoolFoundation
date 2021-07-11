@@ -67,10 +67,11 @@ slide:nth-child(4){
 
     width: 25rem;
     height: 28rem;
-    //animation: animate2 2s ease-in-out 0s infinite;
 
 
 }
+
+
 
 /*@keyframes animate2 {
     from{
@@ -153,6 +154,7 @@ h1{
 }
 .card:hover{
     transform: scale(1.1);
+    transform: scale(0.9);
 }
 .card-title{
     text-align: center;
@@ -212,7 +214,7 @@ h1{
 #redOne {
     margin-right: 58px;
     margin-top: 23px;
-    animation: animate1 2s ease-in-out 0s infinite;
+  /*  animation: animate1 2s ease-in-out 0s infinite;*/
 }
 
 @keyframes animate1 {
@@ -226,7 +228,7 @@ h1{
 #redTwo {
     margin-right: 77px;
     margin-top: 24px;
-    animation: animate2 2s ease-in-out 0s infinite;
+   /* animation: animate2 2s ease-in-out 0s infinite;*/
 }
 @keyframes animate2 {
     from{
@@ -240,7 +242,7 @@ h1{
 
 #redThree {
     margin-right: 71px;
-    animation: animate3 2s ease-in-out 0s infinite;
+   /* animation: animate3 2s ease-in-out 0s infinite;*/
 }
 @keyframes animate3 {
     from{
