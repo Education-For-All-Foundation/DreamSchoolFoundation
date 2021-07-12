@@ -159,30 +159,73 @@
     }
     #continue2 {
         position: absolute;
-        margin-top: 483px;
-        margin-left: 149px;
-        width: 30%;
-        height: 7%;
+        margin-top: 474px;
+        margin-left: 282px;
+        width: 23%;
+        height: 8%;
         border-radius: 8%;
         padding-right: 27px;
-        background-color: dimgray;
+        background-color: green;
     }
+    #sumbit1 {
+        position: absolute;
+        margin-top: 475px;
+        width: 21%;
+        height: 47px;
+        margin-left: 143px;
+        border-radius: 10%;
+        background-color: red;
+    }
+
     #backImgOne {
         position: absolute;
-        margin-top: 500px;
-        margin-left: 267px;
+        margin-top: 492px;
+        margin-left: 375px;
         width: 3%;
     }
     #forward2 {
-        width: 33%;
+        width: 23%;
         height: 9%;
         /* margin-left: 72px; */
-        margin-top: 483px;
+        margin-top: 473px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 216px;
+        margin-right: 121px;
         background-color: revert;
     }
+
+    #nameError {
+        position: absolute;
+        margin-top: 109px;
+        margin-left: 142px;
+    }
+
+    #emailError {
+        position: absolute;
+        margin-top: 165px;
+        margin-left: 145px;
+    }
+
+    #phoneError {
+        position: absolute;
+        margin-top: 222px;
+        margin-left: 145px;
+    }
+
+    #addressError {
+        position: absolute;
+        margin-top: 278px;
+        margin-left: 142px;
+    }
+
+    #successOne {
+        position: absolute;
+        margin-top: 448px;
+        margin-left: 168px;
+    }
+
+
+
     #para {
         position: absolute;
         margin-top: 52px;
@@ -262,17 +305,17 @@
     }
     #continue {
         position: absolute;
-        margin-top: 453px;
-        margin-left: 146px;
-        width: 28%;
+        margin-top: 468px;
+        margin-left: 244px;
+        width: 24%;
         height: 7%;
-        background-color: dimgray;
+        background-color: green;
         border-radius: 8%;
     }
     #backImgTwo {
         position: absolute;
-        margin-top: 469px;
-        margin-left: 262px;
+        margin-top: 483px;
+        margin-left: 344px;
         width: 3%;
     }
 
@@ -281,6 +324,28 @@
         margin-left: 107px;
         margin-top: 5px;
     }
+
+    #forward3 {
+        width: 22%;
+        height: 7%;
+        /* margin-left: 72px; */
+        margin-top: 468px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 155px;
+        background-color: revert;
+    }
+
+    #submit2 {
+        position: absolute;
+        margin-top: 467px;
+        margin-left: 96px;
+        width: 23%;
+        height: 45px;
+        border-radius: 10%;
+        background-color: red;
+    }
+
 
     #h3tLast {
         font-size: 105%;
@@ -300,6 +365,29 @@
         padding-left: 143px;
         padding-top: 6px;
     }
+
+    #successTwo {
+        position: absolute;
+        margin-top: 441px;
+        margin-left: 117px;
+    }
+    #amountError {
+        position: absolute;
+        margin-top: 434px;
+        margin-left: 114px;
+    }
+
+    #successThree {
+        position: absolute;
+        margin-top: 534px;
+        margin-left: 140px;
+    }
+    #paymentError {
+        position: absolute;
+        margin-top: 533px;
+        margin-left: 123px;
+    }
+
     #radioBtn {
         position: absolute;
         margin-top: 6px;

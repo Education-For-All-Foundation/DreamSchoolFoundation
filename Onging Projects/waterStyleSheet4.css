@@ -134,19 +134,72 @@
     }
     #continue2 {
         position: absolute;
-        margin-top: 483px;
-        margin-left: 93px;
-        width: 30%;
-        height: 7%;
+        margin-top: 479px;
+        margin-left: 182px;
+        width: 22%;
+        height: 8%;
         border-radius: 8%;
         padding-right: 27px;
         background-color: dimgray;
     }
 
+    #sumbit1 {
+        position: absolute;
+        margin-top: 480px;
+        width: 21%;
+        height: 47px;
+        margin-left: 50px;
+        border-radius: 10%;
+        background-color: red;
+    }
+    #forward2 {
+        width: 21%;
+        height: 8%;
+        /* margin-left: 72px; */
+        margin-top: 479px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 232px;
+        background-color: revert;
+    }
+
+    #nameError {
+        position: absolute;
+        margin-top: 108px;
+        margin-left: 86px;
+    }
+
+    #emailError {
+        position: absolute;
+        margin-top: 166px;
+        margin-left: 87px;
+    }
+
+    #phoneError {
+        position: absolute;
+        margin-top: 277px;
+        margin-left: 86px;
+    }
+    #addressError {
+        position: absolute;
+        margin-top: 340px;
+        margin-left: 83px;
+    }
+    #submit2 {
+        position: absolute;
+        margin-top: 459px;
+        margin-left: 60px;
+        width: 21%;
+        height: 44px;
+        border-radius: 10%;
+        background-color: red;
+    }
+
+
     #backImgOne {
         position: absolute;
-        margin-top: 500px;
-        margin-left: 223px;
+        margin-top: 498px;
+        margin-left: 271px;
         width: 3%;
     }
 
@@ -251,9 +304,9 @@
 
     #continue {
         position: absolute;
-        margin-top: 453px;
-        margin-left: 93px;
-        width: 28%;
+        margin-top: 460px;
+        margin-left: 188px;
+        width: 21%;
         height: 7%;
         background-color: dimgray;
         border-radius: 8%;
@@ -261,10 +314,34 @@
 
     #backImgTwo {
         position: absolute;
-        margin-top: 468px;
-        margin-left: 217px;
+        margin-top: 475px;
+        margin-left: 278px;
         width: 3%;
     }
+
+    #successTwo {
+        position: absolute;
+        margin-top: 426px;
+        margin-left: 78px;
+    }
+    #amountError {
+        position: absolute;
+        margin-top: 432px;
+        margin-left: 78px;
+    }
+
+    #paymentError {
+        position: absolute;
+        margin-top: 458px;
+        margin-left: 83px;
+    }
+
+    #successThree {
+        position: absolute;
+        margin-top: 523px;
+        margin-left: 87px;
+    }
+
 
     #forward3 {
         width: 38%;

@@ -39,29 +39,44 @@
     }
     #continue2 {
         position: absolute;
-        margin-top: 492px;
-        margin-left: 204px;
-        width: 30%;
+        margin-top: 498px;
+        margin-left: 337px;
+        width: 24%;
         height: 7%;
         border-radius: 8%;
         padding-right: 27px;
         background-color: dimgray;
     }
+    #sumbit1 {
+        position: absolute;
+        margin-top: 496px;
+        width: 23%;
+        height: 46px;
+        margin-left: 195px;
+        border-radius: 10%;
+        background-color: red;
+    }
+    #successOne {
+        position: absolute;
+        margin-top: 535px;
+        margin-left: 213px;
+    }
+
     #backImgOne {
         position: absolute;
-        margin-top: 508px;
-        margin-left: 310px;
+        margin-top: 513px;
+        margin-left: 431px;
         width: 3%;
     }
 
     #forward2 {
-        width: 33%;
-        height: 9%;
+        width: 21%;
+        height: 8%;
         /* margin-left: 72px; */
-        margin-top: 488px;
+        margin-top: 493px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 153px;
+        margin-right: 67px;
         background-color: revert;
     }
     #combo1 {
@@ -118,21 +133,41 @@
         box-shadow: 0px 1px 3px #9e9e9e;
 
     }
-
     #continue {
         position: absolute;
-        margin-top: 474px;
-        margin-left: 201px;
-        width: 28%;
-        height: 7%;
+        margin-top: 470px;
+        margin-left: 274px;
+        width: 24%;
+        height: 8%;
         background-color: dimgray;
         border-radius: 8%;
     }
+    #submit2 {
+        position: absolute;
+        margin-top: 471px;
+        margin-left: 138px;
+        width: 23%;
+        height: 47px;
+        border-radius: 10%;
+        background-color: red;
+    }
+
     #backImgTwo {
         position: absolute;
         margin-top: 490px;
-        margin-left: 315px;
+        margin-left: 373px;
         width: 3%;
+    }
+
+    #successThree {
+        position: absolute;
+        margin-top: 537px;
+        margin-left: 188px;
+    }
+    #paymentError {
+        position: absolute;
+        margin-top: 536px;
+        margin-left: 187px;
     }
 
     #btnDoante{
@@ -145,13 +180,13 @@
         background-color: crimson;
     }
     #forward3 {
-        width: 33%;
-        height: 9%;
+        width: 23%;
+        height: 8%;
         /* margin-left: 72px; */
-        margin-top: 468px;
+        margin-top: 470px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 166px;
+        margin-right: 125px;
         background-color: revert;
     }
     #paypalbar {
