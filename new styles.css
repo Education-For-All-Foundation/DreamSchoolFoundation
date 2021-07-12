@@ -5,10 +5,16 @@
 	list-style: none;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+
 }
 body{
 	font-family: montserrat;
 }
+
+section{
+	z-index: -1;
+}
+
 nav{
 	background: #0082e6;
 	height: 100px;
@@ -55,48 +61,7 @@ a.active,a:hover{
 #check{
 	display: none;
 }
-@media(max-width: 952px){
-	label.logo{
-		font-size: 30px;
-		padding-left: 50px;
-	}
-	nav ul li a{
-		font-size: 16px;
-	}
 
-}
-@media(max-width: 858px){
-	.checkbtn{
-		display: block ;
-	}
-	ul{
-		position: fixed;
-		width: 100%;
-		height: 100vh;
-		background: #2c3e50;
-		top: 100px;
-		left: -100%;
-		text-align: center;
-		transition: all .5s;
-	}
-	nav ul li{
-		display: block;
-		margin: 50px 0;
-		line-height: 30px;
-
-	}
-	nav ul li a{
-		font-size:20px ;
-	}
-	a:hover,a.active{
-		background: none;
-		color: #0082e6;
-	}
-	#check:checked ~ul{
-		left: 0;
-
-	}
-}
 
 
 .pic{
@@ -106,9 +71,11 @@ a.active,a:hover{
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	z-index: -1;
 
 }
 .words{
+	z-index: 0;
 	width:90%;
 	color:#fff;
 	position:absolute;
@@ -116,8 +83,6 @@ a.active,a:hover{
 	left:50%;
 	transform:translate(-50%,-50%);
 	text-align:center;
-
-
 }
 .words h1{
 	font-size: 80px;
@@ -189,16 +154,23 @@ h3{
 .description:hover{
 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
+
+
 @media(max-width: 700px){
 	.row{
 		flex-direction: column;
 	}
 }
+
+
 .campus{
+	z-index: -1;
 	width: 80%;
 	margin: auto;
 	text-align: center;
 	padding-top: 10px;
+	align-items: baseline;
+	position: relative;
 }
 .campus-col{
 	flex-basis: 31%;
@@ -223,6 +195,7 @@ h3{
 	top: 0;
 	left: 0;
 	transition: 0.5s; 
+
 }
 .layer:hover{
 	background: rgba(40, 161, 219, 0.7);
@@ -255,6 +228,8 @@ h3{
 	}	
 }
 
+
+
 .campus-col div h3 p{
 	color: #fff;
 	
@@ -280,6 +255,7 @@ h3{
 	
 }
 .cta{
+
 	margin: 100px auto;
 	width: 80%;
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pictures/banner2.jpg);
@@ -288,6 +264,7 @@ h3{
 	border-radius: 10px;
 	text-align: center;
 	padding:100px 0 ;
+
 }
 .cta h1{
 	color: #fff;
@@ -296,6 +273,11 @@ h3{
 
 
 }
+.cta a{
+	z-index: 80;
+	position: relative;
+}
+
 @media(max-width: 700px){
 	.cta h1{
 		font-size: 24px;
@@ -303,6 +285,8 @@ h3{
 	}
 
 }
+
+
 .footer{
 	width: 100%;
 	text-align: center;
@@ -321,6 +305,8 @@ h3{
 	cursor: pointer;
 	padding: 18px 0; 
 }
+
+
 /*-------- project -----------*/
 .sub-header{
 	height: 70vh;
@@ -354,4 +340,69 @@ h3{
 }
 .about-col p{
 	padding:15px 0 25px ;
+}
+
+@media(max-width: 1150px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 15px;
+	}
+
+}
+
+@media(max-width: 1015px){
+nav ul{
+
+	margin-right: 15px;
+
+}
+
+nav ul li{
+	margin: 0 1px;
+
+}
+
+}
+
+@media(max-width: 900px){
+	.checkbtn{
+		display: block ;
+	}
+
+nav{
+	position: fixed;
+}
+
+	nav ul{
+		z-index: -1;
+		position: fixed;
+		width: 75%;
+		height: 100vh;
+		background: #2c3e50;
+		top: 100px;
+		right: -100%;
+		text-align: center;
+		transition: all .5s;
+		margin: 0;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+
+	}
+	nav ul li a{
+		font-size:20px ;
+	}
+	a:hover,a.active{
+		background: none;
+		color: #0082e6;
+	}
+	#check:checked ~ul{
+		right: 0;
+
+	}
 }
