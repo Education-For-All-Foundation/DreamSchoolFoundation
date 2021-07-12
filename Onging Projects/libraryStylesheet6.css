@@ -19,6 +19,18 @@
         height: 64px;
         font-size: 31px;
     }
+
+    #sumbit1 {
+        position: absolute;
+        margin-top: 848px;
+        margin-left: 162px;
+        width: 27%;
+        height: 70px;
+        border-radius: 8%;
+        background-color: red;
+        font-size: 23px;
+    }
+
     #smileImg {
         position: absolute;
         width: 100%;
@@ -144,20 +156,20 @@
     }
     #continue2 {
         position: absolute;
-        margin-top: 884px;
-        margin-left: 173px;
-        width: 40%;
+        margin-top: 847px;
+        margin-left: 330px;
+        width: 29%;
         height: 7%;
         border-radius: 8%;
         padding-right: 27px;
-        background-color: dimgray;
-        font-size: 28px;
+        background-color: green;
+        font-size: 23px;
     }
 
     #backImgOne {
         position: absolute;
-        margin-top: 916px;
-        margin-left: 350px;
+        margin-top: 876px;
+        margin-left: 452px;
         width: 3%;
     }
     #para2 {
@@ -183,17 +195,40 @@
     }
 
 
-
     #forward2 {
-        width: 45%;
-        height: 9%;
+        width: 23%;
+        height: 7%;
         /* margin-left: 72px; */
-        margin-top: 870px;
+        margin-top: 847px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 142px;
+        margin-right: 47px;
         background-color: revert;
     }
+
+    #nameError {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 138px;
+    }
+
+    #emailError {
+        position: absolute;
+        margin-top: 307px;
+        margin-left: 142px;
+    }
+    #phoneError {
+        position: absolute;
+        margin-top: 406px;
+        margin-left: 142px;
+    }
+    #addressError {
+        position: absolute;
+        margin-top: 539px;
+        margin-left: 143px;
+    }
+
+
     #amount {
         position: absolute;
         margin-left: 175px;
@@ -279,30 +314,64 @@
     }
     #continue {
         position: absolute;
-        margin-top: 884px;
-        margin-left: 144px;
-        width: 49%;
+        margin-top: 858px;
+        margin-left: 301px;
+        width: 31%;
         height: 7%;
         background-color: dimgray;
         border-radius: 8%;
-        font-size: 32px;
+        font-size: 23px;
     }
+
+    #submitTwo {
+        position: absolute;
+        margin-top: 858px;
+        margin-left: 124px;
+        width: 156px;
+        height: 71px;
+        border-radius: 10%;
+        background: red;
+        font-size: 25px;
+    }
+
     #backImgTwo {
         position: absolute;
-        margin-top: 918px;
-        margin-left: 355px;
+        margin-top: 890px;
+        margin-left: 438px;
         width: 3%;
     }
 
     #forward3 {
-        width: 54%;
-        height: 9%;
+        width: 21%;
+        height: 7%;
         /* margin-left: 72px; */
-        margin-top: 864px;
+        margin-top: 857px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 124px;
+        margin-right: 63px;
         background-color: revert;
+    }
+
+    #amountError {
+        position: absolute;
+        margin-top: 800px;
+        margin-left: 126px;
+    }
+
+    #successTwo {
+        position: absolute;
+        margin-top: 821px;
+        margin-left: 128px;
+    }
+    #successThree {
+        position: absolute;
+        margin-top: 828px;
+        margin-left: 149px;
+    }
+    #paymentError {
+        position: absolute;
+        margin-top: 818px;
+        margin-left: 143px;
     }
 
     #info2 {
