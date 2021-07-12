@@ -158,28 +158,74 @@
     }
     #continue2 {
         position: absolute;
-        margin-top: 483px;
-        margin-left: 149px;
-        width: 30%;
-        height: 7%;
+        margin-top: 475px;
+        margin-left: 13px;
+        width: 25%;
+        height: 8%;
         border-radius: 8%;
         padding-right: 27px;
-        background-color: dimgray;
+        background-color: green;
     }
+    #sumbit1 {
+        margin-top: 475px;
+        margin-left: 136px;
+        width: 22%;
+        height: 47px;
+        background-color: red;
+        border-radius: 10%;
+        color: floralwhite;
+    }
+
+    #nameError {
+        position: absolute;
+        margin-top: 108px;
+        margin-left: 146px;
+    }
+    #emailError {
+        position: absolute;
+        margin-top: 166px;
+        margin-left: 144px;
+    }
+    #phoneError {
+        position: absolute;
+        margin-top: 222px;
+        margin-left: 145px;
+    }
+    #addressError {
+        position: absolute;
+        margin-top: 279px;
+        margin-left: 139px;
+    }
+    #successOne {
+        position: absolute;
+        margin-top: 447px;
+        margin-left: 155px;
+    }
+    #forward3 {
+        width: 25%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 453px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 158px;
+        background-color: revert;
+    }
+
     #backImgOne {
         position: absolute;
-        margin-top: 500px;
-        margin-left: 267px;
+        margin-top: 494px;
+        margin-left: 113px;
         width: 3%;
     }
     #forward2 {
-        width: 33%;
+        width: 21%;
         height: 9%;
         /* margin-left: 72px; */
-        margin-top: 483px;
+        margin-top: 473px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 216px;
+        margin-right: 133px;
         background-color: revert;
     }
     #para {
@@ -261,20 +307,41 @@
     }
     #continue {
         position: absolute;
-        margin-top: 453px;
-        margin-left: 146px;
-        width: 28%;
-        height: 7%;
+        margin-top: 454px;
+        margin-left: 224px;
+        width: 25%;
+        height: 8%;
         background-color: dimgray;
         border-radius: 8%;
     }
+    #submitTwo {
+        position: absolute;
+        margin-top: 453px;
+        margin-left: 90px;
+        width: 22%;
+        height: 50px;
+        border-radius: 10%;
+        background-color: red;
+    }
+
     #backImgTwo {
         position: absolute;
-        margin-top: 469px;
-        margin-left: 262px;
+        margin-top: 471px;
+        margin-left: 330px;
         width: 3%;
     }
 
+    #successThree {
+        position: absolute;
+        margin-top: 536px;
+        margin-left: 103px;
+    }
+
+    #paymentError {
+        position: absolute;
+        margin-top: 537px;
+        margin-left: 95px;
+    }
     #info2 {
         font-size: 113%;
         margin-left: 107px;

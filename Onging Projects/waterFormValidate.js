@@ -35,7 +35,7 @@ function validateForm1(){
         return;
 
     }
-    document.getElementById("success").innerHTML="Your Data successfully Submitted!!!";
+    document.getElementById("successOne").innerHTML="Your Data successfully Submitted!!!";
 
 }
 

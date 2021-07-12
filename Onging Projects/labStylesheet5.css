@@ -145,19 +145,31 @@
     #continue2 {
         position: absolute;
         margin-top: 884px;
-        margin-left: 173px;
+        margin-left: 12px;
         width: 40%;
         height: 7%;
         border-radius: 8%;
         padding-right: 27px;
-        background-color: dimgray;
+        background-color: green;
         font-size: 28px;
     }
 
+    #sumbit1 {
+        margin-top: 885px;
+        margin-left: 71px;
+        width: 38%;
+        height: 76px;
+        background-color: red;
+        border-radius: 10%;
+        color: floralwhite;
+        font-size: 29px;
+    }
+
+
     #backImgOne {
         position: absolute;
-        margin-top: 916px;
-        margin-left: 350px;
+        margin-top: 917px;
+        margin-left: 179px;
         width: 3%;
     }
     #para2 {
@@ -183,17 +195,43 @@
     }
 
 
-
     #forward2 {
-        width: 45%;
-        height: 9%;
+        width: 31%;
+        height: 7%;
         /* margin-left: 72px; */
-        margin-top: 870px;
+        margin-top: 883px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 142px;
+        margin-right: 34px;
         background-color: revert;
     }
+
+    #successOne {
+        position: absolute;
+        margin-top: 847px;
+        margin-left: 135px;
+    }
+    #addressError {
+        position: absolute;
+        margin-top: 544px;
+        margin-left: 185px;
+    }
+    #phoneError {
+        position: absolute;
+        margin-top: 440px;
+        margin-left: 227px;
+    }
+    #emailError {
+        position: absolute;
+        margin-top: 308px;
+        margin-left: 182px;
+    }
+    #nameError {
+        position: absolute;
+        margin-top: 197px;
+        margin-left: 189px;
+    }
+
     #amount {
         position: absolute;
         margin-left: 175px;
@@ -280,28 +318,65 @@
     #continue {
         position: absolute;
         margin-top: 884px;
-        margin-left: 144px;
-        width: 49%;
+        margin-left: 309px;
+        width: 35%;
         height: 7%;
-        background-color: dimgray;
+        background-color: green;
         border-radius: 8%;
         font-size: 32px;
+    }
+
+
+    #submitTwo {
+        position: absolute;
+        margin-top: 889px;
+        margin-left: 99px;
+        width: 31%;
+        height: 71px;
+        border-radius: 10%;
+        background-color: red;
+        font-size: 32px;
+    }
+
+
+
+    #amountError {
+        position: absolute;
+        margin-top: 255px;
+        margin-left: 149px;
+    }
+
+    #successTwo {
+        position: absolute;
+        margin-top: 841px;
+        margin-left: 200px;
+    }
+
+    #successThree {
+        position: absolute;
+        margin-top: 827px;
+        margin-left: 131px;
+    }
+
+    #paymentError {
+        position: absolute;
+        margin-top: 827px;
+        margin-left: 145px;
     }
     #backImgTwo {
         position: absolute;
         margin-top: 918px;
-        margin-left: 355px;
+        margin-left: 472px;
         width: 3%;
     }
-
     #forward3 {
-        width: 54%;
-        height: 9%;
+        width: 19%;
+        height: 8%;
         /* margin-left: 72px; */
-        margin-top: 864px;
+        margin-top: 873px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 124px;
+        margin-right: 36px;
         background-color: revert;
     }
 

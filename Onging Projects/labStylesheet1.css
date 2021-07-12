@@ -39,13 +39,27 @@
     }
     #continue2 {
         position: absolute;
-        margin-top: 492px;
-        margin-left: 204px;
-        width: 30%;
-        height: 7%;
+        margin-top: 499px;
+        margin-left: 10px;
+        width: 23%;
+        height: 8%;
         border-radius: 8%;
         padding-right: 27px;
-        background-color: dimgray;
+        background-color: green;
+    }
+    #sumbit1 {
+        margin-top: 499px;
+        margin-left: 206px;
+        width: 22%;
+        height: 47px;
+        background-color: red;
+        border-radius: 10%;
+        color: floralwhite;
+    }
+    #successOne {
+        position: absolute;
+        margin-top: 477px;
+        margin-left: 201px;
     }
     #backImgOne {
         position: absolute;
@@ -55,13 +69,13 @@
     }
 
     #forward2 {
-        width: 33%;
+        width: 18%;
         height: 9%;
         /* margin-left: 72px; */
-        margin-top: 488px;
+        margin-top: 494px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 153px;
+        margin-right: 76px;
         background-color: revert;
     }
     #combo1 {
@@ -121,19 +135,29 @@
 
     #continue {
         position: absolute;
-        margin-top: 474px;
-        margin-left: 201px;
-        width: 28%;
-        height: 7%;
-        background-color: dimgray;
+        margin-top: 464px;
+        margin-left: 268px;
+        width: 22%;
+        height: 8%;
+        background-color: green;
         border-radius: 8%;
     }
     #backImgTwo {
         position: absolute;
-        margin-top: 490px;
-        margin-left: 315px;
+        margin-top: 482px;
+        margin-left: 361px;
         width: 3%;
     }
+    #submitTwo {
+        position: absolute;
+        margin-top: 463px;
+        margin-left: 141px;
+        width: 20%;
+        height: 47px;
+        border-radius: 10%;
+        background-color: red;
+    }
+
 
     #btnDoante{
         position: absolute;
@@ -145,15 +169,27 @@
         background-color: crimson;
     }
     #forward3 {
-        width: 33%;
+        width: 18%;
         height: 9%;
         /* margin-left: 72px; */
-        margin-top: 468px;
+        margin-top: 463px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 166px;
+        margin-right: 140px;
         background-color: revert;
     }
+    #paymentError {
+        position: absolute;
+        margin-top: 533px;
+        margin-left: 132px;
+    }
+    #successThree {
+        position: absolute;
+        margin-top: 532px;
+        margin-left: 131px;
+    }
+
+
     #paypalbar {
         position: absolute;
         background-color: ghostwhite;

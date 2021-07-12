@@ -23,6 +23,68 @@
         font-family: none;
         color: gray;
     }
+    #continue2 {
+        position: absolute;
+        margin-top: 483px;
+        margin-left: 14px;
+        width: 24%;
+        height: 8%;
+        border-radius: 8%;
+        padding-right: 27px;
+        background-color: green;
+    }
+    #sumbit1 {
+        margin-top: 483px;
+        margin-left: 77px;
+        width: 22%;
+        height: 47px;
+        background-color: red;
+        border-radius: 10%;
+        color: floralwhite;
+    }
+
+    #backImgOne {
+        position: absolute;
+        margin-top: 503px;
+        margin-left: 109px;
+        width: 3%;
+    }
+    #forward2 {
+        width: 21%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 483px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 195px;
+        background-color: revert;
+    }
+    #nameError {
+        position: absolute;
+        margin-top: 109px;
+        margin-left: 144px;
+    }
+    #emailError {
+        position: absolute;
+        margin-top: 167px;
+        margin-left: 147px;
+    }
+
+    #phoneError {
+        position: absolute;
+        margin-top: 221px;
+        margin-left: 146px;
+    }
+    #addressError {
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 146px;
+    }
+    #successOne {
+        position: absolute;
+        margin-top: 454px;
+        margin-left: 147px;
+    }
 
     #lockPng {
         margin-left: 131px;
@@ -188,31 +250,62 @@
     #continue {
         position: absolute;
         margin-top: 453px;
-        margin-left: 125px;
-        width: 28%;
-        height: 7%;
-        background-color: dimgray;
+        margin-left: 193px;
+        width: 24%;
+        height: 8%;
+        background-color: green;
         border-radius: 8%;
     }
 
+    #submitTwo {
+        position: absolute;
+        margin-top: 453px;
+        margin-left: 59px;
+        width: 22%;
+        height: 50px;
+        border-radius: 10%;
+        background-color: red;
+    }
 
     #backImgTwo {
         position: absolute;
-        margin-top: 468px;
-        margin-left: 241px;
+        margin-top: 471px;
+        margin-left: 296px;
         width: 3%;
     }
-
     #forward3 {
-        width: 33%;
+        width: 19%;
         height: 9%;
         /* margin-left: 72px; */
         margin-top: 448px;
         /* padding-left: 33px; */
         position: absolute;
-        margin-right: 244px;
+        margin-right: 209px;
         background-color: revert;
     }
+    #amountError {
+        position: absolute;
+        margin-top: 146px;
+        margin-left: 139px;
+    }
+    #successTwo {
+        position: absolute;
+        margin-top: 514px;
+        margin-left: 135px;
+    }
+
+    #paymentError {
+        position: absolute;
+        margin-top: 520px;
+        margin-left: 89px;
+    }
+    #successThree {
+        position: absolute;
+        margin-top: 521px;
+        margin-left: 42px;
+    }
+
+
     #cardBar {
         position: absolute;
         background-color: ghostwhite;

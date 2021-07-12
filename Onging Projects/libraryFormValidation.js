@@ -34,8 +34,8 @@ function validateData(){
         document.getElementById("addressError").innerHTML="Please enter your Address!!";
         return;
 
-    }
-    document.getElementById("success").innerHTML="Your Data successfully Submitted!!!";
+    }else{
+    document.getElementById("successOne").innerHTML="Your Data successfully Submitted!!!";}
 
 }
 
