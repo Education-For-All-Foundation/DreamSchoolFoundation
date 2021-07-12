@@ -16,6 +16,12 @@
         font-family: none;
         color: gray;
     }
+    #paymentError {
+        position: absolute;
+        margin-top: 458px;
+        margin-left: 36px;
+    }
+
     #onehr {
         position: absolute;
         height: 3px;
@@ -132,21 +138,43 @@
         margin-left: 15px;
         font-size: 15px;
     }
+
+    #sumbit1 {
+        margin-top: 487px;
+        margin-left: 87px;
+        width: 19%;
+        height: 42px;
+        background-color: red;
+        border-radius: 10%;
+        color: floralwhite;
+    }
+
     #continue2 {
         position: absolute;
-        margin-top: 483px;
-        margin-left: 93px;
-        width: 30%;
+        margin-top: 485px;
+        margin-left: 7px;
+        width: 19%;
         height: 7%;
         border-radius: 8%;
         padding-right: 27px;
-        background-color: dimgray;
+        background-color: green;
+    }
+
+    #forward2 {
+        width: 18%;
+        height: 8%;
+        /* margin-left: 72px; */
+        margin-top: 483px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 235px;
+        background-color: revert;
     }
 
     #backImgOne {
         position: absolute;
         margin-top: 500px;
-        margin-left: 223px;
+        margin-left: 86px;
         width: 3%;
     }
 
@@ -248,22 +276,26 @@
         border-radius: 3%;
         box-shadow: 0px 1px 3px #9e9e9e;
     }
-
     #continue {
         position: absolute;
         margin-top: 453px;
-        margin-left: 93px;
-        width: 28%;
-        height: 7%;
-        background-color: dimgray;
+        margin-left: 168px;
+        width: 21%;
+        height: 8%;
+        background-color: green;
         border-radius: 8%;
     }
 
     #backImgTwo {
         position: absolute;
-        margin-top: 468px;
-        margin-left: 217px;
+        margin-top: 471px;
+        margin-left: 258px;
         width: 3%;
+    }
+    #successThree {
+        position: absolute;
+        margin-top: 526px;
+        margin-left: 138px;
     }
 
     #forward3 {

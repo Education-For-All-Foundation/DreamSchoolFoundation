@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Computer Lab Donate Form</title>
@@ -14,6 +14,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 
+    <style type="text/css">
+        .error{
+            color: red;
+        }
+        .success{
+            color: green;
+        }
+    </style>
+
+ <script src="labFormValidate.js"></script>
     <script>
 
         function fillText() {
@@ -52,7 +62,6 @@
 
     </script>
 
-
 </head>
 <body>
 <div class="container" style="width: 532px; height: 96%;margin-top: 14px;">
@@ -78,8 +87,9 @@
 
 
     <!--Slide 2-->
-    <div class="slideImg" id="three">
 
+    <div class="slideImg" id="three">
+    <form name="form2" method="post" action="">
 
         <div class="header">
             <h4 id="amount">Choose Amount</h4>
@@ -98,7 +108,7 @@
                 <option value="MXN">MXN</option>
             </select>
         </div>
-
+            <p id="amountError" class="error"></p>
 
         <input class="btn1" id="rowOne" type="button" value="Rs.1000" onclick="fillText();">
         <input class="btn1" id="rowTwo" type="button" value="Rs.2000" onclick="fillText2(); ">
@@ -110,7 +120,11 @@
         <input class="btn2" id="colThree" type="button" value="Custom Amount" onclick="pointText();">
 
         <div id="donation"><input type="checkbox">&nbsp;&nbsp;Make this donation monthly</div>
-        <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
+
+        <p id="successTwo" class="success"></p>
+        <input type="submit" name="submit2" id="submitTwo" value="Submit" onfocus="validateAmount();">
+        <img src="../images/icons8-back-24.png" style=" position: absolute;margin-left: 5px;margin-top: 7px;">
+
         <input id="continue" type="button"value="Continue"><img id="backImgTwo" src="../images/icons8-forward-26.png">
 
 
@@ -119,6 +133,7 @@
 
         <label for="i2" class="pre"></label>
         <label for="i4" id="forward3"  class="next"></label>
+    </form>
     </div>
 
 
@@ -129,28 +144,32 @@
 
     <div class="slideImg" id="two">
         <div>
-
+            <form name="form1" action="inforamtion.php" method="post" >
             <div class="header">
                 <h4 id="info">Add Your Information</h4>
             </div>
 
-            <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
+            <img src="../images/icons8-back-24.png" style="position: absolute;margin-left: 5px;margin-top: 5px;">
             <h2 id="para2">Who's donating today?</h2>
             <h3 id="para3">We’ll secure your all information</h3>
 
-            <label id="labelname"> Name</label><input type="text" name="fName" id="fName" placeholder="Enter your name...">
-            <label id="labelemail"> Email</label><input type="email" id="email" placeholder="Enter your email...">
-            <label id="labelphone"> Phone Number</label><input type="phone" id="phoneNmb" placeholder="Enter your phone number...">
-            <label id="labeladdrss"> Address</label><textarea id="address" placeholder="Enter your address..."></textarea>
+            <label id="labelname"> Name</label><input type="text" name="name" id="fName" placeholder="Enter your name...">
+            <p id="nameError" class="error"></p>
+            <label id="labelemail"> Email</label><input type="email" id="email" name="mail" placeholder="Enter your email...">
+            <p id="emailError" class="error"></p>
+            <label id="labelphone"> Phone Number</label><input type="phone" id="phoneNmb" name="phone" placeholder="Enter your phone number...">
+            <p id="phoneError" class="error"></p>
+            <label id="labeladdrss"> Address</label><textarea id="address"  name="Address" placeholder="Enter your address..."></textarea>
+            <p id="addressError" class="error"></p>
             <label id="labeldisc"> Donation Discription<br> (Optional) </label><textarea id="disc" placeholder="Type your discription here(Optional)..."></textarea>
-
+                <p id="successOne" class="success"></p>
+            <input type="submit" value="submit" name="submit" id="sumbit1" onfocus="validateForm1();">
             <input id="continue2" type="button"value="Continue"><img id="backImgOne" src="../images/icons8-forward-26.png">
 
-
-            <label for="i1" class="pre"></label>
+           <label for="i1" class="pre"></label>
             <label for="i3" id="forward2" class="next"></label>
 
-
+            </form>
         </div>
     </div>
 
@@ -168,7 +187,7 @@
 
 
     <div class="slideImg" id="four">
-
+        <form name="form3" method="post" action="">
         <div class="header">
             <h4 id="info2">Add your donation details</h4>
         </div>
@@ -176,9 +195,9 @@
         <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
 
 
-
+    <p id="paymentError" class="error"></p>
         <div id="cardBar">
-            <input type="radio" id="radioBtn">  <h3 class="bar1" id="h3tLast">Donate with Credit/Debit card</h3>
+            <input type="radio" id="radioBtn" name="method" value="cardPayment">  <h3 class="bar1" id="h3tLast">Donate with Credit/Debit card</h3>
         </div>
         <label id="labelcardNmb">Card Number</label><input class="cardNumber" id="cardNmb" type="text" name="cardNumber" placeholder="Enter card number...">
         <label id="labelcardcvc">Card CVC</label><input class="cardNumber" id="cardcvc" type="text" name="cardNumber" placeholder="Enter CVC...">
@@ -187,7 +206,7 @@
 
 
         <div id="bankTrnansfer">
-            <input type="radio" id="radioBtn2">
+            <input type="radio" id="radioBtn2" name="method" value="OnlineBankPayment">
             <h3 class="bar1" id="h3Transfer">Online Bank Transfer</h3>
         </div>
 
@@ -198,19 +217,20 @@
 
 
         <div id="paypalbar">
-            <a href="https://www.paypal.com/us/signin" target="_blank" style="text-decoration: none; color: black;"> <input type="radio" id="radioBtn3">
+            <a href="https://www.paypal.com/us/signin" target="_blank" style="text-decoration: none; color: black;"> <input type="radio" id="radioBtn3" name="method" value="paypalPayment">
                 <h3 class="bar1" id="h3pal">Donate in Paypal</h3>
             </a></div>
-
-        <button  id="btnDoante">Donate</button>
-
-
+    <p id="successThree" class="success"></p>
+        <input type="submit" id="btnDoante" value="Donate" onfocus="validatePayment();">
 
 
 
 
-        <label for="i3"  class="pre"></label>
-        <label for="i1" id="forward" class="next"></label>
+
+
+     <label for="i3"  class="pre"></label>
+     <!--   <label for="i1" id="forward" class="next"></label>-->
+        </form>
     </div>
 
 

@@ -30,6 +30,16 @@ html,body{
     position: absolute;
 }
 
+#sumbit1 {
+    position: absolute;
+    margin-top: 525px;
+    margin-left: 188px;
+    width: 24%;
+    height: 50px;
+    border-radius: 8%;
+    background-color: red;
+}
+
 #onehr {
     position: absolute;
     height: 3px;
@@ -46,19 +56,46 @@ html,body{
     font-family: none;
     color: gray;
 }
-
-#backImgTwo{
+#backImgTwo {
     position: absolute;
-    margin-top: 568px;
-    margin-left: 315px;
+    margin-top: 548px;
+    margin-left: 398px;
     width: 3%;
 }
-#backImgOne{
+#backImgOne {
     position: absolute;
-    margin-top: 545px;
-    margin-left: 310px;
-    width: 3% ;
+    margin-top: 544px;
+    margin-left: 442px;
+    width: 3%;
 }
+#nameError {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 226px;
+}
+
+#emailError {
+    position: absolute;
+    margin-top: 197px;
+    margin-left: 228px;
+}
+#phoneError {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 226px;
+}
+#addressError {
+    position: absolute;
+    margin-top: 317px;
+    margin-left: 225px;
+}
+#successOne {
+    margin-top: 495px;
+    position: absolute;
+    margin-left: 265px;
+}
+
+
 #h3tLast{
     font-size: 109%;margin-top: 5px; margin-left: 3px;position: absolute;font-weight: 500;
 }
@@ -204,15 +241,13 @@ html,body{
     background-color: ghostwhite;
 }
 
-
-
-#continue{
+#continue {
     position: absolute;
-    margin-top: 549px;
-    margin-left: 201px;
-    width: 28%;
+    margin-top: 530px;
+    margin-left: 297px;
+    width: 24%;
     height: 7%;
-    background-color: dimgray;
+    background-color: green;
     border-radius: 8%;
 }
 #element{
@@ -278,28 +313,58 @@ html,body{
 
 }
 
-#forward2{
-    width: 33%;
-    height: 9%;
+#forward2 {
+    width: 25%;
+    height: 8%;
     /* margin-left: 72px; */
-    margin-top: 529px;
+    margin-top: 523px;
     /* padding-left: 33px; */
     position: absolute;
-    margin-right: 181px;
-    background-color: revert
-
+    margin-right: 55px;
+    background-color: revert;
 }
 
-#forward3{
-    width: 33%;
-    height: 9%;
+#amountError {
+    position: absolute;
+    margin-top: 508px;
+    margin-left: 242px;
+}
+#successTwo {
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 251px;
+}
+
+#submitTwo {
+    position: absolute;
+    margin-top: 533px;
+    margin-left: 154px;
+    width: 123px;
+    height: 45px;
+    border-radius: 10%;
+    background: red;
+}
+#forward3 {
+    width: 22%;
+    height: 7%;
     /* margin-left: 72px; */
-    margin-top: 529px;
+    margin-top: 530px;
     /* padding-left: 33px; */
     position: absolute;
-    margin-right: 181px;
-    background-color: revert
+    margin-right: 105px;
+    background-color: revert;
+}
 
+#successThree {
+    position: absolute;
+    margin-top: 581px;
+    margin-left: 232px;
+}
+
+#paymentError {
+    position: absolute;
+    margin-top: 513px;
+    margin-left: 232px;
 }
 
 #forward4{
@@ -396,10 +461,10 @@ html,body{
     margin-left: 47px;
 
 }
-#continue2{
+#continue2 {
     position: absolute;
     margin-top: 526px;
-    margin-left: 204px;
+    margin-left: 339px;
     width: 26%;
     height: 7%;
     border-radius: 8%;

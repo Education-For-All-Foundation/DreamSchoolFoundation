@@ -1,5 +1,5 @@
 body{
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 .profle-area{
     /*padding: 80px 82px;*/
@@ -13,10 +13,13 @@ body{
 
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     border-radius: 15px;
-    height: 150%;
+    height: 111%;
     width: 100%;
+    margin-top: 167px;
 
 }
+
+
 
 .img1 img {
     height: 200px;
@@ -125,7 +128,7 @@ input{
     width: 47%;
     height: 51%;
     margin-left: 753px;
-    margin-top: -486px;
+    margin-top: -408px;
     box-shadow: 0 0 30px rgba(0,0,0,0.1);
 }
 
@@ -135,7 +138,7 @@ input{
     width: 47%;
     height: 51%;
     margin-left: 752px;
-    margin-top: -85px;
+    margin-top: -7px;
     box-shadow: 0 0 30px rgba(0,0,0,0.1);
 }
 #h2One {
