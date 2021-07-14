@@ -1,315 +1,289 @@
- *{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
 }
 body{
-	font-family: montserrat;
-	font-weight: 400;
+font-family: montserrat;
+font-weight: 400;
 }
-
-
-/*Navigation Section*/
-
-
+/*====================================Navigation Section*==========================================*/
 nav{
-	background: #0082e6;
-	height: 100px;
-	width: 100%;
+background: #0082e6;
+height: 100px;
+width: 100%;
 }
-
-label.logo{
-	color: white;
-	font-size: 35px;
-	line-height: 100px;
-	padding: 0 100px;
-	font-weight: bold;
+.logos{
+height: 75px;
+margin-left: 100px;
+margin-top: 15px;
+margin-right: 15px;
 }
 nav ul{
-	float: right;
-	margin-right: 65px;
-
+float: right;
+margin-right: 65px;
 }
 nav ul li{
-	display: inline-block;
-	line-height: 100px;
-	margin: 0 8px;
-
+display: inline-block;
+line-height: 100px;
+margin: 0 8px;
 }
 nav ul li a{
-	color: white;
-	font-size: 17px;
-	padding: 7px 13px;
-	border-radius:3px ;
+color: white;
+font-size: 17px;
+padding: 7px 13px;
+border-radius:3px ;
 }
 a.active,a:hover{
-	background: #1b9bff;
-	transition: 0.5s;
-
+background: #1b9bff;
+transition: 0.5s;
 }
 .checkbtn {
-	font-size: 30px;
-	color: white;
-	float: right;
-	line-height: 80px;
-	margin-right: 40px;
-	cursor: pointer;
-	display: none;
+font-size: 30px;
+color: white;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+display: none;
 }
 #check{
-	display: none;
+display: none;
 }
-
-
-
-.rowlog{
-	margin-top:2px;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 0;
-	flex-direction: column;
-}
-
-/*Comment Section*/
-
- .container{
-	margin: 20px;
-	display: flex;
-	justify-content: center;
-}
-
-.row{
-	width: 60%;
-}
-
-textarea{
-	width: 100%;
-	height: 80px;
-	background-color: rgba(0, 0, 0, 0);
-	resize: none;
-	border: 2px solid grey;
-	border-radius: 4px;
-	padding: 10px;
-}
-
-#post{
-	width: 70px;
-	height: 40px;
-	background-color: #282828;
-	border: none;
-	color: #fff;
-	font-family: arial;
-	font-weight: 400;
-	cursor: pointer;
-	margin-bottom: 60px;
-	margin-top: 15px;
-	padding: 5px;
-	border-radius: 4px;
-}
-
-#post:hover{
-	background-color: #0082e6;
-}
-
-
-
-.commentbox{
-	width: 100%;
-	padding-top: 0;
-	margin-bottom: 4px;
-	background-color: lightgrey;
-	border-radius: 4px;
-	position: relative;
-}
-
-.commentbox p{
-	font-family: arial;
-	font-size: 14px;
-	font-weight: bolder;
-	columns: #282828;
-	line-height: 15px;
-}
-
-p{
-	font-family: arial;
-	font-size: 14px;
-	font-weight: bolder;
-	columns: #282828;
-	line-height: 15px;
-}
-
-.username{
-	text-align: center;
-	height: 30px;
-	background-color: #0082e6;
-	margin-bottom: 10px;
-	color: white;
-	padding-top: 3px;
-	padding-bottom: 4px;
-	widows: 100%;
-	border-radius: 4px 4px 0 0;
-	
-}
-
-.msg{
-	padding: 20px;
-}
-
-
-.edit-form{
-	bottom: 0px;
-	right: 0px;
-	position: absolute;
-}
-
-.edit-form button{
-	background-color: transparent;
-	border: none;
-	margin-bottom: 5px;
-	margin-right: 5px;
-	cursor: pointer;
-	opacity: 0.7;
-}
-
-.edit-form button:hover{
-	opacity: 1;
-}
-
-.delete-form{
-	bottom: 0px;
-	right: 40px;
-	position: absolute;
-}
-
-.delete-form button{
-	background-color: transparent;
-	border: none;
-	margin-bottom: 5px;
-	margin-right: 5px;
-	cursor: pointer;
-	opacity: 0.7;
-}
-
-.delete-form button:hover{
-	opacity: 1;
-}
-
-
-/*user login*/
-
-.userNP{
-	margin-right: 5px;
-	border-radius: 4px;
-	border: 2px solid grey;
-	padding: 5px;
-}
-
-.log{
-	width: 70px;
-	height: 25px;
-	background-color: #282828;
-	border: none;
-	color: #fff;
-	font-family: arial;
-	font-weight: 400;
-	cursor: pointer;
-	margin-top: 0;
-	padding: 5px;
-	border-radius: 4px;
-	margin-right: 5px;
-}
-
-.log:hover{
-	background-color: #0082e6;
-}
-
- .containerlog{
-	margin: 10px;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 0;
-}
-
-.rowlog{
-	margin-top:2px;
-	display: flex;
-	justify-content: space-between ;
-	margin-bottom: 0;
-
-
-}
-
-
-
-
-
-
+/*==============================================Media============================================*/
 @media(max-width: 1150px){
-	label.logo{
-		font-size: 30px;
-		padding-left: 50px;
-	}
-	nav ul li a{
-		font-size: 15px;
-	}
-
+.logos{
+height: 75px;
+margin-left: 50px;
+margin-top: 15px;
+margin-right: 15px;
 }
-
+nav ul li a{
+font-size: 15px;
+}
+}
 @media(max-width: 1015px){
 nav ul{
-
-	margin-right: 15px;
-
+margin-right: 15px;
 }
-
 nav ul li{
-	margin: 0 1px;
-
+margin: 0 1px;
 }
-
+.logos{
+margin-left: 50px;
 }
-
+}
 @media(max-width: 900px){
-	.checkbtn{
-		display: block ;
-	}
-
+.checkbtn{
+display: block ;
+}
+.logos{
+height: 50px;
+margin-top: 10px;
+margin-left: 50px;
+}
 nav{
-	position: fixed;
+top: 0;
+z-index: 1;
+position: fixed;
+height: 70px;
+margin-bottom: 0px;
 }
-
-	nav ul{
-		z-index: -1;
-		position: fixed;
-		width: 75%;
-		height: 100vh;
-		background: #2c3e50;
-		top: 100px;
-		right: -100%;
-		text-align: center;
-		transition: all .5s;
-		margin: 0;
-	}
-	nav ul li{
-		display: block;
-		margin: 50px 0;
-		line-height: 30px;
-
-	}
-	nav ul li a{
-		font-size:20px ;
-	}
-	a:hover,a.active{
-		background: none;
-		color: #0082e6;
-	}
-	#check:checked ~ul{
-		right: 0;
-
-	}
+.checkbtn {
+line-height: 75px;
 }
+nav ul{
+z-index: 1;
+position: fixed;
+width: 100%;
+height: 100vh;
+background: #2c3e50;
+top: 70px;
+right: -100%;
+text-align: center;
+transition: all .5s;
+margin: 0;
+}
+nav ul li{
+display: block;
+margin: 50px 0;
+line-height: 30px;
+}
+nav ul li a{
+font-size:20px ;
+}
+a:hover,a.active{
+background: none;
+color: #0082e6;
+}
+#check:checked ~ul{
+right: 0;
+}
+}
+/*==============================================Comment Section==========================================*/
+.container{
+margin: 20px;
+display: flex;
+justify-content: center;
+}
+.row{
+width: 60%;
+}
+textarea{
+width: 100%;
+height: 80px;
+background-color: rgba(0, 0, 0, 0);
+resize: none;
+border: 2px solid grey;
+border-radius: 4px;
+padding: 10px;
+}
+#post{
+width: 70px;
+height: 40px;
+background-color: #282828;
+border: none;
+color: #fff;
+font-family: arial;
+font-weight: 400;
+cursor: pointer;
+margin-bottom: 60px;
+margin-top: 15px;
+padding: 5px;
+border-radius: 4px;
+}
+#post:hover{
+background-color: #0082e6;
+}
+.commentbox{
+width: 100%;
+padding-top: 0;
+margin-bottom: 4px;
+background-color: lightgrey;
+border-radius: 4px;
+position: relative;
+}
+.commentbox p{
+font-family: arial;
+font-size: 14px;
+font-weight: bolder;
+columns: #282828;
+line-height: 15px;
+}
+p{
+font-family: arial;
+font-size: 14px;
+font-weight: bolder;
+columns: #282828;
+line-height: 15px;
+}
+.username{
+text-align: center;
+height: 30px;
+background-color: #0082e6;
+margin-bottom: 10px;
+color: white;
+padding-top: 3px;
+padding-bottom: 4px;
+widows: 100%;
+border-radius: 4px 4px 0 0;
 
+}
+.msg{
+padding: 20px;
+}
+.edit-form{
+bottom: 0px;
+right: 0px;
+position: absolute;
+}
+.edit-form button{
+background-color: transparent;
+border: none;
+margin-bottom: 5px;
+margin-right: 5px;
+cursor: pointer;
+opacity: 0.7;
+}
+.edit-form button:hover{
+opacity: 1;
+}
+.delete-form{
+bottom: 0px;
+right: 40px;
+position: absolute;
+}
+.delete-form button{
+background-color: transparent;
+border: none;
+margin-bottom: 5px;
+margin-right: 5px;
+cursor: pointer;
+opacity: 0.7;
+}
+.delete-form button:hover{
+opacity: 1;
+}
+/*user login*/
+.userNP{
+margin-right: 5px;
+border-radius: 4px;
+border: 2px solid grey;
+padding: 5px;
+}
+.log{
+width: 70px;
+height: 25px;
+background-color: #282828;
+border: none;
+color: #fff;
+font-family: arial;
+font-weight: 400;
+cursor: pointer;
+margin-top: 0;
+padding: 5px;
+border-radius: 4px;
+margin-right: 5px;
+}
+.log:hover{
+background-color: #0082e6;
+}
+.containerlog{
+margin: 10px;
+display: flex;
+justify-content: center;
+margin-bottom: 0;
+}
+.containerlogbtn{
+margin: 10px;
+display: flex;
+justify-content: center;
+margin-bottom: 0;
+}
+.rowlog{
+margin-top:2px;
+display: flex;
+justify-content: space-between ;
+margin-bottom: 0;
+}
+@media(max-width: 1150px){
+label.logo{
+font-size: 30px;
+padding-left: 50px;
+}
+nav ul li a{
+font-size: 15px;
+}
+nav {
+margin:0;
+}
+}
+@media(max-width: 900px){
 
+.containerlog{
+margin-top: 80px;
+}
+}
