@@ -1,0 +1,192 @@
+@media all and (max-width: 400px) {
+    #headerbar {
+        width: 249%;
+        height: 16%;
+        background-color: darkmagenta;
+        position: absolute;
+        margin-top: -125px;
+        margin-left: -1px;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-left: 24px;
+    }
+
+    #desc {
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 36px;
+        font-size: 216%;
+        color: aliceblue;
+    }
+
+    #container1 {
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 650px;
+        background-color: inherit;
+        width: 237%;
+        height: 156%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-left: 55px;
+        /* font-size: 112px; */
+    }
+
+    #img2 {
+        position: absolute;
+        width: 41%;
+        height: 52%;
+        margin-left: 261px;
+        margin-top: 361px;
+    }
+    #imageDiv {
+        position: absolute;
+        background-color: slategray;
+        width: 241%;
+        height: 125%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-top: 1660px;
+        margin-left: 27px;
+    }
+    .colThree {
+        color: white;
+        position: absolute;
+        padding-left: 105px;
+        padding-right: 0px;
+        margin-top: -234px;
+        margin-left: 498px;
+        font-size: 14px;
+    }
+
+    #menu {
+        color: white;
+        margin-left: 798px;
+        margin-top: -278px;
+        font-weight: bold;
+        position: absolute;
+    }
+    .coltwo {
+        position: absolute;
+        margin-top: -228px;
+        margin-left: 769px;
+        /* padding: 0px; */
+    }
+    #copyright {
+        font-size: 100%;
+        position: absolute;
+        margin-left: 814px;
+        margin-top: 62px;
+        color: dimgray;
+    }
+
+
+
+    #continue2 {
+        position: absolute;
+        margin-top: 505px;
+        margin-left: 347px;
+        width: 26%;
+        height: 7%;
+        border-radius: 8%;
+        padding-right: 27px;
+        background-color: dimgray;
+    }
+
+    #backImgOne {
+        position: absolute;
+        margin-top: 520px;
+        margin-left: 451px;
+        width: 3%;
+    }
+    #sumbit1 {
+        position: absolute;
+        margin-top: 499px;
+        margin-left: 188px;
+        width: 24%;
+        height: 50px;
+        border-radius: 8%;
+        background-color: red;
+    }
+    #successOne {
+        margin-top: 477px;
+        position: absolute;
+        margin-left: 219px;
+    }
+
+    #forward2 {
+        width: 33%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 491px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 10px;
+        background-color: revert;
+    }
+
+    #continue {
+        position: absolute;
+        margin-top: 484px;
+        margin-left: 302px;
+        width: 28%;
+        height: 7%;
+        background-color: dimgray;
+        border-radius: 8%;
+    }
+    #backImgTwo {
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 419px;
+        width: 3%;
+    }
+
+    #submitTwo {
+        position: absolute;
+        margin-top: 482px;
+        margin-left: 154px;
+        width: 123px;
+        height: 45px;
+        border-radius: 10%;
+        background: red;
+    }
+
+    #forward3 {
+        width: 33%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 476px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 47px;
+        background-color: revert;
+    }
+    #successTwo {
+        position: absolute;
+        margin-top: 524px;
+        margin-left: 169px;
+    }
+
+    #amountError {
+        position: absolute;
+        margin-top: 448px;
+        margin-left: 143px;
+    }
+
+    #btnDoante {
+        position: absolute;
+        margin-top: 510px;
+        margin-left: 185px;
+        width: 30%;
+        height: 7%;
+        border-radius: 9%;
+        background-color: crimson;
+    }
+
+    #successThree {
+        position: absolute;
+        margin-top: 488px;
+        margin-left: 168px;
+    }
+
+}

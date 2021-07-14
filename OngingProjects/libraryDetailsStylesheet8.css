@@ -1,0 +1,199 @@
+@media all and (max-width: 330px) {
+    #headerbar {
+        width: 278%;
+        height: 16%;
+        background-color: darkmagenta;
+        position: absolute;
+        margin-top: -125px;
+        margin-left: -1px;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-left: 24px;
+    }
+
+    #container1 {
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 650px;
+        background-color: inherit;
+        width: 237%;
+        height: 182%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-left: 55px;
+        /* font-size: 112px; */
+    }
+
+    #continue {
+        position: absolute;
+        margin-top: 493px;
+        margin-left: 309px;
+        width: 28%;
+        height: 7%;
+        background-color: dimgray;
+        border-radius: 8%;
+    }
+
+    #backImgTwo {
+        position: absolute;
+        margin-top: 508px;
+        margin-left: 426px;
+        width: 3%;
+    }
+
+    #submitTwo {
+        position: absolute;
+        margin-top: 492px;
+        margin-left: 160px;
+        width: 131px;
+        height: 45px;
+        border-radius: 10%;
+        background: red;
+    }
+    #forward3 {
+        width: 33%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 482px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 40px;
+        background-color: revert;
+    }
+    #successOne {
+        margin-top: 474px;
+        position: absolute;
+        margin-left: 210px;
+    }
+
+    #continue2 {
+        position: absolute;
+        margin-top: 499px;
+        margin-left: 324px;
+        width: 26%;
+        height: 7%;
+        border-radius: 8%;
+        padding-right: 27px;
+        background-color: dimgray;
+    }
+
+    #backImgOne {
+        position: absolute;
+        margin-top: 514px;
+        margin-left: 421px;
+        width: 3%;
+    }
+
+    #sumbit1 {
+        position: absolute;
+        margin-top: 496px;
+        margin-left: 165px;
+        width: 24%;
+        height: 50px;
+        border-radius: 8%;
+        background-color: red;
+    }
+
+    #forward2 {
+        width: 33%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 491px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 30px;
+        background-color: revert;
+    }
+
+    #successTwo {
+        position: absolute;
+        margin-top: 532px;
+        margin-left: 251px;
+    }
+    #amountError {
+        position: absolute;
+        margin-top: 456px;
+        margin-left: 242px;
+    }
+    #btnDoante {
+        position: absolute;
+        margin-top: 510px;
+        margin-left: 185px;
+        width: 30%;
+        height: 7%;
+        border-radius: 9%;
+        background-color: crimson;
+    }
+
+    #successThree {
+        position: absolute;
+        margin-top: 488px;
+        margin-left: 134px;
+    }
+
+    #paymentError {
+        position: absolute;
+        margin-top: 486px;
+        margin-left: 129px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #paragraph {
+        margin-top: -46px;
+        margin-bottom: 1rem;
+        /* padding: 0px; */
+        font-size: 22px;
+    }
+    #img3 {
+        position: absolute;
+        width: 46%;
+        height: 31%;
+        margin-left: 428px;
+        margin-top: 65px;
+    }
+    #imageDiv {
+        position: absolute;
+        background-color: slategray;
+        width: 271%;
+        height: 125%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-top: 1830px;
+        margin-left: 27px;
+    }
+    #blackFooter {
+        width: 291%;
+        height: 133%;
+        background-color: black;
+        margin-top: 2048px;
+    }
+    #privacy {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        margin-top: 58px;
+        margin-left: 117px;
+    }
+    #terms {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        margin-top: 58px;
+        margin-left: 228px;
+    }
+
+
+
+
+
+
+}
