@@ -65,3 +65,32 @@ img{
 	margin-bottom: 40px;
 	box-sizing: border-box;
 }
+
+.team-section .team-items .team img{
+	display: block;
+	width: 100%;
+	border-radius: 50px;
+}
+
+.team-section .team-items .team .inner{
+	position: relative;
+	z-index: 20;
+	padding: 25px;
+}
+
+.team-section .team-items .team .inner .info{
+	background-color: black;
+	text-align: center;
+	padding: 30px 15px;
+	border-radius:10px;
+	transition: all .5s ease; 
+	margin-top:-40px;
+}
+
+.team-section .team-items .item:hover .info{
+	transform: translateY(-20px);
+}
+
+.team-section .team-items .item:hover{
+	transform: translateY(-20px);
+}
