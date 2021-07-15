@@ -2,7 +2,8 @@
 
 <head>
     <title>login and registration form</title>
-    <link rel="stylesheet" href="style.css" </head>
+    <link rel="stylesheet" href="style.css">
+    </head>
 
     <body>
 
@@ -14,6 +15,7 @@
                     <div class="card-front">
                         <h2>SIGN UP</h2>
                         <form method="GET" action="http://localhost/login/Welcome.php">
+                            <script type="text/javascript" src="login.js"></script>
                             <input type="name" name="name" class="input-box" placeholder="User ID" required>
                             <input type="email" name="email" class="input-box" placeholder="Email" required>
                             <input type="Password" name="password" class="input-box" placeholder="Password" required>

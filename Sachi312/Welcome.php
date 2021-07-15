@@ -21,7 +21,7 @@ if (empty($Password)) {
 	if(empty($Name) OR empty($Email) OR empty($Password)){
 }else{
 
-	$query="INSERT INTO user_table(user_name,email,password)VALUES('$Name','$Email','$Password');";
+	$query="INSERT INTO usertable(userName,	Email,Password)VALUES('$Name','$Email','$Password');";
 	$insert=mysqli_query($connect,$query);
 
 	if ($insert) {

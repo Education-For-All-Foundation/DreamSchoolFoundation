@@ -16,7 +16,7 @@ if (empty($Password)) {
 }else{
 
 	echo ($Name);
-	$query="SELECT password FROM user_table WHERE user_name=$Name;";
+	$query="SELECT password FROM usertable WHERE userName=$Name;";
 	$read=mysqli_query($connect,$query);
 
 echo $Password;
