@@ -13,4 +13,23 @@ body{
 	box-sizing: border-box;
 }
 
+img{
+	border-radius: 20px;
+}
+
+.container{
+	max-width: 1500px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.team-section .section-title{
+	flex-basis: 100%;
+	max-width: 100%;
+	margin-bottom: 70px;
+}
  
