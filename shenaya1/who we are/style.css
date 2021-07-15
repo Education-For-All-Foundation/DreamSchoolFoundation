@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url("");
+
+body{
+	margin: 0;
+	font-family: 'Merienda', cursive;
+ background-image: url("images/back.jpg");
+ background-color: #cccccc;
+
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+img{
+	border-radius: 20px;
+}
+
+.container{
+	max-width: 1500px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.team-section .section-title{
+	flex-basis: 100%;
+	max-width: 100%;
+	margin-bottom: 70px;
+}
+
+.team-section .section-title h1{
+	font-size: 80px;
+	text-align: center;
+	margin: 0;
+	color: #2584e6;
+	font-weight: 1000;
+}
+
+.team-section .section-title p{
+	font-size: 16px;
+	text-align: justify;
+	margin: 15px 0 0;
+	color: black;
+}
