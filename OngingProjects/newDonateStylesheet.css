@@ -1,0 +1,714 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 32px;
+    position: relative;
+    width: 164px;
+    height: 0;
+    padding-bottom: 40%;
+    background-color: white;
+    /* border: solid 10px black; */
+    box-shadow: 0px 2px 10px rgb(0 0 0);
+    border-radius: 1%;
+}
+.rdioBtn{
+
+}
+#oneh1 {
+    margin-top: 37px;
+    margin-left: 80px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: lightslategray;
+    position: absolute;
+}
+
+#sumbit1 {
+    position: absolute;
+    margin-top: 525px;
+    margin-left: 188px;
+    width: 24%;
+    height: 50px;
+    border-radius: 8%;
+    background-color: red;
+}
+
+#onehr {
+    position: absolute;
+    height: 3px;
+    width: 53%;
+    margin-left: 136px;
+    margin-top: 126px;
+}
+
+#oneh2 {
+    position: absolute;
+    margin-top: 147px;
+    margin-left: 99px;
+    font-size: 23px;
+    font-family: none;
+    color: gray;
+}
+#backImgTwo {
+    position: absolute;
+    margin-top: 548px;
+    margin-left: 398px;
+    width: 3%;
+}
+#backImgOne {
+    position: absolute;
+    margin-top: 544px;
+    margin-left: 442px;
+    width: 3%;
+}
+#nameError {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 226px;
+}
+
+#emailError {
+    position: absolute;
+    margin-top: 197px;
+    margin-left: 228px;
+}
+#phoneError {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 226px;
+}
+#addressError {
+    position: absolute;
+    margin-top: 317px;
+    margin-left: 225px;
+}
+#successOne {
+    margin-top: 495px;
+    position: absolute;
+    margin-left: 265px;
+}
+
+
+#h3tLast{
+    font-size: 109%;margin-top: 5px; margin-left: 3px;position: absolute;font-weight: 500;
+}
+#h3Transfer{
+    font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;
+}
+
+#h3pal{
+    font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;
+}
+
+#btnDoante{
+    position: absolute;margin-top: 537px;margin-left: 185px; width: 30%;height: 7%;border-radius: 9%;background-color: crimson;
+}
+.circles {
+    width: 100%;
+    height: 11px;
+    bottom: 6%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    margin-left: -8px;
+    /* margin-top: 70px; */
+    position: absolute;
+    margin-top: 93px;
+    /* padding-top: 279px; */
+}
+
+.slideImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: -12px;
+    border-radius: 1%;
+    overflow: hidden;
+}
+#smileImg {
+    position: absolute;
+    width: 100%;
+    /* height: 44%; */
+    /* margin-left: 58px; */
+    margin-top: 194px
+}
+.header{
+    width: 100%;
+    height: 5%;
+    background-color: gainsboro;
+    position: absolute;
+    margin-top: -1px;
+    margin-left: 0px;
+    border-radius: 1%;
+    opacity: 38.1%;
+}
+#amount{
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 5px;
+    color: black;
+
+}
+
+#para{
+    position: absolute;
+    margin-top: 52px;
+    padding-left: 43px;
+    padding-right: 15px;
+}
+#text1{
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 88px;
+    height: 46%;
+    width: 52%;
+    border-radius: 6%;
+    border-color: darkgreen;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#combo1{
+    position: absolute;
+    /* margin-top: 123px; */
+    margin-top: 33px;
+    margin-left: 21px;
+    border: none;
+}
+
+#rowTwo{
+    margin-left: 195px;
+}
+#rowThree{
+    margin-left: 363px;
+}
+.abc{
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 100px;
+
+}
+
+.btn1 {
+    position: absolute;
+    margin-top: 251px;
+    margin-left: 27px;
+    height: 12%;
+    width: 29%;
+    border-radius: 9%;
+    border-color: aliceblue;
+    background-color: darkmagenta;
+    color: honeydew;
+}
+.btn2{
+    position: absolute;
+    margin-top: 352px;
+    margin-left: 27px;
+    height: 12%;
+    width: 29%;
+    border-radius: 9%;
+    border-color: aliceblue;
+    background-color: darkmagenta;
+    color: honeydew;
+}
+
+#colTwo{
+    margin-left: 196px;
+}
+#colThree{
+    margin-left: 362px;
+}
+#donation{
+    position: absolute;
+    height: 6%;
+    width: 94%;
+    background: border-box;
+    margin-top: 466px;
+    padding: 27px;
+    padding-left: 147px;
+    padding-top: 9px;
+    margin-left: 19px;
+    border-radius: 3%;
+    box-shadow: 0px 1px 3px #9e9e9e;
+    background-color: ghostwhite;
+}
+
+#continue {
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 297px;
+    width: 24%;
+    height: 7%;
+    background-color: green;
+    border-radius: 8%;
+}
+#element{
+    background-color: revert;
+    width: 64%;
+    height: 13%;
+    position: absolute;
+    margin-top: 159px;
+    margin-left: 95px;
+}
+
+
+#info{
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 5px;
+    color: black;
+}
+
+
+#donateBtn {
+    position: absolute;
+    margin-top: 555px;
+    margin-left: 206px;
+}
+
+
+#i1,#i2,#i3,#i4{
+    display: none;
+}
+
+
+.pre,.next{
+    width: 4%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    /* background: rgba(88,88,88,.4); */
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 1%;
+}
+
+.pre{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
+
+
+#forward{
+    width: 33%;
+    height: 9%;
+    /* margin-left: 72px; */
+    margin-top: 529px;
+    /* padding-left: 33px; */
+    position: absolute;
+    margin-right: 181px;
+    background-color: revert
+
+}
+
+#forward2 {
+    width: 25%;
+    height: 8%;
+    /* margin-left: 72px; */
+    margin-top: 523px;
+    /* padding-left: 33px; */
+    position: absolute;
+    margin-right: 55px;
+    background-color: revert;
+}
+
+#amountError {
+    position: absolute;
+    margin-top: 508px;
+    margin-left: 242px;
+}
+#successTwo {
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 251px;
+}
+
+#submitTwo {
+    position: absolute;
+    margin-top: 533px;
+    margin-left: 154px;
+    width: 123px;
+    height: 45px;
+    border-radius: 10%;
+    background: red;
+}
+#forward3 {
+    width: 22%;
+    height: 7%;
+    /* margin-left: 72px; */
+    margin-top: 530px;
+    /* padding-left: 33px; */
+    position: absolute;
+    margin-right: 105px;
+    background-color: revert;
+}
+
+#successThree {
+    position: absolute;
+    margin-top: 581px;
+    margin-left: 232px;
+}
+
+#paymentError {
+    position: absolute;
+    margin-top: 513px;
+    margin-left: 232px;
+}
+
+#forward4{
+    width: 33%;
+    height: 9%;
+    /* margin-left: 72px; */
+    margin-top: 529px;
+    /* padding-left: 33px; */
+    position: absolute;
+    margin-right: 181px;
+    background-color: revert
+
+}
+
+#para2{
+    position: absolute;
+    margin-top: 51px;
+    margin-left: 182px;
+    font-size: 132%;
+    color: dimgray;
+}
+#para3{
+    position: absolute;
+    margin-top: 84px;
+    font-size: 92%;
+    margin-left: 185px;
+    color: dimgray;
+
+}
+
+#fName{
+    position: absolute;
+    margin-top: 168px;
+    margin-left: 175px;
+    width: 64%;
+}
+
+#email{
+    position: absolute;
+    margin-top: 228px;
+    margin-left: 173px;
+    margin-right: 0px;
+    width: 64%;
+}
+#phoneNmb{
+    position: absolute;
+    margin-top: 286px;
+    margin-left: 172px;
+    width: 64%;
+}
+#address{
+    position: absolute;
+    margin-top: 344px;
+    margin-left: 169px;
+    width: 65%;
+    height: 42px;
+}
+
+#disc{
+    position: absolute;
+    margin-top: 423px;
+    margin-left: 168px;
+    width: 66%;
+    height: 10%;
+
+}
+
+#labelname{
+    position: absolute;
+    margin-top: 166px;
+    margin-left: 47px;
+}
+#labelemail{
+    position: absolute;
+    margin-top: 228px;
+    margin-left: 47px;
+}
+
+#labeladdrss{
+    position: absolute;
+    margin-top: 346px;
+    margin-left: 46px;
+
+}
+
+#labelphone{
+    position: absolute;
+    margin-left: 47px;
+    margin-top: 286px;
+}
+#labeldisc{
+    position: absolute;
+    margin-top: 396px;
+    margin-left: 47px;
+
+}
+#continue2 {
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 339px;
+    width: 26%;
+    height: 7%;
+    border-radius: 8%;
+    padding-right: 27px;
+    background-color: green;
+}
+#info2{
+    font-size: 113%;
+    margin-left: 176px;
+    margin-top: 8px
+}
+#cardNmb{
+    position: absolute;
+    margin-top: 143px;
+    margin-left: 29px;
+}
+#labelcardcvc{
+    position: absolute;
+    width: 35%;
+    margin-left: 343px;
+    margin-top: 119px;
+}
+#labelcardNmb{
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 31px;
+}
+#labelcardownername{
+    position: absolute;
+    margin-top: 183px;
+    margin-left: 33px;
+}
+#labelcarddate{
+    position: absolute;
+    margin-left: 345px;
+    width: 45%;
+    margin-top: 184px;
+}
+
+#cardBar{
+    position: absolute;
+    background-color: ghostwhite;
+    width: 93%;
+    height: 6%;
+    margin-top: 56px;
+    margin-left: 23px;
+    box-shadow: 0px 2px 10px darkgrey;
+    padding-left: 143px;
+    padding-top: 6px;
+}
+
+#bankTrnansfer{
+    position: absolute;
+    background-color: ghostwhite;
+    width: 93%;
+    height: 6%;
+    margin-top: 267px;
+    margin-left: 24px;
+    box-shadow: 0px 2px 10px darkgrey;
+    padding-left: 143px;
+    padding-top: 6px;
+}
+
+#labelBankName{
+    position: absolute;
+    margin-top: 388px;
+    margin-left: 32px
+}
+#labelBranch{
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 327px;
+
+}
+#labelAccNmb{
+    position: absolute;
+    margin-top: 327px;
+    margin-left: 327px;
+}
+
+
+
+#labelAccName{
+    position: absolute;
+    margin-top: 324px;
+    margin-left: 32px;
+}
+
+#accName{
+    position: absolute;
+    margin-top: 349px;
+    margin-left: 29px;
+    width: 47%;
+    height: 5%;
+}
+
+#accBankName{
+    position: absolute;
+    margin-top: 413px;
+    margin-left: 31px;
+    width: 244px;
+}
+#accBranch{
+    position: absolute;
+    margin-top: 414px;
+    margin-left: 324px;
+    width: 36%;
+}
+#accNmb{
+    position: absolute;
+    margin-left: 323px;
+    margin-top: 349px;
+    width: 36%;
+    height: 5%;
+}
+
+#paypalbar{
+    position: absolute;
+    background-color: ghostwhite;
+    width: 93%;
+    height: 6%;
+    margin-top: 467px;
+    margin-left: 24px;
+    box-shadow: 0px 2px 10px darkgrey;
+    padding-left: 143px;
+    padding-top: 6px;
+}
+#radioBtn3{
+    position: absolute;
+    margin-left: -21px;
+    margin-top: 10px;
+}
+#radioBtn{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -24px;
+}
+#radioBtn2{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -24px;
+}
+#btnCircle{
+    position: static;
+    background-color: ghostwhite;
+    width: 9%;
+    height: 91%;
+    margin-left: -34px;
+    border-radius: 100%;
+    margin-top: -1px;
+}
+
+#btnCircle2{
+    position: static;
+    background-color: ghostwhite;
+    width: 9%;
+    height: 91%;
+    margin-left: -34px;
+    border-radius: 100%;
+    margin-top: -1px;
+}
+
+#gotopage2{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    background-color: blue;
+}
+
+
+
+
+#cardOwner{
+    position: absolute;
+    margin-top: 208px;
+    margin-left: 29px;
+}
+#carddate{
+    position: absolute;
+    margin-left: 333px;
+    width: 35%;
+    margin-top: 209px;
+}
+
+#cardcvc{
+    position: absolute;
+    width: 35%;
+    margin-left: 334px;
+    margin-top: 143px;
+}
+.bar1{
+    position: absolute;
+
+}
+
+
+
+.cardNumber{
+
+    padding-left: 41px;
+    padding-right: 38px;
+    /* padding-top: 4px; */
+    margin-top: 3px;
+}
+
+#footer {
+    width: 100%;
+    height: 5%;
+    background-color: gainsboro;
+    position: absolute;
+    margin-top: 659px;
+    margin-left: -12px;
+    border-radius: 1%;
+    opacity: 80.1%
+}
+#lockPng {
+    margin-left: 184px;
+    /* margin-top: 1px; */
+    /* font-size: 13px; */
+}
+#secure {
+    margin-top: -20px;
+    margin-left: 213px;
+    color: dimgray;
+}
+
+.dots{
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0,0,0,.6);
+}
+.slideImg{
+    z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four{
+    z-index: 9;
+}
+

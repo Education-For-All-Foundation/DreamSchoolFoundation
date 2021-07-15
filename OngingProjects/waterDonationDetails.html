@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drinking water Donation project details</title>
+
+    <meta charset="UTF-8">
+    <title>Doante Form of Drinking water system</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="waterDonationDetailsStylesheet.css">
+    <link rel="stylesheet" type="text/css" href="waterDonationFormStylesheet2.css">
+    <link rel="stylesheet" media="(max-width:1440px)" href="waterDonationStylesheet3.css">
+    <link rel="stylesheet" media="(max-width:1024px)" href="waterDonationStylesheet4.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="waterDonationDetails5.css">
+    <link rel="stylesheet" media="(max-width:450px)" href="waterDetailsStylesheet6.css">
+    <link rel="stylesheet" media="(max-width:400px)" href="waterDetailsStylesheet7.css">
+    <link rel="stylesheet" media="(max-width:330px)" href="waterDetailsStylesheet8.css">
+    <link rel="stylesheet" media="(min-width:2560px) and (max-width:3000px)" href="waterDetailsStylesheet9.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style type="text/css">
+        .error{
+            color: red;
+        }
+        .success{
+            color: green;
+        }
+    </style>
+
+    <script src="waterFormValidate2.js"></script>
+    <script>
+
+        function fillText() {
+            document.getElementById("text1").value=1000;
+        }
+
+        function fillText2() {
+            document.getElementById("text1").value=2000;
+        }
+
+        function fillText3() {
+            document.getElementById("text1").value=3000;
+        }
+
+        function fillText4() {
+            document.getElementById("text1").value=5000;
+        }
+
+        function fillText5() {
+            document.getElementById("text1").value=10000;
+        }
+
+        function pointText()
+        {
+
+            document.getElementById("text1").value=' ';
+
+        }
+
+        function show() {
+            document.getElementById('slideBar').classList.toggle('active');
+        }
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+</head>
+<body>
+
+<div id="container1">
+
+
+
+    <p id="paraContent" >
+        Water is the basic necessity in schools, however, it is not available in many rural schools in Eastern Province in Srilanka! Due to this, children are irregular to school and eventually drop out.<br>
+        This project will help to build in toilets and maintain them, provide running and clean drinking water for school children in Padiyathalawa national School.<br>
+        The expected impact of the project is better health and improved school attendance and a reduction in school dropouts among the project village.<br>
+        The aim of this project is to buildup a proper water supply system for the school, through bore-well and placing tanks for water storage in the school.<br>
+        The project will also take up the maintenance of taps and tanks by appointing a villager for daily cleaning and upkeep.  A drinking water purification system will be installed to ensure bacteria-free water is available in school.
+
+    </p>
+
+
+
+
+</div>
+<div id="headerbar"><h4 id="desc">Drinking water system supply project of Padiyathalava National School</h4></div>
+
+<div id="imageDiv">
+    <img src="../images/padiyathalava1.jpg" id="img1">
+    <img src="../images/padiyathalava2.jpg" id="img2">
+    <img src="../images/padiyathalava3.jpg" id="img3">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container" id="formContent">
+
+    <input type="radio" class="rdioBtn" name="images" id="i1" checked>
+    <input type="radio" class="rdioBtn" name="images" id="i2">
+    <input type="radio" class="rdioBtn" name="images" id="i3">
+    <input type="radio" class="rdioBtn" name="images" id="i4">
+
+
+    <!--Slide 1-->
+    <div class="slideImg" id="one">
+        <div><h1 id="oneh1">Drinking water system supply project <br>&nbsp;&nbsp;&nbsp;&nbsp;of Padiyathalava National School</h1>
+            <hr id="onehr">
+            <h2 id="oneh2">Let's help them for fulfill their dreams.</h2><img id="smileImg" src="../images/Thumbnails%20(4).jpg" >
+
+            <button type="button" id="donateBtn" class="btn btn-danger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+
+            <label for="i4" class="pre"></label>
+            <label for="i2" id="forward4" class="next"></label>
+        </div>
+    </div>
+
+
+    <!--Slide 2-->
+    <div class="slideImg" id="three" method="post" action="insertDonateTable.php">
+
+        <form name="formTwo">
+
+            <div class="header">
+                <h4 id="amount">Choose Amount</h4>
+            </div>
+
+            <p id="para">How much would you like to donate? As a donator to this project For Change, we make sure your donation goes directly to supporting our library creation project of Hali Ela central college.</p>
+
+            <div id="element">
+                <input type="text" name="amount" id="text1" placeholder="Amount" style="text-align: center">
+                <select id="combo1">
+                    <option value="Rs" selected="selected">Rs</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="CAD">CAD</option>
+                    <option value="MXN">MXN</option>
+                </select>
+            </div>
+
+
+            <input class="btn1" id="rowOne" type="button" value="Rs.1000" onclick="fillText();">
+            <input class="btn1" id="rowTwo" type="button" value="Rs.2000" onclick="fillText2(); ">
+            <input class="btn1" id="rowThree" type="button" value="Rs.3000" onclick="fillText3();">
+
+
+            <input class="btn2" id="colOne" type="button" value="Rs.5000" onclick="fillText4();">
+            <input class="btn2" id="colTwo" type="button" value="Rs.10,000" onclick="fillText5();">
+            <input class="btn2" id="colThree" type="button" value="Custom Amount" onclick="pointText();">
+
+            <div id="donation"><input type="checkbox">&nbsp;&nbsp;Make this donation monthly</div>
+            <p id="successTwo" class="success"></p>
+            <input type="submit" name="submit2" id="submit2" value="Submit" onfocus="validateAmount();">
+
+
+            <img src="../images/icons8-back-24.png" style="    position: absolute;margin-left: 5px;margin-top: 7px;">
+            <input id="continue" type="button"value="Continue"><img src="../images/icons8-forward-26.png" id="backImgTwo">
+
+
+
+
+
+            <label for="i2" class="pre"></label>
+            <label for="i4" id="forward3"  class="next"></label>
+        </form>
+    </div>
+
+
+
+
+
+    <!-- Slide 3-->
+
+    <div class="slideImg" id="two">
+        <div>
+
+            <form name="formOne" method="post" action="insertPersonalData.php">
+                <div class="header">
+                    <h4 id="info">Add Your Information</h4>
+                </div>
+
+                <img src="../images/icons8-back-24.png" style="position: absolute;margin-left: 5px;margin-top: 7px;">
+                <h2 id="para2">Who's donating today?</h2>
+                <h3 id="para3">We’ll secure your all information</h3>
+
+                <label id="labelname"> Name</label><input type="text" name="name" id="fName" placeholder="Enter your name...">
+                <p id="nameError" class="error"></p>
+                <label id="labelemail"> Email</label><input type="email" name="mail" id="email" placeholder="Enter your email...">
+                <p id="emailError" class="error"></p>
+                <label id="labelphone"> Phone Number</label><input type="phone" name="phone" id="phoneNmb" placeholder="Enter your phone number...">
+                <p id="phoneError" class="error"></p>
+                <label id="labeladdrss"> Address</label><textarea name="Address" id="address" placeholder="Enter your address..."></textarea>
+                <p id="addressError" class="error"></p>
+                <label id="labeldisc"> Donation Discription<br> (Optional) </label><textarea id="disc" placeholder="Type your discription here(Optional)..."></textarea>
+
+
+                <p id="successOne" class="success"></p>
+                <input type="submit" value="submit" name="submit" id="sumbit1" onfocus="validateForm1();">
+
+
+                <input id="continue2" type="button"value="Continue"><img src="../images/icons8-forward-26.png" id="backImgOne">
+
+
+                <label for="i1" class="pre"></label>
+                <label for="i3" id="forward2" class="next"></label>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--SLide 4-->
+
+
+    <div class="slideImg" id="four">
+        <form action="insertPaymentData.php" method="post" name="form3">
+            <div class="header">
+                <h4 id="info2">Add your donation details</h4>
+            </div>
+
+            <img src="../images/icons8-back-24.png" style="position: absolute;margin-left: 5px;margin-top: 7px;">
+
+
+            <p class="error" id="paymentError"></p>
+            <div id="cardBar">
+                <input id="radioBtn" name="method" type="radio" value="cardPayment">
+                <h3 class="bar1" id="h3tLast">Donate with Credit/Debit card</h3>
+            </div>
+            <label id="labelcardNmb">Card Number</label><input class="cardNumber" id="cardNmb" name="cardNumber"
+                                                               placeholder="Enter card number..." type="text">
+            <label id="labelcardcvc">Card CVC</label><input class="cardNumber" id="cardcvc" name="cardCVC" placeholder="Enter CVC..."
+                                                            type="text">
+            <label id="labelcardownername">Card holder's name</label><input class="cardNumber" id="cardOwner"
+                                                                            name="cardHolderName" placeholder="Enter cardholder's name..."
+                                                                            type="text">
+            <label id="labelcarddate">Card expire date</label><input class="cardNumber" id="carddate" name="cardExpireDate"
+                                                                     placeholder="MM/YY" type="text">
+
+
+            <div id="bankTrnansfer">
+                <input id="radioBtn2" name="method" type="radio" value="OnlineBankPayment">
+                <h3 class="bar1" id="h3Transfer">Online Bank Transfer</h3>
+            </div>
+
+            <label id="labelAccName">Account holder's name</label><input id="accName" name="accName" placeholder="Enter account holder's name..."
+                                                                         type="text">
+            <label id="labelAccNmb">Account number</label><input id="accNmb" name="accNmb" placeholder="Enter account number..."
+                                                                 type="text">
+            <label id="labelBankName">Bank name</label><input id="accBankName" name="accBankName" placeholder="Enter bank name..."
+                                                              type="text">
+            <label id="labelBranch">Branch</label><input id="accBranch" name="accBranch" placeholder="Enter brach..."
+                                                         type="text">
+
+
+            <div id="paypalbar">
+                <a href="https://www.paypal.com/us/signin" style="text-decoration: none; color: black;" target="_blank">
+                    <input id="radioBtn3" name="method" type="radio" value="paypalPayment">
+                    <h3 class="bar1" id="h3pal">Donate in Paypal</h3>
+                </a></div>
+            <p class="success" id="successThree"></p>
+            <input id="btnDoante" onfocus="validatePayment();" type="submit" value="Donate">
+
+
+
+
+
+            <label for="i3"  class="pre"></label>
+            <!-- <label for="i1" id="forward" class="next"></label>-->
+        </form>
+    </div>
+
+
+
+
+    <div class="circles" id="circlesBtn">
+        <label class="dots" id="dot1" for="i1"></label>
+        <label class="dots" id="dot2" for="i2"></label>
+        <label class="dots" id="dot3" for="i3"></label>
+        <label class="dots" id="dot4" for="i4"></label>
+    </div>
+
+
+    <div id="footer">
+        <img id="lockPng" src="../images/icons8-privacy-24.png"><h6 id="secure">Secure Donation</h6>
+    </div>
+</div>
+
+
+<div id="blackFooter2">
+    <table>
+        <tr>
+            <td  id="oneData"><img id="loationPng" src="../images/icons8-location-24.png">No 30,Ward Place,Colombo 07,Sri Lanka</td>
+            </td>
+
+        </tr>
+        <tr>
+            <td id="twoData"><img id="callPng" src="../images/icons8-call-48.png">Colombo:011&nbsp;2&nbsp; 233&nbsp; 445</td>
+
+        </tr>
+
+        <tr>
+            <td id="threeData"><a id="mail" href="https://accounts.google.com/signup" target="_blank"><img id="emailPng" src="../images/icons8-mail-100.png">dreamschoolfoundation@gamil.com</a></td>
+
+
+        </tr>
+
+        <tr><td><h3 id="follow">Follow Us</h3></td>
+
+        </tr>
+
+        <tr><td class="followings"><a href="http://www.facebook.com" target="_blank"><img id="fbPng" src="../images/icons8-facebook-48%20(1).png"></a>
+            <a href="http://www.twitter.com" target="_blank"><img id="twitterPng" src="../images/icons8-twitter-48.png"></a>
+            <a href="http://www.youtube.com" target="_blank"><img id="youtubePng" src="../images/youtube.png"></a>
+            <a href="http://www.instagram.com" target="_blank"><img id="instaPng" src="../images/insta.png"></a>
+        </td>
+
+        </tr>
+
+    </table>
+
+
+    <h4 id="menu">MENU</h4>
+    <div class="coltwo">
+        <ul type="none">
+            <li><a class="linkOne" id="home" href="#">Home</a></li>
+            <li><a class="linkOne" id="whoWeAre" href="#">Who&nbsp;WeAre</a></li>
+            <li><a class="linkOne" id="faq" href="#">FAQ</a></li>
+            <li><a class="linkOne" id="ongoingProject" href="#">Ongoing&nbsp;Projects</a></li>
+            <li><a class="linkOne" id="completedProject" href="#">Completed&nbsp;Project</a></li>
+            <li><a class="linkOne" id="involvedwithUs" href="#">Join&nbsp;With&nbsp;us</a></li>
+
+        </ul>
+    </div>
+
+    <span id="photos">
+    <img id="sriLankaPng" src="../images/icons8-sri-lanka-48.png">
+    <img id="charityPng" src="../images/icons8-charity-50.png">
+    <img id="educationPng" src="../images/icons8-education-48.png">
+</span>
+
+
+        <p id="lastParagraph">Dream School Foundation is a Registered NGO With the Sri Lanken Charities and Not For Profits Commission also a Public Benevolent Institution (PBI) dedicated to assisting the needy, vulnerable and underprivileged in Sri Lanka And Overseas whether it be due to disaster or endemic poverty. Dream School Foundation is endorsed as a Deductible Gift Recipient (DGR) with the Sri Lanken Tax Office.</p>
+
+
+    <a id="privacy"  href="#">Privacy Policy | </a>
+    <a id="terms" href="#">Terms Of Use</a>
+    <h5 id="copyright">Copyright 2021 DSF, All Rights Reserved</h5>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

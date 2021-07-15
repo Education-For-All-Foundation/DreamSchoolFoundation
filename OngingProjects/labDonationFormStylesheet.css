@@ -2,6 +2,7 @@ html,body{
     width: 100%;
     height: 100%;
     margin: 0;
+    overflow: hidden;
 
 }
 
@@ -20,6 +21,70 @@ html,body{
 .rdioBtn{
 
 }
+#oneh1 {
+    margin-top: 37px;
+    margin-left: 100px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: lightslategray;
+    position: absolute;
+}
+#onehr {
+    position: absolute;
+    height: 3px;
+    width: 53%;
+    margin-left: 136px;
+    margin-top: 126px;
+}
+
+#oneh2 {
+    position: absolute;
+    margin-top: 147px;
+    margin-left: 99px;
+    font-size: 23px;
+    font-family: none;
+    color: gray;
+}
+
+#backImgTwo {
+    position: absolute;
+    margin-top: 568px;
+    margin-left: 410px;
+    width: 3%;
+}
+#backImgOne {
+    position: absolute;
+    margin-top: 555px;
+    margin-left: 107px;
+    width: 3%;
+}
+#h3tLast{
+    font-size: 109%;margin-top: 5px; margin-left: 3px;position: absolute;font-weight: 500;
+}
+#h3Transfer{
+    font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;
+}
+
+#h3pal{
+    font-size: 109%; margin-top: 6px;margin-left: 8px;position: absolute;font-weight: 500;
+}
+
+#btnDoante{
+    position: absolute;margin-top: 537px;margin-left: 185px; width: 30%;height: 7%;border-radius: 9%;background-color: crimson;
+}
+.circles {
+    width: 100%;
+    height: 11px;
+    bottom: 6%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    margin-left: -8px;
+    /* margin-top: 70px; */
+    position: absolute;
+    margin-top: 93px;
+    /* padding-top: 279px; */
+}
 
 .slideImg {
     position: absolute;
@@ -27,15 +92,16 @@ html,body{
     height: 100%;
     margin-left: -12px;
     border-radius: 1%;
+    overflow: hidden;
 }
 #smileImg {
     position: absolute;
     width: 100%;
     /* height: 44%; */
     /* margin-left: 58px; */
-    margin-top: 174px;
+    margin-top: 194px
 }
-.header{
+.header {
     width: 100%;
     height: 5%;
     background-color: gainsboro;
@@ -45,6 +111,52 @@ html,body{
     border-radius: 1%;
     opacity: 38.1%;
 }
+#emailError {
+    position: absolute;
+    margin-top: 203px;
+    margin-left: 223px;
+}
+
+#phoneError {
+    position: absolute;
+    margin-top: 261px;
+    margin-left: 207px;
+}
+#addressError {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 212px;
+}
+
+#successOne {
+    position: absolute;
+    margin-top: 501px;
+    margin-left: 216px;
+}
+#successTwo {
+    position: absolute;
+    margin-top: 514px;
+    margin-left: 200px;
+}
+#amountError {
+    position: absolute;
+    margin-top: 146px;
+    margin-left: 191px;
+}
+
+
+#submitTwo {
+    position: absolute;
+    margin-top: 551px;
+    margin-left: 177px;
+    width: 20%;
+    height: 47px;
+    border-radius: 10%;
+    background-color: red;
+}
+
+
+
 #amount{
     position: absolute;
     margin-left: 175px;
@@ -128,7 +240,7 @@ html,body{
     width: 94%;
     background: border-box;
     margin-top: 466px;
-    // padding: 27px;
+    padding: 27px;
     padding-left: 147px;
     padding-top: 9px;
     margin-left: 19px;
@@ -138,14 +250,13 @@ html,body{
 }
 
 
-
-#continue{
+#continue {
     position: absolute;
     margin-top: 549px;
-    margin-left: 201px;
-    width: 28%;
+    margin-left: 311px;
+    width: 24%;
     height: 7%;
-    background-color: dimgray;
+    background-color: green;
     border-radius: 8%;
 }
 #element{
@@ -210,29 +321,26 @@ html,body{
     background-color: revert
 
 }
-
-#forward2{
-    width: 33%;
+#forward2 {
+    width: 24%;
     height: 9%;
     /* margin-left: 72px; */
-    margin-top: 529px;
+    margin-top: 545px;
     /* padding-left: 33px; */
     position: absolute;
-    margin-right: 181px;
-    background-color: revert
-
+    margin-right: 61px;
+    background-color: revert;
 }
 
-#forward3{
-    width: 33%;
-    height: 9%;
+#forward3 {
+    width: 23%;
+    height: 7%;
     /* margin-left: 72px; */
-    margin-top: 529px;
+    margin-top: 549px;
     /* padding-left: 33px; */
     position: absolute;
-    margin-right: 181px;
-    background-color: revert
-
+    margin-right: 91px;
+    background-color: revert;
 }
 
 #forward4{
@@ -247,6 +355,16 @@ html,body{
 
 }
 
+#paymentError {
+    position: absolute;
+    margin-top: 509px;
+    margin-left: 145px;
+}
+#successThree {
+    position: absolute;
+    margin-top: 594px;
+    margin-left: 131px;
+}
 #para2{
     position: absolute;
     margin-top: 51px;
@@ -268,6 +386,11 @@ html,body{
     margin-top: 168px;
     margin-left: 175px;
     width: 64%;
+}
+#nameError {
+    position: absolute;
+    margin-top: 142px;
+    margin-left: 244px;
 }
 
 #email{
@@ -329,15 +452,25 @@ html,body{
     margin-left: 47px;
 
 }
-#continue2{
+#continue2 {
     position: absolute;
-    margin-top: 526px;
-    margin-left: 204px;
-    width: 26%;
+    margin-top: 537px;
+    margin-left: 21px;
+    width: 22%;
     height: 7%;
     border-radius: 8%;
     padding-right: 27px;
-    background-color: dimgray;
+    background-color: green;
+    color: floralwhite;
+}
+#sumbit1 {
+    margin-top: 538px;
+    margin-left: 206px;
+    width: 22%;
+    height: 47px;
+    background-color: red;
+    border-radius: 10%;
+    color: floralwhite;
 }
 #info2{
     font-size: 113%;
@@ -538,19 +671,6 @@ html,body{
     margin-top: 3px;
 }
 
-.circles {
-    width: 100%;
-    height: 11px;
-    bottom: 12%;
-    position: absolute;
-    text-align: center;
-    z-index: 99;
-    margin-left: 207px;
-    /* margin-top: 70px; */
-    position: absolute;
-    /* margin-top: 97px; */
-    /* padding-top: 279px; */
-}
 #footer {
     width: 100%;
     height: 5%;
