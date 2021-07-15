@@ -1,0 +1,130 @@
+
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+
+
+@import "../css/reset.css";
+@import "../css/grid.css";
+@import "../css/superfish.css";
+
+input {
+	outline:  none !important;
+	border-radius: 0 !important;	 
+}
+
+
+html {
+	width: 100%;
+}
+
+ a[href^="tel:"] {
+color: inherit;
+text-decoration:none;
+}
+
+* {
+	-webkit-text-size-adjust: none;
+}
+
+
+body {
+	font: 16px/18px  Arial, Helvetica, sans-serif;
+	color:#767171;
+	position:relative;
+	min-width:960px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: 'Pathway Gothic One', sans-serif ;
+	color: #2584e6;
+}
+
+h3 {
+	font-size: 60px;
+	line-height: 24px;
+	position: relative;
+	top: -3px;
+	margin-bottom: 23px;
+}
+
+
+h4 {
+	font-size: 30px;
+	line-height: 18px;
+	margin-top: -5px;
+	position: relative;
+	margin-bottom: 14px;
+}
+
+p {
+	margin-bottom: 22px;
+}
+
+img {
+	max-width: 100%;
+}
+
+address {
+	font-style: normal;
+}
+
+a.btn {
+	display: inline-flex;
+	font: 25px/25px 'Pathway Gothic One', sans-serif;
+	color: #ac2135;
+	background: url() right 4px no-repeat;
+	padding-right: 15px;
+	margin-right: -49px;
+	margin-top: 50px;
+}
+
+a.btn:hover {
+	color: black;
+}
+
+header {
+	display: block;
+	position: relative;
+	z-index: 999;
+	margin-bottom: 60px;
+}
+
+header a:hover {
+	color: #000;
+}
+
+#form+.style1 {
+	margin-right: -50px;
+}
+
+
+.content {
+	padding: 50px 50px;
+	margin-bottom: 223px;
+	background: url(../images/cont_bg.png) 0 0 repeat;
+}
+
+.page1 .content p, .style1 {
+	color: #000;
+}
+
+.page1 .content p a , .style1 a{
+	color: #3780ec;
+}
+
+
+footer {
+	color: #fff;
+	display: block;
+	padding: 21px 0;
+	border-top: 3px solid #ff4a4a;
+}
+
+
+
+.copy {
+
+}
+
