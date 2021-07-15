@@ -1,0 +1,82 @@
+@media all and (max-width: 320px) {
+
+    .methodology {
+        width: 265%;
+        height: 391%;
+        background-color: white;
+        margin-left: 178px;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        margin-top: 55px;
+    }
+    #blackfooter {
+        width: 381%;
+        height: 153%;
+        background-color: black;
+        margin-top: 77px;
+    }
+    .followings {
+        margin-top: 674px;
+    }
+
+    #follow{
+
+    }
+    #instaPng {
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 77px;
+    }
+    #youtubePng {
+        margin-left: 14px;
+        padding-top: 18px;
+        position: absolute;
+    }
+
+    #terms {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        margin-top: 878px;
+        margin-left: 246px;
+        font-size: 144%;
+    }
+    #copyright {
+        font-size: 147%;
+        position: absolute;
+        margin-left: 513px;
+        margin-top: 819px;
+        color: dimgray;
+        /* padding-right: 201px; */
+    }
+    #loationPng {
+        position: absolute;
+        width: 23%;
+        height: 26%;
+        /* padding-left: 31px; */
+        margin-left: -107px;
+        margin-top: 33px;
+    }
+    slider {
+        display: block;
+        width: 336%;
+        height: 217%;
+        background-color: white;
+        overflow: hidden;
+        position: absolute;
+        margin-top: 553px;
+        margin-left: 76px;
+    }
+    .image {
+        height: 692px;
+        width: 1060px;
+    }
+
+
+
+
+
+
+
+
+
+}

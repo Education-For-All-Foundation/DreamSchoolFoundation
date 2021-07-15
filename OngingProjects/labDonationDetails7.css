@@ -1,0 +1,85 @@
+@media all and (max-width: 400px){
+
+
+    #headerbar {
+        width: 299%;
+        height: 16%;
+        background-color: darkmagenta;
+        position: absolute;
+        margin-top: -168px;
+        margin-left: 30px;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+    }
+
+    #desc {
+        position: absolute;
+        margin-left: 135px;
+        margin-top: 36px;
+        font-size: 207%;
+        color: aliceblue;
+    }
+    #amountError {
+        position: absolute;
+        margin-top: 146px;
+        margin-left: 139px;
+    }
+    #successTwo {
+        position: absolute;
+        margin-top: 514px;
+        margin-left: 135px;
+    }
+    #container1 {
+        position: absolute;
+        margin-left: 125px;
+        margin-top: 677px;
+        background-color: inherit;
+        width: 245%;
+        height: 107%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+    }
+
+    #imageDiv {
+        position: absolute;
+        background-color: slategray;
+        width: 303%;
+        height: 66%;
+        box-shadow: 0px 2px 10px rgb(0 0 0);
+        border-radius: 1%;
+        margin-top: 1418px;
+        margin-left: 15px;
+    }
+
+
+    #blackFooterTwo {
+        width: 311%;
+        height: 80%;
+        background-color: black;
+        margin-top: 1255px;
+    }
+
+    .coltwo {
+        position: absolute;
+        margin-top: -228px;
+        margin-left: 976px;
+        /* padding: 0px; */
+    }
+
+    #menu {
+        color: white;
+        margin-left: 1012px;
+        margin-top: -280px;
+        font-weight: bold;
+        position: absolute;
+    }
+
+    .circles {
+        position: absolute;
+        margin-bottom: 0px;
+        margin-left: -31px;
+    }
+
+
+
+}

@@ -1,0 +1,49 @@
+@media all and (min-width:455px)and (max-width:1025px)  {
+
+
+    .row {
+        margin-left: 224px;
+    }
+
+    .card {
+        box-shadow: 0 0 30px rgb(0,0,0.5);
+        border-radius: 15px;
+        height: 111%;
+        width: 152%;
+        margin-top: 170px;
+    }
+
+#donationHistry {
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 82%;
+    margin-left: 1027px;
+    margin-top: -372px;
+    box-shadow: 0 0 30px rgb(0 0 0);
+}
+
+    #h2One {
+        position: absolute;
+        margin-left: 172px;
+        margin-top: 13px;
+    }
+
+
+    #h2Two {
+        position: absolute;
+        margin-left: 255px;
+        margin-top: 12px;
+    }
+
+
+    #problemHistry {
+        position: absolute;
+        background-color: white;
+        width: 92%;
+        height: 51%;
+        margin-left: 101px;
+        margin-top: 300px;
+        box-shadow: 0 0 30px rgb(0 0 0);
+    }
+}

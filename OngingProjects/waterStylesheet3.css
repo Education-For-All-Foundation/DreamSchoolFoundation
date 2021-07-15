@@ -1,0 +1,553 @@
+@media all and (max-width: 400px){
+    #oneh1 {
+        margin-top: 35px;
+        margin-left: 35px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: lightslategray;
+        position: absolute;
+    }
+
+    #onehr {
+        position: absolute;
+        height: 3px;
+        width: 48%;
+        margin-left: 74px;
+        margin-top: 103px;
+    }
+    #oneh2 {
+        position: absolute;
+        margin-top: 122px;
+        margin-left: 44px;
+        font-size: 20px;
+        font-family: none;
+        color: gray;
+    }
+
+    #lockPng {
+        margin-left: 131px;
+        /* margin-top: 1px; */
+        /* font-size: 13px; */
+    }
+
+
+    #backImgOne {
+        position: absolute;
+        margin-top: 499px;
+        margin-left: 325px;
+        width: 3%;
+    }
+
+    #continue2 {
+        position: absolute;
+        margin-top: 483px;
+        margin-left: 237px;
+        width: 22%;
+        height: 7%;
+        border-radius: 8%;
+        padding-right: 27px;
+        background-color: green;
+    }
+
+    #sumbit1 {
+        position: absolute;
+        margin-top: 482px;
+        width: 21%;
+        height: 44px;
+        margin-left: 108px;
+        border-radius: 10%;
+        background-color: red;
+    }
+
+    #nameError {
+        position: absolute;
+        margin-top: 109px;
+        margin-left: 139px;
+    }
+
+    #emailError {
+        position: absolute;
+        margin-top: 167px;
+        margin-left: 140px;
+    }
+
+    #phoneError {
+        position: absolute;
+        margin-top: 224px;
+        margin-left: 138px;
+    }
+
+    #addressError {
+        position: absolute;
+        margin-top: 280px;
+        margin-left: 137px;
+    }
+    #forward2 {
+        width: 14%;
+        height: 7%;
+        /* margin-left: 72px; */
+        margin-top: 483px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 176px;
+        background-color: revert;
+    }
+
+
+
+    #secure {
+        margin-top: -22px;
+        margin-left: 163px;
+        color: dimgray;
+    }
+
+    #smileImg {
+        position: absolute;
+        width: 72%;
+        /* height: 44%; */
+        /* margin-left: 58px; */
+        margin-top: 190px;
+    }
+    #donateBtn {
+        position: absolute;
+        margin-top: 487px;
+        margin-left: 146px;
+    }
+
+    .circles {
+        position: absolute;
+        margin-bottom: -34px;
+        margin-left: -75px;
+    }
+    #forward4 {
+        width: 33%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 476px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 237px;
+        background-color: revert;
+    }
+    #disc {
+        position: absolute;
+        margin-top: 389px;
+        margin-left: 134px;
+        width: 42%;
+        height: 10%;
+    }
+    #address {
+        position: absolute;
+        margin-top: 303px;
+        margin-left: 134px;
+        width: 41%;
+        height: 42px;
+    }
+    #phoneNmb {
+        position: absolute;
+        margin-top: 246px;
+        margin-left: 134px;
+        width: 41%;
+    }
+    #email {
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 134px;
+        margin-right: 0px;
+        width: 41%;
+    }
+    #fName {
+        position: absolute;
+        margin-top: 135px;
+        margin-left: 136px;
+        width: 41%;
+    }
+    #amount {
+        position: absolute;
+        margin-left: 116px;
+        margin-top: 3px;
+        color: black;
+    }
+    #para {
+        position: absolute;
+        margin-top: 41px;
+        padding-left: 67px;
+        padding-right: 170px;
+        font-size: 15px;
+        margin-left: -37px;
+    }
+
+    #text1 {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 26px;
+        height: 46%;
+        width: 52%;
+        border-radius: 6%;
+        border-color: darkgreen;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #combo1 {
+        position: absolute;
+        /* margin-top: 123px; */
+        margin-top: 14px;
+        margin-left: -40px;
+        border: none;
+    }
+
+    .btn1 {
+        position: absolute;
+        margin-top: 234px;
+        margin-left: 27px;
+        height: 7%;
+        width: 19%;
+        border-radius: 9%;
+        border-color: aliceblue;
+        background-color: darkmagenta;
+        color: honeydew;
+    }
+    .btn2 {
+        position: absolute;
+        margin-top: 288px;
+        margin-left: 27px;
+        height: 7%;
+        width: 19%;
+        border-radius: 9%;
+        border-color: aliceblue;
+        background-color: darkmagenta;
+        color: honeydew;
+    }
+
+    #colThree {
+        margin-left: 255px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #colTwo {
+        margin-left: 138px;
+    }
+    #rowThree {
+        margin-left: 254px;
+    }
+    #rowTwo {
+        margin-left: 140px;
+    }
+
+
+    #donation {
+        position: absolute;
+        height: 6%;
+        width: 63%;
+        background: border-box;
+        margin-top: 378px;
+        /* padding: 27px; */
+        padding-left: 62px;
+        padding-top: 6px;
+        margin-left: 19px;
+        border-radius: 3%;
+        box-shadow: 0px 1px 3px #9e9e9e;
+    }
+
+
+    #continue {
+        position: absolute;
+        margin-top: 453px;
+        margin-left: 224px;
+        width: 22%;
+        height: 7%;
+        background-color: green;
+        border-radius: 8%;
+    }
+    #submit2 {
+        position: absolute;
+        margin-top: 452px;
+        margin-left: 81px;
+        width: 23%;
+        height: 45px;
+        border-radius: 10%;
+        background-color: red;
+    }
+
+    #backImgTwo {
+        position: absolute;
+        margin-top: 468px;
+        margin-left: 318px;
+        width: 3%;
+    }
+
+    #forward3 {
+        width: 13%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 448px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 191px;
+        background-color: revert;
+    }
+
+    #amountError {
+        position: absolute;
+        margin-top: 421px;
+        margin-left: 124px;
+    }
+
+    #successTwo {
+        position: absolute;
+        margin-top: 506px;
+        margin-left: 127px;
+    }
+
+    #paymentError {
+        position: absolute;
+        margin-top: 456px;
+        margin-left: 96px;
+    }
+    #successThree {
+        position: absolute;
+        margin-top: 519px;
+        margin-left: 101px;
+    }
+
+    #cardBar {
+        position: absolute;
+        background-color: ghostwhite;
+        width: 64%;
+        height: 6%;
+        margin-top: 56px;
+        margin-left: 23px;
+        box-shadow: 0px 2px 10px darkgrey;
+        padding-left: 143px;
+        padding-top: 6px;
+    }
+    #h3tLast {
+        font-size: 105%;
+        margin-top: 2px;
+        margin-left: -79px;
+        position: absolute;
+        font-weight: 500;
+    }
+
+
+
+    #radioBtn {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -99px;
+    }
+
+
+    #bankTrnansfer {
+        position: absolute;
+        background-color: ghostwhite;
+        width: 63%;
+        height: 6%;
+        margin-top: 267px;
+        margin-left: 24px;
+        box-shadow: 0px 2px 10px darkgrey;
+        padding-left: 143px;
+        padding-top: 6px;
+    }
+
+
+    #h3Transfer {
+        font-size: 107%;
+        margin-top: 2px;
+        margin-left: -72px;
+        position: absolute;
+        /* font-weight: 500; */
+    }
+
+    #radioBtn2 {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -94px;
+    }
+    #paypalbar {
+        position: absolute;
+        background-color: ghostwhite;
+        width: 63%;
+        height: 6%;
+        margin-top: 425px;
+        margin-left: 24px;
+        box-shadow: 0px 2px 10px darkgrey;
+        padding-left: 143px;
+        padding-top: 6px;
+    }
+
+
+
+    #h3pal {
+        font-size: 104%;
+        margin-top: 3px;
+        margin-left: -65px;
+        position: absolute;
+        /* font-weight: 500; */
+    }
+
+
+
+
+    #radioBtn3 {
+        position: absolute;
+        margin-left: -89px;
+        margin-top: 7px;
+    }
+    #btnDoante {
+        position: absolute;
+        margin-top: 479px;
+        margin-left: 116px;
+        width: 30%;
+        height: 7%;
+        border-radius: 9%;
+        background-color: crimson;
+    }
+    #forward {
+        width: 33%;
+        height: 9%;
+        /* margin-left: 72px; */
+        margin-top: 478px;
+        /* padding-left: 33px; */
+        position: absolute;
+        margin-right: 243px;
+        background-color: revert;
+    }
+    #accBranch {
+        position: absolute;
+        margin-top: 385px;
+        margin-left: 226px;
+        width: 27%;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #labelBranch {
+        position: absolute;
+        margin-top: 365px;
+        margin-left: 253px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    #accBankName {
+        position: absolute;
+        margin-top: 384px;
+        margin-left: 13px;
+        width: 195px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #labelBankName {
+        position: absolute;
+        margin-top: 367px;
+        margin-left: 22px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #accNmb {
+        position: absolute;
+        margin-left: 225px;
+        margin-top: 328px;
+        width: 27%;
+        height: 4%;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #labelAccNmb {
+        position: absolute;
+        margin-top: 304px;
+        margin-left: 241px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #accName {
+        position: absolute;
+        margin-top: 329px;
+        margin-left: 12px;
+        width: 36%;
+        height: 4%;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    #labelAccName {
+        position: absolute;
+        margin-top: 307px;
+        margin-left: 20px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #bankTrnansfer {
+        position: absolute;
+        background-color: ghostwhite;
+        width: 63%;
+        height: 6%;
+        margin-top: 249px;
+        margin-left: 24px;
+        box-shadow: 0px 2px 10px darkgrey;
+        padding-left: 143px;
+        padding-top: 6px;
+    }
+    #carddate {
+        position: absolute;
+        margin-left: 241px;
+        width: 24%;
+        margin-top: 209px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    #labelcarddate {
+        position: absolute;
+        margin-left: 232px;
+        width: 45%;
+        margin-top: 184px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #cardOwner {
+        position: absolute;
+        margin-top: 208px;
+        margin-left: 18px;
+        width: 199px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    #labelcardownername {
+        position: absolute;
+        margin-top: 183px;
+        margin-left: 19px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    #cardcvc {
+        position: absolute;
+        width: 24%;
+        margin-left: 235px;
+        margin-top: 143px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    #labelcardcvc {
+        position: absolute;
+        width: 35%;
+        margin-left: 237px;
+        margin-top: 119px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    #cardNmb {
+        position: absolute;
+        margin-top: 143px;
+        margin-left: 17px;
+        width: 197px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    #labelcardNmb {
+        position: absolute;
+        margin-top: 118px;
+        margin-left: 18px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
