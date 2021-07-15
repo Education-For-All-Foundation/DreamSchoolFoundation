@@ -85,4 +85,12 @@ img{
 	transition: all .5s ease; 
 	margin-top:-40px;
 }
+
+.team-section .team-items .item:hover .info{
+	transform: translateY(-20px);
+}
+
+.team-section .team-items .item:hover{
+	transform: translateY(-20px);
+}
  
