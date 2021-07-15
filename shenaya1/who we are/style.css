@@ -32,4 +32,36 @@ img{
 	max-width: 100%;
 	margin-bottom: 70px;
 }
+
+.team-section .section-title h1{
+	font-size: 80px;
+	text-align: center;
+	margin: 0;
+	color: #2584e6;
+	font-weight: 1000;
+}
+
+.team-section .section-title p{
+	font-size: 16px;
+	text-align: justify;
+	margin: 15px 0 0;
+	color: black;
+}
+
+.team-section .team-items{
+	background-color: ;
+	flex-basis: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.team-section .team-items .item{
+	flex-basis: calc(20% - 11px);
+	max-width: calc(20% - 11px);
+	transition: all .5s ease;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+}
  
