@@ -94,3 +94,40 @@ img{
 .team-section .team-items .item:hover{
 	transform: translateY(-20px);
 }
+
+.team-section .team-items .team .inner .info h4{
+	margin: ;
+	font-size: 20px;
+	font-weight: 600;
+	color: #2584e6;
+}
+
+.team-section .team-items .team .inner .info p{
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	margin: 10px 0 0;
+}
+
+.team-section .team-items .team .inner .info .social-links{
+	padding-top: 20px;
+}
+
+.team-section .team-items .team .inner .info .social-links a{
+	display: inline-block;
+	height: 32px;
+	width:32px;
+	background-color: blue;
+	color: #009688;
+	border-radius: 50%;
+	margin:0 2px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 16px;
+	transition: all .5s ease;
+} 
+
+.team-section .team-items .team .inner .info .social-links a:hover{
+	box-shadow: 0 0 10px #000;
+}
+
