@@ -1,4 +1,16 @@
 <?php
+
+function register($conn){
+	if (isset($_POST['reg'])) {
+		$uid = $_POST['uid'];
+		$pwd = $_POST['pwd'];
+		$sql = "INSERT INTO userd(uid,pwd)VALUES('$uid','$pwd')";
+		$result = $conn->query($sql);
+		header("Location: Comments.php");
+
+	}
+}
+
 function setcomments($conn){
 	if (isset($_POST['commentSubmit'])) {
 		$uid = $_POST['uid'];

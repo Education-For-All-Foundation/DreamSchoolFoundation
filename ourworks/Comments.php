@@ -26,11 +26,11 @@
 			</label>
 			<label class="logo"><img src="pictures/Logo.png" class="logos"></label>
 			<ul>
-				<li><a  href="#">Home</a></li>
-				<li><a href="#">On going projects</a></li>
-				<li><a href="#">Who are we?</a></li>
-				<li><a href="ourPworks.html">Our works</a></li>
-				<li><a href="#">Join with us</a></li>
+				<li><a  href="../home page/home page 2.html">Home</a></li>
+				<li><a href="../OngingProjects/NewDonateFIle.html">On going projects</a></li>
+				<li><a href="../shenaya1/who we are/Index.html">Who are we?</a></li>
+				<li><a href="ourworks.html">Our works</a></li>
+				<li><a href="../shenaya1/join with us/contact.html">Join with us</a></li>
 				
 			</ul>
 		</nav>
@@ -45,7 +45,7 @@
 						<button class='log' type='submit' name='logout'>Logout</button>
 				</form></div></div>";
 			echo "<br><p align='center'>Or</p><div class='containerlogbtn'><div class='rowlog'>
-						<button class='log' type='submit' name='login'>Register</button></div></div>";
+						<a href='Register.php'>Register</a></div></div>";
 				if (isset($_SESSION['id'])) {
 						echo "<div class='container'><div class='row'><form method='POST' action='".setcomments($conn)."'>
 							<input type='hidden' name='uid' value='".$_SESSION['id']."'>
