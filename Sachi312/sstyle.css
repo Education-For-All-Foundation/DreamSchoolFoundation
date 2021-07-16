@@ -34,8 +34,8 @@ form {
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid gray;
-    color: #fff;
+    border-bottom: 1px solid rgb(189, 187, 187);
+    color: rgb(9, 2, 19);
     font-size: 18px;
     margin-bottom: 16px;
 }
